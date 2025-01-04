@@ -1,0 +1,6 @@
+0.0.0.0 cdn.cookielaw.org
+0.0.0.0 shepherd.ff.avast.com
+0.0.0.0 ncc.avast.com
+0.0.0.0 ip-info.ff.avast.com
+0.0.0.0 ipm-provider.ff.avast.com
+0.0.0.0 mqtt-mini.facebook.com
