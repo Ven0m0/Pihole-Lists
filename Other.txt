@@ -81,6 +81,19 @@ ipinfo.io
 cdn.ravenjs.com
 links.iterable.com
 
+# SwiftKey
+analyticshub.swiftkey.com
+analyticshub-aws.swiftkey.com
+api.swiftkey.com
+autosuggest.api.swiftkey.com
+autosuggest.staging.swiftkey.com
+bibo.api.swiftkey.com
+profiler-cards.api.swiftkey.com
+snippetdata.api.swiftkey.com
+shortener.api.swiftkey.com
+telemetry.api.swiftkey.com
+tigger-citadel.touchtype-fluency.com
+
 # Block data protected
 combine.urbanairship.com
 
