@@ -108,6 +108,17 @@ switchboard.mixpanel.com
 # Appnexus
 a.adk2x.com
 adnxs.com
+
+# Unchecky ads (remove installer ads)
+cdn.appround.biz
+cdn.download.sweetpacks.com
+cdn.insta.playbryte.com
+cdn.msdwnld.com
+cdn.mypcbackup.com
+inno.bisrv.com
+installer.betterinstaller.com
+nsis.bisrv.com
+tracking.opencandy.com.s3.amazonaws.com
 adnxs.comadplexmedia.adk2x.com
 ams1-ib.adnxs.com
 ib.adnxs.com
