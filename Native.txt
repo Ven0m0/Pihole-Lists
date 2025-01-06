@@ -1,4 +1,14 @@
-# Windows
+# Microsoft
+\b(?:log|logs)-?\w*-?\.microsoft\.\w+\b
+\b\w*(?:-\w*)*\.?telemetry(?:-\w*)?\.microsoft\.\w+\b
+\b(?:ad|ads)-?\w*-?\.microsoft\.\w+\b
+\b\w*(?:-\w*)*\.?advertising(?:-\w*)?\.microsoft\.\w+\b
+\b(?:analytic|analytics)-?\w*-?\.microsoft\.\w+\b
+
+# Smartscreen
+(\.|^)smartscreen\.microsoft\.com$
+(\.|^)smartscreen-prod\.microsoft\.com$
+
 vortex-win.data.microsoft.com
 vortex.data.microsoft.com
 vortex.data.microsoft.com.akadns.net
@@ -54,15 +64,12 @@ atm-settingsfe-prod-geo2.trafficmanager.net
 settingsfd-sandbox.trafficmanager.net
 settingsfd-ppe.trafficmanager.net
 
-# Smartscreen
-(\.|^)smartscreen\.microsoft\.com$
-(\.|^)smartscreen-prod\.microsoft\.com$
-
-# Microsoft
-\b(?:log|logs)-?\w*-?\.microsoft\.\w+\b
-\b\w*(?:-\w*)*\.?telemetry(?:-\w*)?\.microsoft\.\w+\b
-\b(?:ad|ads)-?\w*-?\.microsoft\.\w+\b
-\b(?:analytic|analytics)-?\w*-?\.microsoft\.\w+\b
+#[live.com]
+analytics.live.com
+rad.live.com
+#[windows.net]
+insitez.blob.core.windows.net
+tenmaxsgads.blob.core.windows.net
 
 # Samsung
 nmetrics.samsung.com
