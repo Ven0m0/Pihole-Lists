@@ -166,6 +166,9 @@ support.mozilla.org
 
 # Brave
 usage-ping.brave.com
+variations.brave.com
+ads-static.brave.com
+(\.|^)rewards\.brave\.com$
 
 # Vodafone
 netperform-lz.vodafone.com
