@@ -51,12 +51,6 @@
 \b(?:ad|ads)-?\w*-?\.instagram\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.instagram\.\w+\b
 
-# Spotify
-\b(?:log|logs)-?\w*-?\.spotify\.\w+\b
-\b\w*-?telemetry(?:-?\w*)?\.spotify\.\w+\b
-\b(?:ad|ads)-?\w*-?\.spotify\.\w+\b
-\b(?:analytic|analytics)-?\w*-?\.spotify\.\w+\b
-
 # Youtube
 \b(?:log|logs)-?\w*-?\.youtube\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.youtube\.\w+\b
