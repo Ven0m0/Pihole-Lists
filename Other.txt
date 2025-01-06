@@ -43,6 +43,22 @@ cmp.dreamlab.pl
 mxapis.com
 popup.bitdefender.pl
 
+# PS3
+mercury.dl.playstation.net
+nsx.np.dl.playstation.net
+adproxy.ndmdhs.com
+
+# PS5
+telemetry-console.api.playstation.com
+telemetry-cii.api.playstation.com
+
+# Xbox 360
+rad.msn.com
+
+# Xbox Series X/S
+at.atwola.com
+nw-umwatson.events.data.microsoft.com
+
 # Background pings
 events.eu1.segmentapis.com
 sdk.fra-02.braze.eu
