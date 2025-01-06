@@ -86,6 +86,10 @@ e.crashlytics.com
 reports.crashlytics.com
 settings.crashlytics.com
 
+# Unity Ads
+config.unityads.unity3d.com
+unityads.unity3d.com
+
 # Sentry: App Monitoring and Crash Reporting
 sentry.io
 
