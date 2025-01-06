@@ -74,6 +74,7 @@ logsink.devices.nest.com
 semanticlocation-pa.googleapis.com
 supl.google.com
 userlocation.googleapis.com
+geller-pa.googleapis.com
 
 # Google extended
 growth-pa.googleapis.com
