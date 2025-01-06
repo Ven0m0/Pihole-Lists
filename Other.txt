@@ -75,3 +75,4 @@ in.appcenter.ms
 end4y2-cdn-settings.appsflyersdk.com
 c-api.gos-gsp.io
 prod-tracking.redbutton.de
+api.eu-west-1.aiv-delivery.net
