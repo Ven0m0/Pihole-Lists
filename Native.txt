@@ -53,6 +53,10 @@ atm-settingsfe-prod-geo2.trafficmanager.net
 settingsfd-sandbox.trafficmanager.net
 settingsfd-ppe.trafficmanager.net
 
+# Smartscreen
+(\.|^)smartscreen\.microsoft\.com$
+(\.|^)smartscreen-prod\.microsoft\.com$
+
 # Samsung
 nmetrics.samsung.com
 insights.samsung.com
