@@ -133,11 +133,11 @@ comweather-analytics-events.news.apple-dns.net
 c.apple.com
 
 # NVIDIA telemetry
+^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
 events.gfe.nvidia.com 
-events.gfe.nvidia.com
+events-dc1.gfe.nvidia.com
+gfe.nvidia.com
 nvidia.tt.omtrdc.net
-telemetry.gfe.nvidia.com
-^(?:.*\.)?telemetry\.(?:.*\.)?nvidia\.com$
 static.nvidiagrid.net
 lightstep.kaizen.nvidia.com
 ls.dtrace.nvidia.com
