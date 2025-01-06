@@ -75,6 +75,10 @@ semanticlocation-pa.googleapis.com
 supl.google.com
 userlocation.googleapis.com
 
+# Google extended
+growth-pa.googleapis.com
+footprints-pa.googleapis.com
+
 # Crashlytics
 (\.|^)crashlytics\.com$
 settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
