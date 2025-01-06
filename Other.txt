@@ -73,3 +73,5 @@ deals-assets-cdn.razerzone.com
 end4y2-launches.appsflyersdk.com
 in.appcenter.ms
 end4y2-cdn-settings.appsflyersdk.com
+c-api.gos-gsp.io
+prod-tracking.redbutton.de
