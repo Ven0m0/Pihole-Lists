@@ -273,6 +273,11 @@ cdn.cookielaw.org
 config.edge.skype.com
 crash.steampowered.com
 
+# PopupBlocker
+cmp.dreamlab.pl
+mxapis.com
+popup.bitdefender.pl
+
 # Background pings
 events.eu1.segmentapis.com
 sdk.fra-02.braze.eu
