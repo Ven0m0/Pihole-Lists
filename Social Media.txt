@@ -40,7 +40,7 @@ app-analytics-v2.snapchat.com
 \b(?:analytic|analytics)-?\w*-?\.youtube\.\w+\b
 
 # Tiktok
-\b(?:x?log|logs)-?\w*-?\.tiktokv?\.\w+\b
+\b(?:x?logs?|rtlogs?)-?\w*(?:-\w+)*\.tiktokv?\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.tiktokv?\.\w+\b
 \b(?:ad|ads)-?\w*-?\.tiktokv?\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.tiktokv?\.\w+\b
