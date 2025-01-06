@@ -96,6 +96,7 @@ d2gi7ultltnc2u.cloudfront.net
 lb1-217593028.us-east-1.elb.amazonaws.com
 rp-lb-766892831.us-east-1.elb.amazonaws.com
 server-54-230-216-203.mrs50.r.cloudfront.net
+dcape-na.amazon.com
 
 # Media match
 media-match.com
