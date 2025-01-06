@@ -24,6 +24,7 @@ mqtt-mini.facebook.com
 (\.|^)snapads\.com$
 \b(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
 app-analytics-v2.snapchat.com
+events.snapchat.com
 
 # Instagram
 \b(?:log|logs)-?\w*-?\.instagram\.\w+\b
