@@ -22,7 +22,7 @@ mqtt-mini.facebook.com
 \b\w*-?telemetry(?:-?\w*)?\.snapchat\.\w+\b
 \b(?:ad|ads)-?\w*-?\.snapchat\.\w+\b
 (\.|^)snapads\.com$
-\b(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
+\b\w*-?(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
 app-analytics-v2.snapchat.com
 events.snapchat.com
 tr.snapchat.com
