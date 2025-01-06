@@ -25,6 +25,7 @@ mqtt-mini.facebook.com
 \b(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
 app-analytics-v2.snapchat.com
 events.snapchat.com
+tr.snapchat.com
 
 # Instagram
 \b(?:log|logs)-?\w*-?\.instagram\.\w+\b
@@ -51,3 +52,4 @@ events.snapchat.com
 
 # Whatsapp
 graph.whatsapp.com
+crashlogs.whatsapp.net
