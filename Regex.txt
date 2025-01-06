@@ -60,3 +60,14 @@
 \b\w*-?telemetry(?:-?\w*)?\.tiktokv?\.\w+\b
 \b(?:ad|ads)-?\w*-?\.tiktokv?\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.tiktokv?\.\w+\b
+
+# General
+^.*ads.*\.
+^.*analytics.*\.
+^.*app-?measurement.*\.
+^.*crashlytics.*\.
+^.*graph.*\.
+^.*measurement.*\.
+^.*metrics?.*\.
+^.*firebaselogging.*\.
+^.*stats?.*\.
