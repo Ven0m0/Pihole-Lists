@@ -76,6 +76,12 @@ rad.live.com
 insitez.blob.core.windows.net
 tenmaxsgads.blob.core.windows.net
 
+# Sony
+bravia.dl.playstation.net
+cs.prd.msys.playstation.net
+ndmdhs.com # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
+mds.csx.sony.com
+
 # Samsung
 nmetrics.samsung.com
 insights.samsung.com
