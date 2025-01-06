@@ -59,3 +59,4 @@ tr.snapchat.com
 # Whatsapp
 graph.whatsapp.com
 crashlogs.whatsapp.net
+dit.whatsapp.net
