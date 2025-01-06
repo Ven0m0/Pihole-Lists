@@ -36,4 +36,6 @@ o4507528335982592.ingest.de.sentry.io
 o64374.ingest.sentry.io
 app.usercentrics.eu
 deals-assets-cdn.razerzone.com
+end4y2-launches.appsflyersdk.com
 in.appcenter.ms
+end4y2-cdn-settings.appsflyersdk.com
