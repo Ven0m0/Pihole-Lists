@@ -251,11 +251,16 @@ shortener.api.swiftkey.com
 telemetry.api.swiftkey.com
 tigger-citadel.touchtype-fluency.com
 
-# Qualcomm
+# Qualcomm strange domains
 tls.telemetry.swe.quicinc.com
 izatcloud.net
 gpsonextra.net
 xtracloud.net
+
+# MediaTek strange domains
+mgepodownload.mediatek.com
+lepodownload.mediatek.com
+mepodownload.mediatek.com
 
 # Block data protected
 combine.urbanairship.com
