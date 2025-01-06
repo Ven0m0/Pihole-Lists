@@ -17,6 +17,7 @@
 \b(?:ad|ads)-?\w*-?\.amazon\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.amazon\.\w+\b
 \b(?:metric|metrics)-?\w*(?:-\w+)*\.amazon\.\w+\b
+(\.|^)amazon-adsystem\.\w+\b
 
 # Amazon AWS
 \b(?:log|logs)-?\w*-?\.amazonaws\.\w+\b
@@ -67,6 +68,10 @@
 \b\w*-?telemetry(?:-?\w*)?\.tiktokv?\.\w+\b
 \b(?:ad|ads)-?\w*-?\.tiktokv?\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.tiktokv?\.\w+\b
+
+# Samsung
+(\.|^)samsungads\.com$
+(^|\.)samsungcloudsolution\.net$
 
 # General
 ^.*ads.*\.
