@@ -60,7 +60,7 @@ settingsfd-ppe.trafficmanager.net
 
 # Microsoft
 \b(?:log|logs)-?\w*-?\.microsoft\.\w+\b
-\b\w*-?telemetry(?:-?\w*)?\.microsoft\.\w+\b
+\b\w*(?:-\w*)*\.?telemetry(?:-\w*)?\.microsoft\.\w+\b
 \b(?:ad|ads)-?\w*-?\.microsoft\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.microsoft\.\w+\b
 
