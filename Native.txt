@@ -8,6 +8,7 @@
 
 # Smartscreen
 \b\w*(?:-\w*)*\.?smartscreen(?:-\w*)?\.microsoft\.\w+\b
+(\.|^)smartscreen\.microsoft\.com$
 
 vortex-win.data.microsoft.com
 vortex.data.microsoft.com
