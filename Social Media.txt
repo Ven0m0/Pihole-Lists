@@ -124,6 +124,9 @@ vaali1.l.byteoversea.net
 vaali-mcs.byteoversea.com
 api.bytegle.tech
 
+# Twitter
+syndication.twitter.com
+
 # Whatsapp
 graph.whatsapp.com
 crashlogs.whatsapp.net
