@@ -40,16 +40,14 @@
 (\.|^)admob\.com$
 /\b(?:[\w-]+\.)*moatads\.com\b/gm
 (\.|^)admarketplace\.net$
+(\.|^)popads\.net$
 (\.|^)smartadserver\.com$
-atom.adjust.com
-events.adjust.com
-ulink.adjust.com
-view.adjust.com
-moat.pxl.ace.advertising.com
+(\.|^)adjust\.com$
+(\.|^)advertising\.com$
+(\.|^)adtechus\.com$
 moatads.com.edgekey.net
 quantcast584928381.s.moatpixel.com
 tribpubdfp745347008913.s.moatpixel.com
-adserver.adtechus.com
 
 # Google ads/analytics
 \b(?:log|logs)-?\w*-?\.google\.\w+\b
