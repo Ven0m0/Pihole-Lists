@@ -73,6 +73,9 @@ events.snappublisher.snapchat.com
 \b\w*-?reporting(?:-?\w*)?\.reddit\.\w+\b
 events.reddit.com
 alb.reddit.com
+c.aaxads.com
+l3.aaxads.com
+hits.dwyl.io
 
 # Youtube
 \b(?:log|logs)-?\w*-?\.youtube\.\w+\b
