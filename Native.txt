@@ -61,7 +61,17 @@ settingsfd-ppe.trafficmanager.net
 nmetrics.samsung.com
 insights.samsung.com
 analytics.samsungknox.com
+
+# test
 bigdata.ssp.samsung.com
+capi.samsungcloud.com
+dc.dqa.samsung.com
+de-odc.samsungapps.com
+dls-udc.dqa.samsung.com
+sspapi-prd.samsungrs.com
+sdk.pushmessage.samsung.com
+dls.di.atlas.samsung.com
+vas.samsungapps.com
 
 # Apple
 acfeedbackws.icloud.com
@@ -88,3 +98,26 @@ c.apple.com
 
 # NVIDIA telemetry
 events.gfe.nvidia.com 
+events.gfe.nvidia.com
+nvidia.tt.omtrdc.net
+telemetry.gfe.nvidia.com
+^(?:.*\.)?telemetry\.(?:.*\.)?nvidia\.com$
+static.nvidiagrid.net
+lightstep.kaizen.nvidia.com
+ls.dtrace.nvidia.com
+
+# Intel
+gameplayapi.intel.com
+gameplay.intel.com
+
+# Mozilla
+(\.|^)telemetry\.mozilla\.org$
+(\.|^)relay\.mozilla\.org$
+location.services.mozilla.com
+(\.|^)getpocket\.com$
+getpocket.cdn.mozilla.net
+push.services.mozilla.com
+
+# Vodafone
+netperform-lz.vodafone.com
+beta.vodafone.de

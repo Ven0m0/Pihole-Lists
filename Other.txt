@@ -1,0 +1,27 @@
+# Avast
+shepherd.ff.avast.com
+ncc.avast.com
+ip-info.ff.avast.com
+ipm-provider.ff.avast.com
+shepherd.sb.avast.com
+auth.ff.avast.com
+streamback.ff.avast.com
+ccleaner.tools.avcdn.net
+emupdate.avcdn.net
+analytics.ff.avast.com
+
+# Debugging etc
+ipinfo.io
+cdn.ravenjs.com
+links.iterable.com
+
+# Block data protected
+combine.urbanairship.com
+
+# Block geotrust
+gtssl2-ocsp.geotrust.com
+
+# Misc
+cdn.cookielaw.org
+config.edge.skype.com
+crash.steampowered.com

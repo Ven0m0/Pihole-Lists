@@ -1,0 +1,77 @@
+# Ads and analytics
+^ad([sxv]?[0-9]*|system)[_.-]([^.[:space:]]+\.){1,}|[_.-]ad([sxv]?[0-9]*|system)[_.-]
+^(.+[_.-])?adse?rv(er?|ice)?s?[0-9]*[_.-]
+^(.+[_.-])?telemetry[_.-]
+^adim(age|g)s?[0-9]*[_.-]
+^adtrack(er|ing)?[0-9]*[_.-]
+^advert(s|is(ing|ements?))?[0-9]*[_.-]
+^aff(iliat(es?|ion))?[_.-]
+^analytics?[_.-]
+^banners?[_.-]
+^beacons?[0-9]*[_.-]
+^count(ers?)?[0-9]*[_.-]
+^mads\.
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[_.-]
+
+(\.|^)admob\.com$
+/\b(?:[\w-]+\.)*moatads\.com\b/gm
+(\.|^)admarketplace\.net$
+atom.adjust.com
+events.adjust.com
+ulink.adjust.com
+view.adjust.com
+moat.pxl.ace.advertising.com
+moatads.com.edgekey.net
+quantcast584928381.s.moatpixel.com
+tribpubdfp745347008913.s.moatpixel.com
+adserver.adtechus.com
+
+# Google ads/analytics
+(\.|^)doubleclick\.net$
+(\.|^)googleadservices\.com$
+adservice.google.com
+(\.|^)analytics\.google\.com$
+ee-in-f95.1.e100.net
+gcdn.2mdn.net
+s0.2mdn.net
+pagead-googlehosted.l.google.com
+pagead2.googlesyndication.com
+s0-2mdn-net.l.google.com
+tpc.googlesyndication.com
+video-ad-stats.googlesyndication.com
+googletagservices.com
+ad-creatives-public.commondatastorage.googleapis.com
+
+# Crashlytics
+(\.|^)crashlytics\.com$
+settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
+settings-crashlytics-b-103974621.us-east-1.elb.amazonaws.com
+
+# Amazon
+affiliate.googleusercontent.com
+aax-eu.amazon.de
+aan.amazon.de
+fls-eu.amazon.de
+redirect.prod.experiment.routing.cloudfront.aws.a2z.com
+na.gmtdmp.com
+d2gi7ultltnc2u.cloudfront.net
+lb1-217593028.us-east-1.elb.amazonaws.com
+rp-lb-766892831.us-east-1.elb.amazonaws.com
+server-54-230-216-203.mrs50.r.cloudfront.net
+
+# Media match
+media-match.com
+
+# Mixpanel analytics
+api.mixpanel.com
+decide.mixpanel.com
+mixpanel.com
+switchboard.mixpanel.com
+
+# Appnexus
+a.adk2x.com
+adnxs.com
+adnxs.comadplexmedia.adk2x.com
+ams1-ib.adnxs.com
+ib.adnxs.com
