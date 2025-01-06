@@ -102,11 +102,9 @@ syncplusconfig.s3.amazonaws.com
 
 # Test
 bigdata.ssp.samsung.com
-capi.samsungcloud.com
 dc.dqa.samsung.com
 de-odc.samsungapps.com
 dls-udc.dqa.samsung.com
-sspapi-prd.samsungrs.com
 sdk.pushmessage.samsung.com
 dls.di.atlas.samsung.com
 vas.samsungapps.com
