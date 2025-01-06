@@ -1,3 +1,6 @@
+# TLD
+^.+\.(work|fit|cn|surf|review|asia|tokyo|monster|info|机构)$
+
 # Google
 \b(?:log|logs)-?\w*-?\.google\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.google\.\w+\b
