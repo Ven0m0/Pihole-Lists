@@ -14,3 +14,5 @@ redirect.prod.experiment.routing.cloudfront.aws.a2z.com
 # Misc
 cdn.cookielaw.org
 mqtt-mini.facebook.com
+config.edge.skype.com
+crash.steampowered.com
