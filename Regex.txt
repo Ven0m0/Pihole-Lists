@@ -3,6 +3,7 @@
 
 # Spamhaus Most Abused TLDs
 ^.+\.(work|fit|surf|review|asia|tokyo|monster|info|机构|ad)$
+^.+\.(accountant|date|top|win|life|loan|realtor|love|luxe|realestate)$
 
 # Google
 \b(?:log|logs)-?\w*-?\.google\.\w+\b
