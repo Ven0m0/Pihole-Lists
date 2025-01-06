@@ -251,6 +251,12 @@ shortener.api.swiftkey.com
 telemetry.api.swiftkey.com
 tigger-citadel.touchtype-fluency.com
 
+# Qualcomm
+tls.telemetry.swe.quicinc.com
+izatcloud.net
+gpsonextra.net
+xtracloud.net
+
 # Block data protected
 combine.urbanairship.com
 
