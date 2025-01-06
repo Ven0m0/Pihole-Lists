@@ -1,0 +1,41 @@
+# Smart TV
+# LG
+(^|\.)ibs\.lgappstv\.com
+(^|\.)lgsmartad\.com
+(^|\.)smartshare\.lgtvsdp\.com
+(^|\.)rdx2\.lgtvsdp\.com
+^[a-rt-z][a-z]{10,14}$
+(^|\.)lgtvcommon\.com
+# Samsung
+(^|\.)giraffic\.com$
+(^|\.)internetat\.tv$
+(^|\.)pavv\.co\.kr$
+ads.aimitv.com
+^.*stats?.*\.
+# Vizio
+(\.|^)tvinteractive\.tv$
+# Other
+^api\..*\.hismarttv\.com$
+
+# Philips
+ad.nettvservices.com
+legacyportal.nettvservices.com
+nettv.corio.com
+
+# Sony Smart TV
+api-mf.meta.ndmdhs.com
+black.ndmdhs.com
+bdcore-apr-lb.bda.ndmdhs.com
+call.me.sel.sony.com
+facemap.foldlife.net
+social.biv.sony.tv
+ssm.internet.sony.tv
+
+# Toshiba Smart TVs
+file2fxm.azureedge.net
+7345023508.fxmconnect.com
+7345023508.fxm9485766783.com
+
+# Msc
+(\.|^)secure-geolocation.premiumtv.co\.\w+\b
+conviva.com
