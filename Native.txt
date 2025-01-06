@@ -57,6 +57,12 @@ settingsfd-ppe.trafficmanager.net
 (\.|^)smartscreen\.microsoft\.com$
 (\.|^)smartscreen-prod\.microsoft\.com$
 
+# Microsoft
+\b(?:log|logs)-?\w*-?\.microsoft\.\w+\b
+\b\w*-?telemetry(?:-?\w*)?\.microsoft\.\w+\b
+\b(?:ad|ads)-?\w*-?\.microsoft\.\w+\b
+\b(?:analytic|analytics)-?\w*-?\.microsoft\.\w+\b
+
 # Samsung
 nmetrics.samsung.com
 insights.samsung.com
