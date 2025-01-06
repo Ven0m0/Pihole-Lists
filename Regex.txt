@@ -25,6 +25,10 @@
 \b(?:ad|ads)-?\w*-?\.instagram\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.instagram\.\w+\b
 
+# Reddit
+\b\w*-?tracking(?:-?\w*)?\.reddit\.\w+\b
+\b\w*-?reporting(?:-?\w*)?\.reddit\.\w+\b
+
 # Youtube
 \b(?:log|logs)-?\w*-?\.youtube\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.youtube\.\w+\b
