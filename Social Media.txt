@@ -26,7 +26,15 @@ a-graph.facebook.com
 \b\w*-?(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
 sc-analytics.appspot.com
 events.snapchat.com
+events.antivirus.snappublisher.snapchat.com
 tr.snapchat.com
+gcs.sc-cdn.net
+loc.sc-jpl.com
+loca.sc-jpl.com
+metrics.snappublisher.snapchat.com
+pro-insights.snapchat.com
+pro-stories.snapchat.com
+promo.snappublisher.snapchat.com
 
 # Instagram
 \b(?:log|logs)-?\w*-?\.instagram\.\w+\b
