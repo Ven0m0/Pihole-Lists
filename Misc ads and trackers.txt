@@ -310,7 +310,6 @@ app-proxy-b.kochava.com
 app-config.enhance.co
 appsflyer.com
 appsflyer-web-4-962407740.eu-west-1.elb.amazonaws.com
-amplitude.com
 ancestry.siteintercept.qualtrics.com
 ai-personalization-prod-static.demandbase.com
 a.api.permutive.app
@@ -1490,7 +1489,6 @@ sitestat.com
 sobump.app.link
 sobump-alternate.app.link
 smetrics.aa.com
-smetrics.att.com
 smetrics.bestbuy.com
 smetrics.cnn.com
 smetrics1.experian.com
