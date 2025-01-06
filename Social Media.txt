@@ -25,6 +25,11 @@ ichnaea-ios-aws-control.prod.ftl.netflix.com
 nmtracking.netflix.com 
 presentationtracking.netflix.com
 prodaa.netflix.com
+beacon.netflix.com
+beaconimages.netflix.net
+beaconimages-prod.dradis.netflix.com
+geo.netflix.com
+nmtracking.netflix.com
 
 # Facebook
 \b(?:log|logs)-?\w*-?\.facebook\.\w+\b
