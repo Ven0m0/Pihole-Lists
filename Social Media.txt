@@ -1,20 +1,3 @@
-# Youtube
-analytics.youtube.com
-ads.youtube.com
-ad.youtube.com
-
-# Tiktok
-ads.tiktok.com
-ad.tiktok.com
-ads.tiktokv.com
-ad.tiktokv.com
-log.tiktok.com
-log.tiktokv.com
-xlog.tiktokv.com
-ads-sg.tiktok.com
-analytics-sg.tiktok.com
-analytics.tiktok.com
-
 # Netflix
 android.prod.cloud.netflix.com
 customerevents.netflix.com
