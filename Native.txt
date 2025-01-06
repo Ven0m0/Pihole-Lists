@@ -7,8 +7,7 @@
 (\.|^)measure.office\.net$
 
 # Smartscreen
-(\.|^)smartscreen\.microsoft\.com$
-(\.|^)smartscreen-prod\.microsoft\.com$
+\b\w*(?:-\w*)*\.?smartscreen(?:-\w*)?\.microsoft\.\w+\b
 
 vortex-win.data.microsoft.com
 vortex.data.microsoft.com
