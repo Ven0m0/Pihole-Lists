@@ -139,6 +139,23 @@ comtr.iadsdk.apple.com
 comweather-analytics-events.apple.com
 comweather-analytics-events.news.apple-dns.net
 stats.gc.apple.com
+Iphone-id.apple.com
+Iphone-ld.apple.com
+albert.apple.com
+cf.iadsdk.apple.com
+growth-pa.googleapis.com
+idiagnostics.apple.com
+init.gc.apple.com
+iphone-ld.apple.com
+mobilenetworkscoring-pa.googleapis.com
+pagead2.googlesyndication.com
+pdate.googleapis.com
+profile.gc.apple.com
+sa.apple.com
+smp-device-content.apple.com
+ssl.google-analytics.com
+ssl.google−analytics.com
+static.gc.apple.com
 
 # NVIDIA telemetry
 ^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
@@ -161,7 +178,6 @@ location.services.mozilla.com
 (\.|^)getpocket\.com$
 getpocket.cdn.mozilla.net
 push.services.mozilla.com
-support.mozilla.org
 
 # Brave
 usage-ping.brave.com
