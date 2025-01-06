@@ -30,6 +30,16 @@ view.adjust.com
 # Block admob ads
 (\.|^)admob\.com$
 
+# Block aol
+adserver.adtechus.com
+
+# Appnexus
+a.adk2x.com
+adnxs.com
+adnxs.comadplexmedia.adk2x.com
+ams1-ib.adnxs.com
+ib.adnxs.com
+
 # Misc
 cdn.cookielaw.org
 mqtt-mini.facebook.com
