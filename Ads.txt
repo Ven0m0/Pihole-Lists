@@ -45,6 +45,8 @@
 (\.|^)adjust\.com$
 (\.|^)advertising\.com$
 (\.|^)adtechus\.com$
+(\.|^)fastclick\.net$
+(\.|^)adform\.net$
 moatads.com.edgekey.net
 quantcast584928381.s.moatpixel.com
 tribpubdfp745347008913.s.moatpixel.com
