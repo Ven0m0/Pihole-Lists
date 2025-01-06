@@ -4,6 +4,13 @@ ncc.avast.com
 ip-info.ff.avast.com
 ipm-provider.ff.avast.com
 
+# Amazon
+affiliate.googleusercontent.com
+aax-eu.amazon.de
+aan.amazon.de
+fls-eu.amazon.de
+redirect.prod.experiment.routing.cloudfront.aws.a2z.com
+
 # Misc
 cdn.cookielaw.org
 mqtt-mini.facebook.com
