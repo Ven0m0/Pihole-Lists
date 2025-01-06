@@ -128,6 +128,7 @@ arcus-uswest.amazon.com
 unagi-eu.amazon.com
 msh.amazon.co.uk
 session.mshopbugsnag.irm.amazon.dev
+trace.mshopbugsnag.irm.amazon.dev
 (\.|^)mads\.amazon\.com$
 
 # Amazon/Alexa Tracking
