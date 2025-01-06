@@ -11,6 +11,9 @@ partner-service-testing.spotify.com
 payment-callback.spotify.com
 datasharing.spotify.com
 
+# Needs "spclient.wg.spotify.com" whitelisted
+^https?://spclient\.wg\.spotify\.com/(.+\/)?(ads|ad-logic)/.*$
+
 # Ad server
 ads.pubmatic.com
 adserver.adtechus.com
