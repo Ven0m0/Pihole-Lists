@@ -77,3 +77,4 @@ c-api.gos-gsp.io
 prod-tracking.redbutton.de
 api.eu-west-1.aiv-delivery.net
 sentry.c24.de
+t.picsart.com
