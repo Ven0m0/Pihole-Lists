@@ -83,6 +83,7 @@ ndmdhs.com # Sony tracking domain used in mobile apps, smart TV's, PlayStations,
 mds.csx.sony.com
 
 # Samsung
+(\.|^)samsungadhub\.\w+\b
 nmetrics.samsung.com
 insights.samsung.com
 analytics.samsungknox.com
