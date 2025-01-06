@@ -25,6 +25,12 @@ gtssl2-ocsp.geotrust.com
 cdn.cookielaw.org
 config.edge.skype.com
 crash.steampowered.com
+events.eu1.segmentapis.com
+sdk.fra-02.braze.eu
+firebaseinappmessaging.googleapis.com
+firebaseinstallations.googleapis.com
+region1.app-measurement.com
+o4507528335982592.ingest.de.sentry.io
 
 #Other
 app.usercentrics.eu
