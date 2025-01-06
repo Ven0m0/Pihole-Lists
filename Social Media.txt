@@ -45,6 +45,7 @@ tr.snapchat.com
 
 # Tiktok
 \b(?:x?logs?|rtlogs?)-?\w*(?:-\w+)*\.tiktokv?\.\w+\b
+\b\w*-?tracking(?:-?\w*)?\.tiktokv?\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.tiktokv?\.\w+\b
 \b(?:ad|ads)-?\w*-?\.tiktokv?\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.tiktokv?\.\w+\b
