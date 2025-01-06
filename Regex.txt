@@ -1,5 +1,8 @@
-# TLD
-^.+\.(work|fit|cn|surf|review|asia|tokyo|monster|info|机构)$
+# Language TLDs
+^.+\.(|cn|机构|ru)$
+
+# Spamhaus Most Abused TLDs
+^.+\.(work|fit|surf|review|asia|tokyo|monster|info|机构|ad)$
 
 # Google
 \b(?:log|logs)-?\w*-?\.google\.\w+\b
