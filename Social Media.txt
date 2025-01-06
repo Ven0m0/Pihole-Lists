@@ -122,6 +122,7 @@ starling-va.byteoversea.com
 topbuzz-applog-alisg.l.byteoversea.net
 vaali1.l.byteoversea.net
 vaali-mcs.byteoversea.com
+api.bytegle.tech
 
 # Whatsapp
 graph.whatsapp.com
