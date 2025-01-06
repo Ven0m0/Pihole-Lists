@@ -1,19 +1,16 @@
 # Spotify junk
+\b(?:log|logs)-?\w*-?\.spotify\.\w+\b
+\b\w*-?telemetry(?:-?\w*)?\.spotify\.\w+\b
+\b(?:ad|ads)-?\w*-?\.spotify\.\w+\b
+\b(?:analytic|analytics)-?\w*-?\.spotify\.\w+\b
 crashdump.spotify.com
-log.spotify.com
-log2.spotify.com
-analytics.spotify.com
 crashdump.ciqe-gslb.spotify.com
 partner-service.spotify.com
 partner-service-testing.spotify.com
 payment-callback.spotify.com
 
 # Ad server
-ads-fa.spotify.com
-adlab.spotify.com
 ads.pubmatic.com
-ads.spotify.com
-ads-akp.spotify.com
 adserver.adtechus.com
 adeventtracker.spotify.com
 ads-sp-lon.cdn.spotify.com
