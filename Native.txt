@@ -10,6 +10,7 @@ redir.metaservices.microsoft.com
 telemetry.appex.bing.net
 watson.live.com
 watson.microsoft.com
+watson.telemetry.microsoft.com
 feedback.search.microsoft.com
 feedback.windows.com
 corp.sts.microsoft.com
