@@ -1,0 +1,47 @@
+# Attempt to start removing glpals from regex and merging it with a plain blocklist
+glpals.com
+bcmls.glpals.com
+bcmls1.glpals.com
+bcmls2.glpals.com
+gllto.glpals.com
+gllto1.glpals.com
+gllto2.glpals.com
+
+# disqus is disqusting (activity tracking, bad data policies)
+disqus.com
+
+# Weird samsung stuff (blocked in some lists I don't use)
+samsung-stub.yana.asideas.de
+
+# Appears to be Microsoft Visual's crashlogging. My phone makes up all the requests, looking aside 4 where I'm trying to
+# investigate what it is.
+in.appcenter.ms
+# Teams (?)
+oneclient.sfx.ms
+evoke-windowsservices-tas.msedge.net
+
+# I have no idea why mozilla wants to index networks, nor do I know why it tops my logs with 2000 entries (!) in under a day I guess
+# This is also in spite of it being _disabled_ on my phone, and with all the requests coming from my computer. Adios, and fuck off
+locprod1-elb-eu-west-1.prod.mozaws.net
+location.services.mozilla.org
+
+# Shut down some of Reddit's fingerprinting ability (https://www.reddit.com/r/firefox/comments/hnar5k/i_keep_getting_prompted_to_enable_drm_on_reddit/ https://smitop.com/post/reddit-whiteops/)
+udkcrj.com
+s.udkcrj.com
+
+# Kill off GitHub (3rd party) hit trackers
+# https://github.com/dwyl/hits
+hits.dwyl.io
+dwyl.io
+
+# https://github.com/jwenjian/visitor-badge + linked sites
+api.countapi.xyz
+countapi.xyz
+visitor-badge.glitch.me
+visitor-badge.laobi.icu
+laobi.icu
+
+# Tiktok ads (WHY?!?!?!)
+api16-access-sg.pangle.io
+www.pangle.io
+pangle.io
