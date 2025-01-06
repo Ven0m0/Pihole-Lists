@@ -25,12 +25,6 @@
 \b(?:ad|ads)-?\w*-?\.amazonaws\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.amazonaws\.\w+\b
 
-# Microsoft
-\b(?:log|logs)-?\w*-?\.microsoft\.\w+\b
-\b\w*-?telemetry(?:-?\w*)?\.microsoft\.\w+\b
-\b(?:ad|ads)-?\w*-?\.microsoft\.\w+\b
-\b(?:analytic|analytics)-?\w*-?\.microsoft\.\w+\b
-
 # Snapchat
 \b(?:log|logs)-?\w*-?\.snapchat\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.snapchat\.\w+\b
