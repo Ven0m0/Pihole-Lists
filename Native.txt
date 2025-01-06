@@ -80,6 +80,7 @@ dls.di.atlas.samsung.com
 vas.samsungapps.com
 
 # Apple
+\b(?:[a-z0-9-]+\.)*analytics(?:-[a-z0-9-]+)*\.apple\.[a-z]{2,}\b
 acfeedbackws.icloud.com
 api-adservices.apple.com
 books-analytics-events.apple.com
