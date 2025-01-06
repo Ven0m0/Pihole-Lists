@@ -54,6 +54,8 @@ metrics.snappublisher.snapchat.com
 pro-insights.snapchat.com
 pro-stories.snapchat.com
 promo.snappublisher.snapchat.com
+advertising.snapchat.com
+events.snappublisher.snapchat.com
 
 # Instagram
 \b(?:log|logs)-?\w*-?\.instagram\.\w+\b
