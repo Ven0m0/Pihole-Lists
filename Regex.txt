@@ -30,7 +30,6 @@
 ^banners?[-.]
 ^beacons?[0-9]*[-.]
 ^count(ers?)?[0-9]*[-.]
-^pixels?[-.]
 ^stat(s|istics)?[0-9]*[-.]
 ^telemetry[-.]
 ^track(ers?|ing)?[0-9]*[-.]
@@ -47,6 +46,5 @@
 ^banners?[-_.]
 ^beacons?[0-9]*[-_.]
 ^count(ers?)?[0-9]*[-_.]
-^mads\.
 ^pixels?[-_.]
 ^stat(s|istics)?[0-9]*[-_.]
