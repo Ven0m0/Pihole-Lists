@@ -1,14 +1,15 @@
 # Spotify junk
-\b(?:log|logs)-?\w*-?\.spotify\.\w+\b
+\b\w*-?logs?(?:-?\w*)?\.spotify\.\w+\b
 (\.|^)log[0-9]*\.spotify\.com$
 \b\w*-?telemetry(?:-?\w*)?\.spotify\.\w+\b
-\b(?:ad|ads)-?\w*-?\.spotify\.\w+\b
-\b(?:analytic|analytics)-?\w*-?\.spotify\.\w+\b
+\b\w*-?ads?(?:-?\w*)?\.spotify\.\w+\b
+\b\w*-?analytics?(?:-?\w*)?\.spotify\.\w+\b
 crashdump.spotify.com
 crashdump.ciqe-gslb.spotify.com
 partner-service.spotify.com
 partner-service-testing.spotify.com
 payment-callback.spotify.com
+datasharing.spotify.com
 
 # Ad server
 ads.pubmatic.com
@@ -45,6 +46,8 @@ beta.spotify.map.fastlylb.net
 prod.spotify-heads.map.fastlylb.net
 prod.spotify.map.fastly.net
 prod.spotify.map.fastlylb.net
+spotify.facebook.com
+video-ak.cdn.spotify.com
 
 # Akamai technologies
 a1294.w20.akamai.net
