@@ -22,3 +22,25 @@ mqtt-mini.facebook.com
 \b(?:ad|ads)-?\w*-?\.snapchat\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
 app-analytics-v2.snapchat.com
+
+# Instagram
+\b(?:log|logs)-?\w*-?\.instagram\.\w+\b
+\b\w*-?telemetry(?:-?\w*)?\.instagram\.\w+\b
+\b(?:ad|ads)-?\w*-?\.instagram\.\w+\b
+\b(?:analytic|analytics)-?\w*-?\.instagram\.\w+\b
+
+# Reddit
+\b\w*-?tracking(?:-?\w*)?\.reddit\.\w+\b
+\b\w*-?reporting(?:-?\w*)?\.reddit\.\w+\b
+
+# Youtube
+\b(?:log|logs)-?\w*-?\.youtube\.\w+\b
+\b\w*-?telemetry(?:-?\w*)?\.youtube\.\w+\b
+\b(?:ad|ads)-?\w*-?\.youtube\.\w+\b
+\b(?:analytic|analytics)-?\w*-?\.youtube\.\w+\b
+
+# Tiktok
+\b(?:x?log|logs)-?\w*-?\.tiktokv?\.\w+\b
+\b\w*-?telemetry(?:-?\w*)?\.tiktokv?\.\w+\b
+\b(?:ad|ads)-?\w*-?\.tiktokv?\.\w+\b
+\b(?:analytic|analytics)-?\w*-?\.tiktokv?\.\w+\b
