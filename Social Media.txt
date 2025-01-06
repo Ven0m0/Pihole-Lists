@@ -127,3 +127,4 @@ vaali-mcs.byteoversea.com
 graph.whatsapp.com
 crashlogs.whatsapp.net
 dit.whatsapp.net
+privatestats.whatsapp.net
