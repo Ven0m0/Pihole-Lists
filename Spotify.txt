@@ -1,5 +1,6 @@
 # Spotify junk
 \b(?:log|logs)-?\w*-?\.spotify\.\w+\b
+(\.|^)log[0-9]*\.spotify\.com$
 \b\w*-?telemetry(?:-?\w*)?\.spotify\.\w+\b
 \b(?:ad|ads)-?\w*-?\.spotify\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.spotify\.\w+\b
