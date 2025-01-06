@@ -6,6 +6,25 @@ nrdp.nccp.netflix.com
 nrdp.prod.ftl.netflix.com
 push.prod.netflix.com
 logs.netflix.com
+ads.test.netflix.com
+ads.test.geo.netflix.com
+beacon.netflix.com 
+beacon.geo.netflix.com
+beacon.eu-west-1.prodaa.netflix.com
+beacon.us-east-1.prodaa.netflix.com
+beacon.eu-west-2.prodaa.netflix.com 
+beacon.us-west-2.prodaa.netflix.com
+customerevents.dradis.netflix.com
+customerevents.geo.netflix.com
+dualstack.ichnaea-web-323206729.eu-west-1.elb.amazonaws.com
+estats.netflix.com
+ichnaea.geo.netflix.com
+ichnaea-web.netflix.com
+ichnaea-web.geo.netflix.com
+ichnaea-ios-aws-control.prod.ftl.netflix.com
+nmtracking.netflix.com 
+presentationtracking.netflix.com
+prodaa.netflix.com
 
 # Facebook
 \b(?:log|logs)-?\w*-?\.facebook\.\w+\b
@@ -66,6 +85,7 @@ alb.reddit.com
 \b(?:ad|ads)-?\w*-?\.tiktokcdn\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.tiktokcdn\.\w+\b
 \b(?:\w*-)*location(?:-\w+)*\.tiktokcdn\.\w+\b
+^logs?\d*\.byteoversea\.\w+\b
 
 # Whatsapp
 graph.whatsapp.com
