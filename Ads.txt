@@ -233,6 +233,34 @@ ym.adnxs.com
 ym-default.adnxs.com
 z.adnxs.com
 
+# Adjust Mobile Tracking (based in Berlin, Germany)
+adjust.com
+atom.adjust.com
+events.adjust.com
+ulink.adjust.com
+view.adjust.com
+
+# Braze, Inc. (formerly AppBoy Inc. 2011-2017, based in New York City)
+appboy.com
+dev.appboy.com
+iad.appboy.com
+venitia.iad.appboy.com
+braze.com
+
+# AppLovin: Mobile marketing platform (based in Palo Alto, California, US)
+vid.applovin.com
+pdn.applovin.com
+assets.applovin.com
+img.applovin.com
+a.applovin.com
+a.applvn.com
+d.applovin.com
+d.applvn.com
+rt.applovin.com
+rt.applvn.com
+applovin.com
+applvn.com
+
 # Unchecky ads (remove installer ads)
 cdn.appround.biz
 cdn.download.sweetpacks.com
