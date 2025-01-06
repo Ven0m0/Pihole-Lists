@@ -4,3 +4,53 @@
 # Spamhaus Most Abused TLDs
 ^.+\.(work|fit|surf|review|asia|tokyo|monster|info|机构|ad)$
 ^.+\.(accountant|date|top|win|life|loan|realtor|love|luxe|realestate|download)$
+
+
+
+
+
+# General "catch-all" rules
+((^)|(.))adchoice.
+((^)|(.))ads.roku.com
+((^)|(.))adsdk.
+((^)|(.))adserv.
+((^)|(.))analytic.
+((^)|(.))logs.roku.com
+((^)|(.))metric.
+((^)|(.))telemetry.
+((^)|(.))tracking.
+(.*)\.g00\.(.*)
+(^|\.)xn--.*$
+(ads|captive|cloudservices|logs).roku.com$
+.*\.g00\..*
+^(.+[-_.])??adse?rv(er?|ice)?s?[0-9]*[-.]
+^(.+[-_.])??m?ad[sxv]?[0-9]*[-_.]
+^(.+[-_.])??xn--
+^adim(age|g)s?[0-9]*[-_.]
+^adtrack(er|ing)?[0-9]*[-.]
+^advert(s|is(ing|ements?))?[0-9]*[-_.]
+^aff(iliat(es?|ion))?[-.]
+^analytics?[-.]
+^banners?[-.]
+^beacons?[0-9]*[-.]
+^count(ers?)?[0-9]*[-.]
+^pixels?[-.]
+^stat(s|istics)?[0-9]*[-.]
+^telemetry[-.]
+^track(ers?|ing)?[0-9]*[-.]
+^traff(ic)?[-.]
+
+# More rules from https://github.com/mmotti/pihole-regex/blob/master/regex.list
+# Duplicates manually removed, and `[_.-]` replaced to `[-_.]` to facilitate dedupe
+^ad([sxv]?[0-9]*|system)[-_.]([^.[:space:]]+\.){1,}|[-_.]ad([sxv]?[0-9]*|system)[-_.]
+^(.+[-_.])?adse?rv(er?|ice)?s?[0-9]*[-_.]
+^(.+[-_.])?telemetry[-_.]
+^adtrack(er|ing)?[0-9]*[-_.]
+^aff(iliat(es?|ion))?[-_.]
+^analytics?[-_.]
+^banners?[-_.]
+^beacons?[0-9]*[-_.]
+^count(ers?)?[0-9]*[-_.]
+^mads\.
+^pixels?[-_.]
+^stat(s|istics)?[0-9]*[-_.]
