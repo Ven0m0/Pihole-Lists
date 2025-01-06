@@ -33,3 +33,4 @@ region1.app-measurement.com
 o4507528335982592.ingest.de.sentry.io
 o64374.ingest.sentry.io
 app.usercentrics.eu
+deals-assets-cdn.razerzone.com
