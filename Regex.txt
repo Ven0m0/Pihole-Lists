@@ -5,26 +5,6 @@
 ^.+\.(work|fit|surf|review|asia|tokyo|monster|info|机构|ad)$
 ^.+\.(accountant|date|top|win|life|loan|realtor|love|luxe|realestate|download)$
 
-# Google
-\b(?:log|logs)-?\w*-?\.google\.\w+\b
-\b\w*-?telemetry(?:-?\w*)?\.google\.\w+\b
-\b(?:ad|ads)-?\w*-?\.google\.\w+\b
-\b(?:analytic|analytics)-?\w*-?\.google\.\w+\b
-
-# Amazon
-\b(?:log|logs)-?\w*-?\.amazon\.\w+\b
-\b\w*-?telemetry(?:-?\w*)?\.amazon\.\w+\b
-\b(?:ad|ads)-?\w*-?\.amazon\.\w+\b
-\b(?:analytic|analytics)-?\w*-?\.amazon\.\w+\b
-\b(?:metric|metrics)-?\w*(?:-\w+)*\.amazon\.\w+\b
-(\.|^)amazon-adsystem\.\w+\b
-
-# Amazon AWS
-\b(?:log|logs)-?\w*-?\.amazonaws\.\w+\b
-\b\w*-?telemetry(?:-?\w*)?\.amazonaws\.\w+\b
-\b(?:ad|ads)-?\w*-?\.amazonaws\.\w+\b
-\b(?:analytic|analytics)-?\w*-?\.amazonaws\.\w+\b
-
 # Snapchat
 \b(?:log|logs)-?\w*-?\.snapchat\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.snapchat\.\w+\b
@@ -60,30 +40,4 @@
 # Samsung
 (\.|^)samsungads\.com$
 (^|\.)samsungcloudsolution\.net$
-
-# General
-^.*ads.*\.
-^.*analytics.*\.
-^.*app-?measurement.*\.
-^.*crashlytics.*\.
-^.*graph.*\.
-^.*measurement.*\.
-^.*metrics?.*\.
-^.*firebaselogging.*\.
-
-(\.|^)*-alert*\.
-(\.|^)*-alerts?\.
-(\.|^)*-analytic*\.
-(\.|^)*adroll*\.
-(\.|^)*ads-*\.
-(\.|^)*ads?-?server*\.
-(\.|^)*adsafeprotected*\.
-(\.|^)*adserver*\.
-(\.|^)*adsrvr*\.
-(\.|^)*adtechus*\.
-(\.|^)*adtellegent*\.
-(\.|^)*advertising*\.
-(\.|^)*analytic*\.
-(\.|^)*analytics*\.
-(\.|^)*app-?analytic*\.
 ^.*stats?.*\.
