@@ -35,6 +35,7 @@ links.spotify.com
 mp3ad.scdn.co
 pci.spotify.com
 pixel.spotify.com
+pixels.spotify.com
 video-fa.scdn.co
 video-fa.cdn.spotify.com
 video-fa-b.cdn.spotify.com
