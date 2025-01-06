@@ -80,6 +80,19 @@ tenmaxsgads.blob.core.windows.net
 nmetrics.samsung.com
 insights.samsung.com
 analytics.samsungknox.com
+asideas.de
+atlas.samsung.com
+capi.samsungcloud.com
+dqa.samsung.com
+gos-gsp.io
+metrics.samsung.com
+pushmessage.samsung.com
+samsunggeopush.com
+sbixby.com
+shealth-analytics-api.samsunghealth.com
+ssp.samsung.com
+sspapi-prd.samsungrs.com
+syncplusconfig.s3.amazonaws.com
 
 # Test
 bigdata.ssp.samsung.com
@@ -197,6 +210,12 @@ supportmetrics-uat.apple.com
 trace.apple.com
 tracker.apple.com
 qwapi.apple.com
+
+# Apple Thread DNS requests leaking from LAN
+(\.|^)openthread\.thread\.home\.arpa$
+
+# Ubuntu
+daisy.ubuntu.com
 
 # NVIDIA telemetry
 ^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
