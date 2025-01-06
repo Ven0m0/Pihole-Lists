@@ -48,3 +48,6 @@ events.snapchat.com
 \b(?:ad|ads)-?\w*-?\.tiktokv?\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.tiktokv?\.\w+\b
 \b(?:\w*-)*location(?:-\w+)*\.tiktokv?\.\w+\b
+
+# Whatsapp
+graph.whatsapp.com
