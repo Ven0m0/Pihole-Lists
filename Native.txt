@@ -4,6 +4,7 @@
 \b(?:ad|ads)-?\w*-?\.microsoft\.\w+\b
 \b\w*(?:-\w*)*\.?advertising(?:-\w*)?\.microsoft\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.microsoft\.\w+\b
+(\.|^)measure.office\.net$
 
 # Smartscreen
 (\.|^)smartscreen\.microsoft\.com$
