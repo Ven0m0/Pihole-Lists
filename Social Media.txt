@@ -25,3 +25,4 @@ push.prod.netflix.com
 
 # Facebook
 fb-analytics.com
+mqtt-mini.facebook.com
