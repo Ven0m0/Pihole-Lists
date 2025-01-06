@@ -41,7 +41,25 @@
 \b(?:ad|ads)-?\w*-?\.tiktokv?\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.tiktokv?\.\w+\b
 
+# Smart TV
+# LG
+(^|\.)ibs\.lgappstv\.com
+(^|\.)lgsmartad\.com
+(^|\.)smartshare\.lgtvsdp\.com
+(^|\.)rdx2\.lgtvsdp\.com
+^[a-rt-z][a-z]{10,14}$
+(^|\.)lgtvcommon\.com
 # Samsung
+(^|\.)giraffic\.com$
+(^|\.)internetat\.tv$
+(^|\.)pavv\.co\.kr$
+(^|\.)samsungcloudsolution\.net$
+(^|\.)samsungelectronics\.com$
+(^|\.)samsungrm\.net$
 (\.|^)samsungads\.com$
 (^|\.)samsungcloudsolution\.net$
 ^.*stats?.*\.
+# Vizio
+(\.|^)tvinteractive\.tv$
+# Other
+^api\..*\.hismarttv\.com$
