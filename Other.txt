@@ -40,6 +40,12 @@ adnxs.comadplexmedia.adk2x.com
 ams1-ib.adnxs.com
 ib.adnxs.com
 
+# Block data protected
+combine.urbanairship.com
+
+# Block geotrust
+gtssl2-ocsp.geotrust.com
+
 # Misc
 cdn.cookielaw.org
 mqtt-mini.facebook.com
