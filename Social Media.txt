@@ -7,5 +7,17 @@ nrdp.prod.ftl.netflix.com
 push.prod.netflix.com
 
 # Facebook
+\b(?:log|logs)-?\w*-?\.facebook\.\w+\b
+\b\w*-?telemetry(?:-?\w*)?\.facebook\.\w+\b
+\b(?:ad|ads)-?\w*-?\.facebook\.\w+\b
+\b(?:analytic|analytics)-?\w*-?\.facebook\.\w+\b
+# https://github.com/nocturnalarchives/BlockLists/blob/master/facebook-trackers.txt
 fb-analytics.com
 mqtt-mini.facebook.com
+
+# Snapchat
+\b(?:log|logs)-?\w*-?\.snapchat\.\w+\b
+\b\w*-?telemetry(?:-?\w*)?\.snapchat\.\w+\b
+\b(?:ad|ads)-?\w*-?\.snapchat\.\w+\b
+\b(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
+app-analytics-v2.snapchat.com
