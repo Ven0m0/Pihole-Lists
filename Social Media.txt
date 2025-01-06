@@ -1,24 +1,24 @@
 # Youtube
-0.0.0.0 analytics.youtube.com
-0.0.0.0 ads.youtube.com
-0.0.0.0 ad.youtube.com
+analytics.youtube.com
+ads.youtube.com
+ad.youtube.com
 
 # Tiktok
-0.0.0.0 ads.tiktok.com
-0.0.0.0 ad.tiktok.com
-0.0.0.0 ads.tiktokv.com
-0.0.0.0 ad.tiktokv.com
-0.0.0.0 log.tiktok.com
-0.0.0.0 log.tiktokv.com
-0.0.0.0 xlog.tiktokv.com
-0.0.0.0 ads-sg.tiktok.com
-0.0.0.0 analytics-sg.tiktok.com
-0.0.0.0 analytics.tiktok.com
+ads.tiktok.com
+ad.tiktok.com
+ads.tiktokv.com
+ad.tiktokv.com
+log.tiktok.com
+log.tiktokv.com
+xlog.tiktokv.com
+ads-sg.tiktok.com
+analytics-sg.tiktok.com
+analytics.tiktok.com
 
 # Netflix
-0.0.0.0 android.prod.cloud.netflix.com
-0.0.0.0 customerevents.netflix.com
-0.0.0.0 ichnaea.netflix.com
-0.0.0.0 nrdp.nccp.netflix.com
-0.0.0.0 nrdp.prod.ftl.netflix.com
-0.0.0.0 push.prod.netflix.com
+android.prod.cloud.netflix.com
+customerevents.netflix.com
+ichnaea.netflix.com
+nrdp.nccp.netflix.com
+nrdp.prod.ftl.netflix.com
+push.prod.netflix.com
