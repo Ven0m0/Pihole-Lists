@@ -58,6 +58,7 @@ tribpubdfp745347008913.s.moatpixel.com
 \b(?:analytic|analytics)-?\w*-?\.google\.\w+\b
 (\.|^)doubleclick\.net$
 (\.|^)googleadservices\.com$
+(\.|^)metric\.gstatic\.com$
 adservice.google.com
 ee-in-f95.1.e100.net
 gcdn.2mdn.net
@@ -69,6 +70,10 @@ tpc.googlesyndication.com
 video-ad-stats.googlesyndication.com
 googletagservices.com
 ad-creatives-public.commondatastorage.googleapis.com
+logsink.devices.nest.com
+semanticlocation-pa.googleapis.com
+supl.google.com
+userlocation.googleapis.com
 
 # Crashlytics
 (\.|^)crashlytics\.com$
@@ -109,7 +114,6 @@ switchboard.mixpanel.com
 
 # Appnexus
 a.adk2x.com
-adnxs.com
 adnxs.com
 adnxs.net
 adnexus.com
@@ -236,5 +240,3 @@ installer.betterinstaller.com
 nsis.bisrv.com
 tracking.opencandy.com.s3.amazonaws.com
 adnxs.comadplexmedia.adk2x.com
-ams1-ib.adnxs.com
-ib.adnxs.com
