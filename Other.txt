@@ -25,3 +25,6 @@ gtssl2-ocsp.geotrust.com
 cdn.cookielaw.org
 config.edge.skype.com
 crash.steampowered.com
+
+#Other
+app.usercentrics.eu
