@@ -255,6 +255,7 @@ push.services.mozilla.com
 usage-ping.brave.com
 variations.brave.com
 ads-static.brave.com
+brave-core-ext.s3.brave.com
 (\.|^)rewards\.brave\.com$
 
 # Vodafone
