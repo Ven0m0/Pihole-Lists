@@ -36,6 +36,8 @@ tr.snapchat.com
 # Reddit
 \b\w*-?tracking(?:-?\w*)?\.reddit\.\w+\b
 \b\w*-?reporting(?:-?\w*)?\.reddit\.\w+\b
+events.reddit.com
+alb.reddit.com
 
 # Youtube
 \b(?:log|logs)-?\w*-?\.youtube\.\w+\b
