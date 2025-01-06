@@ -98,13 +98,15 @@ capi.samsungcloud.com
 dqa.samsung.com
 gos-gsp.io
 metrics.samsung.com
-pushmessage.samsung.com
-samsunggeopush.com
 sbixby.com
 shealth-analytics-api.samsunghealth.com
 ssp.samsung.com
 sspapi-prd.samsungrs.com
 syncplusconfig.s3.amazonaws.com
+smetrics.samsung.com
+samsung-com.112.2o7.net
+bigdata.ssp.samsung.com
+analytics-api.samsunghealthcn.com
 
 # Test
 bigdata.ssp.samsung.com
