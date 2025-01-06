@@ -123,6 +123,7 @@ location.services.mozilla.com
 (\.|^)getpocket\.com$
 getpocket.cdn.mozilla.net
 push.services.mozilla.com
+support.mozilla.org
 
 # Vodafone
 netperform-lz.vodafone.com
