@@ -84,6 +84,11 @@ mds.csx.sony.com
 
 # Samsung
 (\.|^)samsungadhub\.\w+\b
+(^|\.)samsungcloudsolution\.net$
+(^|\.)samsungelectronics\.com$
+(^|\.)samsungrm\.net$
+(\.|^)samsungads\.com$
+(^|\.)samsungcloudsolution\.net$
 nmetrics.samsung.com
 insights.samsung.com
 analytics.samsungknox.com
