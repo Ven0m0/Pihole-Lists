@@ -90,6 +90,8 @@ alb.reddit.com
 \b(?:\w*-)*location(?:-\w+)*\.tiktokcdn\.\w+\b
 \b(?:x?logs?|rtlogs?)-?\w*(?:-\w+)*\.byteoversea\.\w+\b
 ^logs?\d*\.byteoversea\.\w+\b
+\b\w*-?ads?(?:-?\w*)?\.byteoversea\.\w+\b
+\b(?:x?logs?|rtlogs?)-?\w*(?:-\w+)*\.isnssdk\.\w+\b
 applog.tiktokv.com
 ad-lb-alisg.byteoversea.net
 ad-lb-maliva.byteoversea.net
