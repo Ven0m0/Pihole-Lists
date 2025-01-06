@@ -6,6 +6,10 @@
 \b(?:analytic|analytics)-?\w*-?\.microsoft\.\w+\b
 (\.|^)measure.office\.net$
 
+# Uutdated Microsoft protocol, security risk
+^wpad($|\.)
+(\.|^)wpad\.\w+\b
+
 # Smartscreen
 \b\w*(?:-\w*)*\.?smartscreen(?:-\w*)?\.microsoft\.\w+\b
 (\.|^)smartscreen\.microsoft\.com$
@@ -157,6 +161,42 @@ smp-device-content.apple.com
 ssl.google-analytics.com
 ssl.google−analytics.com
 static.gc.apple.com
+advertising.apple.com
+advp.apple.com
+analytics.itunes.apple.com
+counter.apple.com
+cstat.apple.com
+devstats.apple.com
+edmarketing.apple.com
+feedback.apple.com
+feedback.push.apple.com
+geoplaces.apple.com
+gs-loc.apple.com
+iad-apple.com
+iad.apple.com
+iadcontent.apple.com
+iadmoo.apple.com
+imgstats.apple.com
+internalcheck.apple.com
+iosdiags.apple.com
+iphonesubmissions.apple.com
+iphonediags.apple.com
+iphonediagsuat-bscan.apple.com
+iphonediagsit2.apple.com
+iphonediagsuat2.apple.com
+launch.apple.com
+marketing.apple.com
+news-events.apple.com
+radarsubmissions.apple.com
+searchads.apple.com
+securemetrics.apple.com.cn
+securemetrics.experience.apple
+smoot.apple.com
+stats.gc-apple.com
+supportmetrics-uat.apple.com
+trace.apple.com
+tracker.apple.com
+qwapi.apple.com
 
 # NVIDIA telemetry
 ^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
