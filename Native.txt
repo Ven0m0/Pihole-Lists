@@ -164,6 +164,9 @@ getpocket.cdn.mozilla.net
 push.services.mozilla.com
 support.mozilla.org
 
+# Brave
+usage-ping.brave.com
+
 # Vodafone
 netperform-lz.vodafone.com
 beta.vodafone.de
