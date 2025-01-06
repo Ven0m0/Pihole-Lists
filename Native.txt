@@ -7,8 +7,6 @@ telemetry.microsoft.com
 telemetry.urs.microsoft.com
 choice.microsoft.com
 redir.metaservices.microsoft.com
-settings-sandbox.data.microsoft.com
-settings-win.data.microsoft.com
 telemetry.appex.bing.net
 watson.live.com
 watson.microsoft.com
@@ -22,6 +20,38 @@ spynet2.microsoft.com
 spynetalt.microsoft.com
 onecollector.cloudapp.aria.akadns.net
 prod.nexusrules.live.com.akadns.net
+
+# Windows Spotlight/Search, XBox Gamepass Images/GPU Perks
+# Also used for Microsoft's advertising/tracking and content delivery services
+arc.msn.com
+arc.trafficmanager.net
+
+# Activity history Tracking across Windows devices.
+activity.windows.com
+assets.activity.windows.com
+canary.activity.windows.com
+edge.activity.windows.com
+edge-enterprise.activity.windows.com
+enterprise.activity.windows.com
+enterprise-eudb.activity.windows.com
+ppe.activity.windows.com
+
+# Error reports and analyses
+in.appcenter.ms
+
+# Breaks Microsoft "Quick Assist" utility (used for remote desktop assistance)
+# Also used for "Real User Monitoring"
+js.monitor.azure.com
+
+# Microsoft endpoint associated with the telemetry and diagnostic data collection in Windows operating systems.
+# Also be used to fetch configuration data or updates for settings related to diagnostics and privacy: Settings > Privacy > Diagnostics & feedback
+settings.data.microsoft.com
+settings-win.data.microsoft.com
+settings-sandbox.data.microsoft.com
+settings-win-ppe.data.microsoft.com
+atm-settingsfe-prod-geo2.trafficmanager.net
+settingsfd-sandbox.trafficmanager.net
+settingsfd-ppe.trafficmanager.net
 
 # Samsung
 nmetrics.samsung.com
