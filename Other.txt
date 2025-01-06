@@ -31,6 +31,5 @@ firebaseinappmessaging.googleapis.com
 firebaseinstallations.googleapis.com
 region1.app-measurement.com
 o4507528335982592.ingest.de.sentry.io
-
-#Other
+o64374.ingest.sentry.io
 app.usercentrics.eu
