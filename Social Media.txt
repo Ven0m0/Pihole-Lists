@@ -92,18 +92,16 @@ alb.reddit.com
 ^logs?\d*\.byteoversea\.\w+\b
 \b\w*-?ads?(?:-?\w*)?\.byteoversea\.\w+\b
 \b(?:x?logs?|rtlogs?)-?\w*(?:-\w+)*\.isnssdk\.\w+\b
+\b(?:x?logs?|rtlogs?)-?\w*(?:-\w+)*\.sgsnssdk\.\w+\b
 applog.tiktokv.com
 ad-lb-alisg.byteoversea.net
 ad-lb-maliva.byteoversea.net
 mon.byteoversea.com
 mon-va.byteoversea.com
-log.isnssdk.com
-log-tb.isnssdk.com
+ipstatp.com
 log-va.tiktokv.com
 log-va.tiktokv.com.edgekey.net
 log16-normal-c-useast1a.tiktokv.com
-log.sgsnssdk.com
-log-tb.sgsnssdk.com
 mon.tiktokv.com
 mon-va.tiktokv.com.edgesuite.net
 mon-va.tiktokv.com
@@ -116,12 +114,7 @@ smr-sg.byteoversea.com
 starling-oversea.byteoversea.com
 starling-sg.byteoversea.com
 starling-va.byteoversea.com
-test-ads.tiktok.com
-test-ads.tiktokv.com
 topbuzz-applog-alisg.l.byteoversea.net
-xlog-va.byteoversea.com
-xlog-va.tiktokv.com
-v16-ad.byteoversea.com
 vaali1.l.byteoversea.net
 vaali-mcs.byteoversea.com
 
