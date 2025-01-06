@@ -100,6 +100,35 @@ supportmetrics.apple.com
 weather-analytics-events.apple.com
 weather-analytics-events.news.apple-dns.net
 autolinkmaker.itunes.apple.com
+comacfeedbackws.icloud.com
+comadvertising.apple.com
+comapi-adservices.apple.com
+combooks-analytics-events.apple.com
+combooks-analytics-events.news.apple-dns.net
+comca.iadsdk.apple.com
+comcf.iadsdk.apple.com
+comdzc-metrics.mzstatic.com
+comfeedbackws.icloud.com
+comiad.apple.com
+comiadcontent.apple.com
+comiadctest.qwapi.com
+comiadmoo.apple.com
+comiadsdk.apple.com
+comiadworkbench.apple.com
+comlaunch.apple.com
+commetrics.apple.com
+commetrics.icloud.com
+commetrics.mzstatic.com
+comnotes-analytics-events.apple.com
+comnotes-analytics-events.news.apple-dns.net
+comsecuremetrics.apple.com
+comsecuremvt.apple.com
+comstocks-analytics-events.apple.com
+comstocks-analytics-events.news.apple-dns.net
+comsupportmetrics.apple.com
+comtr.iadsdk.apple.com
+comweather-analytics-events.apple.com
+comweather-analytics-events.news.apple-dns.net
 c.apple.com
 
 # NVIDIA telemetry
