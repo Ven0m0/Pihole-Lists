@@ -121,6 +121,8 @@ topbuzz-applog-alisg.l.byteoversea.net
 vaali1.l.byteoversea.net
 vaali-mcs.byteoversea.com
 api.bytegle.tech
+api16-access-sg.pangle.io
+pangle.io
 
 # Twitter
 syndication.twitter.com
