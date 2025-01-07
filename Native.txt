@@ -36,6 +36,9 @@ spynet2.microsoft.com
 spynetalt.microsoft.com
 onecollector.cloudapp.aria.akadns.net
 prod.nexusrules.live.com.akadns.net
+self.events.data.microsoft.com
+nexus.officeapps.live.com
+hubblecontent.osi.office.net
 
 # Maps app/location services
 dev.virtualearth.net
@@ -142,7 +145,6 @@ mds.csx.sony.com
 (^|\.)samsungelectronics\.com$
 (^|\.)samsungrm\.net$
 (\.|^)samsungads\.com$
-(^|\.)samsungcloudsolution\.net$
 nmetrics.samsung.com
 insights.samsung.com
 analytics.samsungknox.com
@@ -163,7 +165,6 @@ bigdata.ssp.samsung.com
 analytics-api.samsunghealthcn.com
 
 # Test
-bigdata.ssp.samsung.com
 dc.dqa.samsung.com
 de-odc.samsungapps.com
 dls-udc.dqa.samsung.com
