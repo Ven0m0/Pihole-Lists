@@ -62,6 +62,7 @@ a-graph.facebook.com
 \b\w*-?telemetry(?:-?\w*)?\.instagram\.\w+\b
 \b(?:ad|ads)-?\w*-?\.instagram\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.instagram\.\w+\b
+graph-fallback.instagram.com
 
 # Reddit
 \b\w*-?tracking(?:-?\w*)?\.reddit\.\w+\b
