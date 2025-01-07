@@ -10,6 +10,7 @@ partner-service.spotify.com
 partner-service-testing.spotify.com
 payment-callback.spotify.com
 datasharing.spotify.com
+canvaz.scdn.co
 
 # Needs "spclient.wg.spotify.com" whitelisted
 ^https?://spclient\.wg\.spotify\.com/(.+\/)?(ads|ad-logic)/.*$
