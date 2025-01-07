@@ -52,12 +52,14 @@ adproxy.ndmdhs.com
 telemetry-console.api.playstation.com
 telemetry-cii.api.playstation.com
 
+nsx-e.np.dl.playstation.net
+nw-umwatson.events.data.microsoft.com
+at.atwola.com
+
 # Xbox 360
 rad.msn.com
 
 # Xbox Series X/S
-at.atwola.com
-nw-umwatson.events.data.microsoft.com
 
 # Background pings
 events.eu1.segmentapis.com
