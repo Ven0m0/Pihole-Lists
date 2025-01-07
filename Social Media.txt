@@ -71,6 +71,9 @@ alb.reddit.com
 c.aaxads.com
 l3.aaxads.com
 hits.dwyl.io
+# Shut down some of Reddit's fingerprinting ability (https://www.reddit.com/r/firefox/comments/hnar5k/i_keep_getting_prompted_to_enable_drm_on_reddit/ https://smitop.com/post/reddit-whiteops/)
+udkcrj.com
+s.udkcrj.com
 
 # Youtube
 \b(?:log|logs)-?\w*-?\.youtube\.\w+\b
