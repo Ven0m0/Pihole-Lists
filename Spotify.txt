@@ -23,6 +23,7 @@ ads-sp-lon.cdn.spotify.com
 ads-west-colo.adsymptotic.com
 audio-ak.spotify.com
 audio-akp.spotify.com
+audio-akp.spotifycdn.com
 assets.spotify.com
 audio-cf.spotify.com
 audio-fa.spotify.com
