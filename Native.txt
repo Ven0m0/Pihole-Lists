@@ -236,10 +236,6 @@ rad.live.com
 insitez.blob.core.windows.net
 tenmaxsgads.blob.core.windows.net
 
-# Other MS Stuff
-answers.microsoft.com
-support.microsoft.com
-
 # Sony
 bravia.dl.playstation.net
 cs.prd.msys.playstation.net
