@@ -82,4 +82,6 @@ sentry.c24.de
 config.mobile.yahoo.com
 epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
 mobile-pushcl.np.communication.playstation.net
+ocsp.digicert.com
+ccleaner.com
 t.picsart.com
