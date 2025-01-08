@@ -75,6 +75,7 @@ semanticlocation-pa.googleapis.com
 supl.google.com
 userlocation.googleapis.com
 geller-pa.googleapis.com
+clienttracing-pa.googleapis.com
 
 # Google extended
 growth-pa.googleapis.com
