@@ -45,20 +45,20 @@ dgw.c10r.facebook.com
 mqtt.c10r.facebook.com
 z-p42-chat-e2ee-ig.facebook.com
 
-# Snapchat disabled cause of no push notifications
-# \b(?:log|logs)-?\w*-?\.snapchat\.\w+\b
-# \b\w*-?telemetry(?:-?\w*)?\.snapchat\.\w+\b
-# \b(?:ad|ads)-?\w*-?\.snapchat\.\w+\b
-# (\.|^)snapads\.com$
-# \b\w*-?(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
-# sc-analytics.appspot.com
-# tr.snapchat.com
-# metrics.snappublisher.snapchat.com
-# pro-insights.snapchat.com
-# pro-stories.snapchat.com
-# promo.snappublisher.snapchat.com
-# advertising.snapchat.com
-# events.snappublisher.snapchat.com
+# Snapchat
+\b(?:log|logs)-?\w*-?\.snapchat\.\w+\b
+\b\w*-?telemetry(?:-?\w*)?\.snapchat\.\w+\b
+\b(?:ad|ads)-?\w*-?\.snapchat\.\w+\b
+(\.|^)snapads\.com$
+\b\w*-?(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
+sc-analytics.appspot.com
+tr.snapchat.com
+metrics.snappublisher.snapchat.com
+pro-insights.snapchat.com
+pro-stories.snapchat.com
+promo.snappublisher.snapchat.com
+advertising.snapchat.com
+events.snappublisher.snapchat.com
 
 # Instagram
 \b(?:log|logs)-?\w*-?\.instagram\.\w+\b
@@ -130,24 +130,6 @@ vaali-mcs.byteoversea.com
 api.bytegle.tech
 api16-access-sg.pangle.io
 pangle.io
-
-# Experimental
-pull-cmaf-f16-va01.tiktokcdn-eu.com
-pull-f5-sg01.ttlivecdn.com
-pull-f5-tt03.fcdn.eu.tiktokcdn.com
-pull-f5-va01.tiktokcdn-eu.com
-pull-f5-va01.tiktokcdn-eu.com.c.bytefcdn-ttpeu.com
-pull-f5-vr-gcp01.tiktokcdn.com
-pull-o5-sg01.tiktokeu-cdn.com.c.bytefcdn-ttpeu.com
-pull-o5-va01.tiktokeu-cdn.com.c.bytefcdn-ttpeu.com
-pull-q5-sg01.fcdn.eu.tiktokcdn.com.c.bytefcdn-ttpeu.com
-pull-q5-va01.tiktokrow-cdn.com.c.bytefcdn-oversea.com
-pull-w5-va01.fcdn.eu.tiktokcdn.com.c.bytefcdn-ttpeu.com
-webcast-ws16-normal-no1a.tiktokv.eu
-webcast16-normal-no1a.tiktokv.eu
-webcast32-normal-no1a.tiktokv.eu
-webcast32-normal-useast2a.tiktokv.com
-xgapromomanager-pa.googleapis.com
 
 # Twitter
 syndication.twitter.com
