@@ -41,9 +41,6 @@ nmtracking.netflix.com
 (\.|^)fb-analytics\.com$
 mqtt-mini.facebook.com
 a-graph.facebook.com
-dgw.c10r.facebook.com
-mqtt.c10r.facebook.com
-z-p42-chat-e2ee-ig.facebook.com
 
 # Snapchat
 \b(?:log|logs)-?\w*-?\.snapchat\.\w+\b
