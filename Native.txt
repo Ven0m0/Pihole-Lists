@@ -137,10 +137,70 @@ ecn.dev.virtualearth.net
 geo-prod.do.dsp.mp.microsoft.com
 t0.ssl.ak.dynamic.tiles.virtualearth.net
 t0.ssl.ak.tiles.virtualearth.net
+telemetry.dropbox.com
+telemetry.v.dropbox.com
+oca.microsoft.com
+kmwatsonc.events.data.microsoft.com
+umwatsonc.events.data.microsoft.com
+co4.telecommand.telemetry.microsoft.com
+cs11.wpc.v0cdn.net
+cs1137.wpc.gammacdn.net
+modern.watson.data.microsoft.com
+functional.events.data.microsoft.com
+browser.events.data.msn.com
+v10c.events.data.microsoft.com
+us-v10c.events.data.microsoft.com
+eu-v10c.events.data.microsoft.com
+www.telecommandsvc.microsoft.com
+umwatson.events.data.microsoft.com
+watsonc.events.data.microsoft.com
+eu-watsonc.events.data.microsoft.com
+settings.data.microsoft.com
+inference.location.live.net
+location-inference-westus.cloudapp.net
+maps.windows.com
+ecn-us.dev.virtualearth.net
+weathermapdata.blob.core.windows.net
+arc.msn.com
+ris.api.iris.microsoft.com
+api.msn.com
+assets.msn.com
+c.msn.com
+g.msn.com
+ntp.msn.com
+srtb.msn.com
+www.msn.com
+fd.api.iris.microsoft.com
+staticview.msn.com
+mucp.api.account.microsoft.com
+query.prod.cms.rt.microsoft.com
+business.bing.com
+c.bing.com
+th.bing.com
+edgeassetservice.azureedge.net
+c-ring.msedge.net
+fp.msedge.net
+I-ring.msedge.net
+s-ring.msedge.net
+dual-s-ring.msedge.net
+creativecdn.com
+a-ring-fallback.msedge.net
+fp-afd-nocache-ccp.azureedge.net
+prod-azurecdn-akamai-iris.azureedge.net
+widgetcdn.azureedge.net
+widgetservice.azurefd.net
+fp-vs.azureedge.net
+ln-ring.msedge.net
+t-ring.msedge.net
+t-ring-fdv2.msedge.net
+tse1.mm.bing.net
+config.edge.skype.com
+evoke-windowsservices-tas.msedge.net
+tile-service.weather.microsoft.com
+cdn.onenote.net
 
 # Windows Spotlight/Search, XBox Gamepass Images/GPU Perks
 # Also used for Microsoft's advertising/tracking and content delivery services
-arc.msn.com
 arc.trafficmanager.net
 
 # Activity history Tracking across Windows devices.
@@ -162,7 +222,6 @@ js.monitor.azure.com
 
 # Microsoft endpoint associated with the telemetry and diagnostic data collection in Windows operating systems.
 # Also be used to fetch configuration data or updates for settings related to diagnostics and privacy: Settings > Privacy > Diagnostics & feedback
-settings.data.microsoft.com
 settings-sandbox.data.microsoft.com
 settings-win-ppe.data.microsoft.com
 atm-settingsfe-prod-geo2.trafficmanager.net
