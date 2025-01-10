@@ -409,6 +409,7 @@ location.services.mozilla.com
 getpocket.cdn.mozilla.net
 push.services.mozilla.com
 firefox.settings.services.mozilla.com
+crash-reports.mozilla.com
 
 # Brave
 usage-ping.brave.com
