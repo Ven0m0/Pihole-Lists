@@ -12,12 +12,7 @@ disqus.com
 
 # Weird samsung stuff (blocked in some lists I don't use)
 samsung-stub.yana.asideas.de
-
-# Appears to be Microsoft Visual's crashlogging. My phone makes up all the requests, looking aside 4 where I'm trying to
-# investigate what it is.
-in.appcenter.ms
 # Teams (?)
-oneclient.sfx.ms
 evoke-windowsservices-tas.msedge.net
 
 # I have no idea why mozilla wants to index networks, nor do I know why it tops my logs with 2000 entries (!) in under a day I guess
