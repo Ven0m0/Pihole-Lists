@@ -132,6 +132,7 @@ telemetry_msnbot-65-55-108-23.search.msn.com
 telemetry_a23-218-212-69.deploy.static.akamaitechnologies.com
 
 # Maps app/location services
+fg.microsoft.map.fastly.net
 dev.virtualearth.net
 ecn.dev.virtualearth.net
 geo-prod.do.dsp.mp.microsoft.com
