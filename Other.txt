@@ -64,12 +64,8 @@ rad.msn.com
 # Background pings
 events.eu1.segmentapis.com
 sdk.fra-02.braze.eu
-firebaseinappmessaging.googleapis.com
-firebaseinstallations.googleapis.com
 feedback-pa.googleapis.com
 region1.app-measurement.com
-o4507528335982592.ingest.de.sentry.io
-o64374.ingest.sentry.io
 app.usercentrics.eu
 deals-assets-cdn.razerzone.com
 end4y2-launches.appsflyersdk.com
