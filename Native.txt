@@ -23,6 +23,9 @@ cs.dds.microsoft.com
 v10.events.data.microsoft.com
 telecommand.telemetry.microsoft.com
 watson.telemetry.microsoft.com
+watson.events.data.microsoft.com
+functional.events.data.microsoft.com
+self.events.data.microsoft.com
 
 # Font Streaming
 fs.microsoft.com
@@ -37,7 +40,6 @@ manage.devcenter.microsoft.com
 ^(.*\.)?pipe\.aria\.microsoft\.com$
 config.edge.skype.com
 
-# Smartscreen
 ^(.*\.)?smartscreen-prod\.microsoft\.com$
 ^(.*\.)?smartscreen\.microsoft\.com$
 checkappexec.microsoft.com
@@ -50,7 +52,6 @@ ris.api.iris.microsoft.com
 fp.msedge.net
 k-ring.msedge.net
 b-ring.msedge.net
-
 
 # Location
 inference.location.live.net
@@ -69,7 +70,6 @@ redir.metaservices.microsoft.com
 telemetry.appex.bing.net
 watson.live.com
 watson.microsoft.com
-watson.telemetry.microsoft.com
 feedback.search.microsoft.com
 feedback.windows.com
 corp.sts.microsoft.com
@@ -80,7 +80,6 @@ spynet2.microsoft.com
 spynetalt.microsoft.com
 onecollector.cloudapp.aria.akadns.net
 prod.nexusrules.live.com.akadns.net
-self.events.data.microsoft.com
 nexus.officeapps.live.com
 hubblecontent.osi.office.net
 
@@ -111,7 +110,6 @@ jp-v20.events.data.microsoft.com
 modern.watson.data.microsoft.com.akadns.net
 oca.telemetry.microsoft.com
 settings-win.data.microsoft.com
-telecommand.telemetry.microsoft.com
 uk-v20.events.data.microsoft.com
 uk.vortex-win.data.microsoft.com
 us4-v20.events.data.microsoft.com
@@ -119,7 +117,6 @@ us5-v20.events.data.microsoft.com
 us-v10.events.data.microsoft.com
 us-v20.events.data.microsoft.com
 us.vortex-win.data.microsoft.com
-v10.events.data.microsoft.com
 v10.vortex-win.data.microsoft.com
 v10-win.vortex.data.microsoft.com.akadns.net
 v20.events.data.microsoft.com
@@ -190,7 +187,6 @@ co4.telecommand.telemetry.microsoft.com
 cs11.wpc.v0cdn.net
 cs1137.wpc.gammacdn.net
 modern.watson.data.microsoft.com
-functional.events.data.microsoft.com
 browser.events.data.msn.com
 v10c.events.data.microsoft.com
 us-v10c.events.data.microsoft.com
@@ -200,13 +196,10 @@ umwatson.events.data.microsoft.com
 watsonc.events.data.microsoft.com
 eu-watsonc.events.data.microsoft.com
 settings.data.microsoft.com
-inference.location.live.net
 location-inference-westus.cloudapp.net
 maps.windows.com
 ecn-us.dev.virtualearth.net
 weathermapdata.blob.core.windows.net
-arc.msn.com
-ris.api.iris.microsoft.com
 api.msn.com
 assets.msn.com
 c.msn.com
@@ -223,7 +216,6 @@ c.bing.com
 th.bing.com
 edgeassetservice.azureedge.net
 c-ring.msedge.net
-fp.msedge.net
 I-ring.msedge.net
 s-ring.msedge.net
 dual-s-ring.msedge.net
@@ -247,7 +239,6 @@ cdn.onenote.net
 arc.trafficmanager.net
 
 # Activity history Tracking across Windows devices.
-activity.windows.com
 assets.activity.windows.com
 canary.activity.windows.com
 edge.activity.windows.com
@@ -439,6 +430,7 @@ nvidia.tt.omtrdc.net
 static.nvidiagrid.net
 lightstep.kaizen.nvidia.com
 ls.dtrace.nvidia.com
+services.gfe.nvidia.com
 
 # Intel
 gameplayapi.intel.com
