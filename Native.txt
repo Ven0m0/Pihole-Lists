@@ -11,6 +11,10 @@
 (\.|^)wpad\.\w+\b
 
 # Smartscreen
+^(.*\.)?smartscreen-prod\.microsoft\.com$
+^(.*\.)?smartscreen\.microsoft\.com$
+checkappexec.microsoft.com
+europe.smartscreen.microsoft.com
 \b\w*(?:-\w*)*\.?smartscreen(?:-\w*)?\.microsoft\.\w+\b
 (\.|^)smartscreen\.microsoft\.com$
 
@@ -39,10 +43,6 @@ manage.devcenter.microsoft.com
 # Skype
 ^(.*\.)?pipe\.aria\.microsoft\.com$
 config.edge.skype.com
-
-^(.*\.)?smartscreen-prod\.microsoft\.com$
-^(.*\.)?smartscreen\.microsoft\.com$
-checkappexec.microsoft.com
 
 # Windows Spotlight
 arc.msn.com
