@@ -12,3 +12,6 @@ kr.actual.battle.net
 kr.version.battle.net
 kr.patch.battle.net
 kr.api.blizzard.com
+
+# Battlenet telemetry
+telemetry-in.battle.net
