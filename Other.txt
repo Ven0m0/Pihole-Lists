@@ -59,7 +59,8 @@ at.atwola.com
 # Xbox 360
 rad.msn.com
 
-# Xbox Series X/S
+# Steelseries
+void.steelseries.com
 
 # Background pings
 events.eu1.segmentapis.com
