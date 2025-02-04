@@ -25,6 +25,8 @@ cs.dds.microsoft.com
 
 # Diagnostic Data
 v10.events.data.microsoft.com
+win10.ipv6.microsoft.com
+mobile.events.data.microsoft.com
 telecommand.telemetry.microsoft.com
 watson.telemetry.microsoft.com
 watson.events.data.microsoft.com
