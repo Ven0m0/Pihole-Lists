@@ -1,14 +1,11 @@
 # Us
 us.actual.battle.net
-138.163.125.34.bc.googleusercontent.com
-xcxrmtkxx5.execute-api.us-east-1.amazonaws.com
 us.version.battle.net
 us.patch.battle.net
 us.api.blizzard.com
 
 # KR
 kr.actual.battle.net
-37.85.47.34.bc.googleusercontent.com
 kr.version.battle.net
 kr.patch.battle.net
 kr.api.blizzard.com
@@ -16,5 +13,5 @@ kr.api.blizzard.com
 # Battlenet telemetry
 telemetry-in.battle.net
 
-# EU server junk connection?
+# Weird Irish junk connection?
 lsg.7300.prod.demonware.net
