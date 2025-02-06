@@ -427,7 +427,6 @@ daisy.ubuntu.com
 ^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
 events.gfe.nvidia.com 
 events-dc1.gfe.nvidia.com
-gfe.nvidia.com
 nvidia.tt.omtrdc.net
 static.nvidiagrid.net
 lightstep.kaizen.nvidia.com
