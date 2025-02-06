@@ -432,7 +432,6 @@ nvidia.tt.omtrdc.net
 static.nvidiagrid.net
 lightstep.kaizen.nvidia.com
 ls.dtrace.nvidia.com
-services.gfe.nvidia.com
 
 # Intel
 gameplayapi.intel.com
