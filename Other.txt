@@ -59,6 +59,9 @@ at.atwola.com
 # Xbox 360
 rad.msn.com
 
+# Battlenet telemetry
+telemetry-in.battle.net
+
 # Steelseries
 void.steelseries.com
 
