@@ -61,6 +61,13 @@ rad.msn.com
 
 # Battlenet telemetry
 telemetry-in.battle.net
+logx.optimizely.com
+alert-eu.battle.net
+blzddist1-a.akamaihd.net
+geo.battle.net
+bam.nr-data.net
+js-agent.newrelic.com
+a8270235338.cdn.optimizely.com
 
 # Steelseries
 void.steelseries.com
