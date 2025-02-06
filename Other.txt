@@ -68,6 +68,7 @@ geo.battle.net
 bam.nr-data.net
 js-agent.newrelic.com
 a8270235338.cdn.optimizely.com
+loc.actual.battle.net
 
 # Steelseries
 void.steelseries.com
