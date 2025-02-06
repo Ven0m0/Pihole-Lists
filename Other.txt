@@ -72,6 +72,24 @@ a8270235338.cdn.optimizely.com
 # Steelseries
 void.steelseries.com
 
+# CCleaner
+ccleaner.com
+analytics.ff.avast.com
+analytics.avcdn.net
+emupdate.avcdn.net
+ip-info.ff.avast.com
+ncc.avast.com
+shepherd.ff.avast.com
+www.ccleaner.com
+license-api.ccleaner.com
+alpha-crap.ff.avast.com
+ipm-provider.ff.avast.com
+ipmcdn.avast.com
+driver-updater.ff.avast.com
+secure.ccleaner.com
+geolocation.onetrust.com
+region1.google-analytics.com
+
 # Background pings
 events.eu1.segmentapis.com
 sdk.fra-02.braze.eu
@@ -90,5 +108,5 @@ config.mobile.yahoo.com
 epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
 mobile-pushcl.np.communication.playstation.net
 ocsp.digicert.com
-ccleaner.com
+
 t.picsart.com
