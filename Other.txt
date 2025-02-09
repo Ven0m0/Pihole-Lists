@@ -59,6 +59,27 @@ at.atwola.com
 # Xbox 360
 rad.msn.com
 
+# EpicGames
+tracking.epicgames.com
+metrics.ol.epicgames.com
+social-overlay-launchdarkly-api-prod.ol.epicgames.com # Might Break functionality
+datarouter-weighted.ol.epicgames.com
+datarouter.cfef.live.use1a.on.epicgames.com
+ddatarouter-weighted.ol.epicgames.com
+datarouter-prod.ak.epicgames.com
+datarouter.ol.epicgames.com
+merchantpool1.epicgames.com
+qos4.ol.epicgames.com
+qos3.ol.epicgames.com
+qos2.ol.epicgames.com
+# Easyanticheat & Battleeye
+gossip.easyanticheat.net
+download-alt.easyanticheat.net
+ce1.battleye.com
+
+# Steam
+test.steampowered.com
+
 # Battlenet telemetry
 telemetry-in.battle.net
 logx.optimizely.com
