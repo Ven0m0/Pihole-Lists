@@ -15,6 +15,7 @@
 ^(.*\.)?smartscreen\.microsoft\.com$
 checkappexec.microsoft.com
 europe.smartscreen.microsoft.com
+smartscreen.microsoft.com
 \b\w*(?:-\w*)*\.?smartscreen(?:-\w*)?\.microsoft\.\w+\b
 (\.|^)smartscreen\.microsoft\.com$
 
