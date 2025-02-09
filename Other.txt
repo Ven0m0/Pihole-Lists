@@ -178,6 +178,7 @@ geo.battle.net
 bam.nr-data.net
 a8270235338.cdn.optimizely.com
 loc.actual.battle.net
+genesis.stun.us.demonware.net
 navbar.blizzard.com # Might Break functionality
 content-ui.battle.net # Breaks functionality
 breaking-news.support.blizzard.com # Might Break functionality
