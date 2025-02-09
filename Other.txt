@@ -43,6 +43,12 @@ cmp.dreamlab.pl
 mxapis.com
 popup.bitdefender.pl
 
+# Sony
+bravia.dl.playstation.net
+cs.prd.msys.playstation.net
+ndmdhs.com # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
+mds.csx.sony.com
+
 # PS3
 mercury.dl.playstation.net
 nsx.np.dl.playstation.net
@@ -76,6 +82,26 @@ qos2.ol.epicgames.com
 gossip.easyanticheat.net
 download-alt.easyanticheat.net
 ce1.battleye.com
+# Endpoints
+eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
+eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
+eos-gateway-ingress-prod-w2.befa.live.use1a.on.epicgames.com
+eos-gateway-ingress-prod-w3.befa.live.use1a.on.epicgames.com
+eos-gateway-ingress-prod-w4.befa.live.use1a.on.epicgames.com
+eos-gateway-ingress-prod-w5.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # Steam
 test.steampowered.com
@@ -102,6 +128,22 @@ ggeng.steelseriescdn.com
 gg.steelseriescdn.com
 gghp.steelseriescdn.com
 
+# Razer
+deals-assets-cdn.razerzone.com 
+
+# NVIDIA telemetry
+^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
+events.gfe.nvidia.com 
+events-dc1.gfe.nvidia.com
+nvidia.tt.omtrdc.net
+static.nvidiagrid.net
+lightstep.kaizen.nvidia.com
+ls.dtrace.nvidia.com
+
+# Intel
+gameplayapi.intel.com
+gameplay.intel.com
+
 # CCleaner
 ccleaner.com
 analytics.ff.avast.com
@@ -126,7 +168,6 @@ sdk.fra-02.braze.eu
 feedback-pa.googleapis.com
 region1.app-measurement.com
 app.usercentrics.eu
-deals-assets-cdn.razerzone.com
 end4y2-launches.appsflyersdk.com
 in.appcenter.ms
 end4y2-cdn-settings.appsflyersdk.com
@@ -138,5 +179,4 @@ config.mobile.yahoo.com
 epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
 mobile-pushcl.np.communication.playstation.net
 ocsp.digicert.com
-
 t.picsart.com
