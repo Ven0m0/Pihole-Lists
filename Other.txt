@@ -48,6 +48,7 @@ bravia.dl.playstation.net
 cs.prd.msys.playstation.net
 ndmdhs.com # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
 mds.csx.sony.com
+mobile-pushcl.np.communication.playstation.net
 
 # PS3
 mercury.dl.playstation.net
@@ -65,6 +66,23 @@ at.atwola.com
 # Xbox 360
 rad.msn.com
 
+# Denuvo Anti-Cheat
+ac-upd.codefusion.technology
+ac-fileshare.codefusion.technology
+srv01.codefusion.technology
+cf-revalidation-1750743123.eu-west-1.elb.amazonaws.com
+srv02.codefusion.technology
+srv03.codefusion.technology
+support.codefusion.technology
+ocsp2.globalsign.com
+crl.globalsign.com
+o.ss2.us
+a92-122-104-90.deploy.static.akamaitechnologies.com
+ec2-52-208-84-243.eu-west-1.compute.amazonaws.com
+ec2-54-72-248-64.eu-west-1.compute.amazonaws.com
+ec2-63-35-102-230.eu-west-1.compute.amazonaws.com
+ec2-63-35-76-112.eu-west-1.compute.amazonaws.com
+
 # EpicGames
 tracking.epicgames.com
 metrics.ol.epicgames.com
@@ -78,10 +96,30 @@ merchantpool1.epicgames.com
 qos4.ol.epicgames.com
 qos3.ol.epicgames.com
 qos2.ol.epicgames.com
+tracking-website-prod07-epic-96184209.us-east-1.elb.amazonaws.com
+tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com
+eulatracking-svc-prod06-pub-1257580502.us-east-1.elb.amazonaws.com
+accounts.launcher-website-prod07.ol.epicgames.com
+events.elev.io
+bam-cell.nr-data.net
+js-agent.newrelic.com
+fpt.dfp.microsoft.com
+fpt.microsoft.com
 # Easyanticheat & Battleeye
-gossip.easyanticheat.net
 download-alt.easyanticheat.net
+gossip.easyanticheat.net
+gossip-eu-classic-lb-1736877676.eu-west-1.elb.amazonaws.com
+ec2-52-208-50-24.eu-west-1.compute.amazonaws.com
+gamesec-gossip-eu-lb-prod-1789504702.eu-west-1.elb.amazonaws.com
+download.eac-cdn.com
+download-eu.eac-cdn.com
+hydra.easyanticheat.net
+hydra-eu-lb-618151913.eu-west-1.elb.amazonaws.com
+gamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
+hydra.easyanticheat.netgamesec-hydra-eu-lb-prod-220534806.eu-west-1.elb.amazonaws.com
+d168vncdejh91z.cloudfront.net
 ce1.battleye.com
+ns3081506.ip-145-239-8.eu
 # Endpoints
 eos-gateway-ingress-prod.befa.live.use1a.on.epicgames.com
 eos-gateway-ingress-prod-w1.befa.live.use1a.on.epicgames.com
@@ -105,6 +143,31 @@ eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com
 
 # Steam
 test.steampowered.com
+steamstats.valvesoftware.com
+# CDN
+google.cdn.steampipe.steamcontent.com
+f3b7q2p3.ssl.hwcdn.net
+steamcdn-uswest.storage.googleapis.com
+steam-cdn-storage.iam.gserviceaccount.com
+# Cloud uploads
+steamcloud-dub.s3.dualstack.eu-west-1.amazonaws.com
+steamcloud-frf.s3.dualstack.eu-central-1.amazonaws.com
+# Crashlogs
+collector-01.valve.net
+collector-02.valve.net
+r3.o.lencr.org
+# Discovery
+p2p-ams1.discovery.steamserver.net
+p2p-fra1.discovery.steamserver.net
+p2p-fra2.discovery.steamserver.net
+p2p-sto1.discovery.steamserver.net
+# Game Overlay UI
+ec2-52-58-211-18.eu-central-1.compute.amazonaws.com
+# IP Checks
+ipv6check-udp.steamserver.net
+ipv6check-http.steamserver.net # Obsolete, but still contacted
+# IP Selector
+origin-ip-selector.steampipe.steamcontent.akadns.net
 
 # Battlenet telemetry
 telemetry-in.battle.net
@@ -113,12 +176,31 @@ alert-eu.battle.net
 blzddist1-a.akamaihd.net
 geo.battle.net
 bam.nr-data.net
-js-agent.newrelic.com
 a8270235338.cdn.optimizely.com
 loc.actual.battle.net
 navbar.blizzard.com # Might Break functionality
 content-ui.battle.net # Breaks functionality
 breaking-news.support.blizzard.com # Might Break functionality
+
+# Rockstar Games
+www.googletagmanager.com
+o432808.ingest.sentry.io
+www.google-analytics.com
+stats.g.doubleclick.net
+prs-rgl-prod.ros.rockstargames.com
+ps-rgl-prod.ros.rockstargames.com
+tm-rgl-prod.ros.rockstargames.com
+rsgames.s.llnwi.net
+e8290.dscd.akamaiedge.net
+
+# Ubisoft
+smetrics.ubi.com
+try.abtasty.com
+dcinfos-cache.abtasty.com
+ariane.abtasty.com
+dpm.demdex.net
+polyfill.io
+cdn.cquotient.com
 
 # Steelseries 
 void.steelseries.com
@@ -177,6 +259,5 @@ api.eu-west-1.aiv-delivery.net
 sentry.c24.de
 config.mobile.yahoo.com
 epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
-mobile-pushcl.np.communication.playstation.net
 ocsp.digicert.com
 t.picsart.com
