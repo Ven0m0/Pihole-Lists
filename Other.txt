@@ -69,9 +69,17 @@ bam.nr-data.net
 js-agent.newrelic.com
 a8270235338.cdn.optimizely.com
 loc.actual.battle.net
+navbar.blizzard.com # Might Break functionality
+content-ui.battle.net # Breaks functionality
+breaking-news.support.blizzard.com # Might Break functionality
 
-# Steelseries
+# Steelseries 
 void.steelseries.com
+# Might Break functionality
+gggames.steelseriescdn.com
+ggeng.steelseriescdn.com
+gg.steelseriescdn.com
+gghp.steelseriescdn.com
 
 # CCleaner
 ccleaner.com
