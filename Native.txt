@@ -273,12 +273,6 @@ rad.live.com
 insitez.blob.core.windows.net
 tenmaxsgads.blob.core.windows.net
 
-# Sony
-bravia.dl.playstation.net
-cs.prd.msys.playstation.net
-ndmdhs.com # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
-mds.csx.sony.com
-
 # Samsung
 (\.|^)samsungadhub\.\w+\b
 (^|\.)samsungcloudsolution\.net$
@@ -423,19 +417,6 @@ qwapi.apple.com
 
 # Ubuntu
 daisy.ubuntu.com
-
-# NVIDIA telemetry
-^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
-events.gfe.nvidia.com 
-events-dc1.gfe.nvidia.com
-nvidia.tt.omtrdc.net
-static.nvidiagrid.net
-lightstep.kaizen.nvidia.com
-ls.dtrace.nvidia.com
-
-# Intel
-gameplayapi.intel.com
-gameplay.intel.com
 
 # Mozilla
 (\.|^)telemetry\.mozilla\.org$
