@@ -9,6 +9,8 @@
 # Uutdated Microsoft protocol, security risk
 ^wpad($|\.)
 (\.|^)wpad\.\w+\b
+wpad.fritz.box
+wpad.fritzbox.com
 
 # Smartscreen
 ^(.*\.)?smartscreen-prod\.microsoft\.com$
