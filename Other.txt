@@ -26,6 +26,7 @@ xtracloud.net
 mgepodownload.mediatek.com
 lepodownload.mediatek.com
 mepodownload.mediatek.com
+repodownload.mediatek.com
 
 # Block data protected
 combine.urbanairship.com
