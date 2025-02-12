@@ -2,7 +2,7 @@
 ^.+\.(|cn|机构|ru)$
 
 # Spamhaus Most Abused TLDs
-^.+\.(work|fit|surf|review|asia|tokyo|monster|info|机构|ad)$
+^.+\.(work|fit|surf|review|asia|tokyo|monster|info|ad)$
 ^.+\.(accountant|date|top|win|life|loan|realtor|love|luxe|realestate|download)$
 
 # General "catch-all" rules
