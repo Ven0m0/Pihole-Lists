@@ -1,0 +1,6 @@
+# Battlenet non eu domains
+cn.actual.battlenet.com.cn
+cn-ptr.actual.battle.net
+kr.actual.battle.net
+us.actual.battle.net
+# test.actual.battle.net
