@@ -4,3 +4,94 @@ cn-ptr.actual.battle.net
 kr.actual.battle.net
 us.actual.battle.net
 # test.actual.battle.net
+
+# Battlenet telemetry
+telemetry-in.battle.net
+logx.optimizely.com
+alert-eu.battle.net
+blzddist1-a.akamaihd.net
+geo.battle.net
+bam.nr-data.net
+a8270235338.cdn.optimizely.com
+loc.actual.battle.net
+# content-ui.battle.net # Breaks functionality
+breaking-news.support.blizzard.com # Might Break functionality
+
+# Steam
+test.steampowered.com
+steamstats.valvesoftware.com
+# Crashlogs
+collector-01.valve.net
+collector-02.valve.net
+r3.o.lencr.org
+# Game Overlay UI
+ec2-52-58-211-18.eu-central-1.compute.amazonaws.com
+# IP Checks
+ipv6check-http.steamserver.net # Obsolete, but still contacted
+
+# Rockstar Games
+www.googletagmanager.com
+o432808.ingest.sentry.io
+www.google-analytics.com
+stats.g.doubleclick.net
+prs-rgl-prod.ros.rockstargames.com
+ps-rgl-prod.ros.rockstargames.com
+tm-rgl-prod.ros.rockstargames.com
+rsgames.s.llnwi.net
+e8290.dscd.akamaiedge.net
+
+# Ubisoft
+smetrics.ubi.com
+try.abtasty.com
+dcinfos-cache.abtasty.com
+ariane.abtasty.com
+dpm.demdex.net
+polyfill.io
+cdn.cquotient.com
+
+# Steelseries 
+void.steelseries.com
+# Might Break functionality
+# gggames.steelseriescdn.com
+# ggeng.steelseriescdn.com
+# gg.steelseriescdn.com
+# gghp.steelseriescdn.com
+
+# Razer
+deals-assets-cdn.razerzone.com 
+
+# NVIDIA telemetry
+^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
+events.gfe.nvidia.com 
+events-dc1.gfe.nvidia.com
+nvidia.tt.omtrdc.net
+static.nvidiagrid.net
+lightstep.kaizen.nvidia.com
+ls.dtrace.nvidia.com
+
+# Intel
+gameplayapi.intel.com
+gameplay.intel.com
+
+# Sony
+bravia.dl.playstation.net
+cs.prd.msys.playstation.net
+ndmdhs.com # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
+mds.csx.sony.com
+mobile-pushcl.np.communication.playstation.net
+
+# PS3
+mercury.dl.playstation.net
+nsx.np.dl.playstation.net
+adproxy.ndmdhs.com
+
+# PS5
+telemetry-console.api.playstation.com
+telemetry-cii.api.playstation.com
+
+nsx-e.np.dl.playstation.net
+nw-umwatson.events.data.microsoft.com
+at.atwola.com
+
+# Xbox 360
+rad.msn.com
