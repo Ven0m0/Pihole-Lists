@@ -11,11 +11,27 @@ partner-service-testing.spotify.com
 payment-callback.spotify.com
 datasharing.spotify.com
 canvaz.scdn.co
+analytics.spotify.com
 
 # Needs "spclient.wg.spotify.com" whitelisted
 ^https?://spclient\.wg\.spotify\.com/(.+\/)?(ads|ad-logic)/.*$
 
 # Ad server
+ads-akp.spotify.com
+ads-fa.spotify.ads.pubmatic.com
+ads-fa.spotify.com
+ads-sp-lon.cdn.spotify.com
+ads-west-colo.adsymptotic.com
+ads.admob.com
+ads.flurry.com
+ads.pubmatic.com
+ads.spotify.com
+adserver.adtechus.com
+adservice.google.co.uk
+adservice.google.com
+adstudio-assets.scdn.co
+adstudio.spotify.com
+afs.moatads.com
 ads.pubmatic.com
 adserver.adtechus.com
 adeventtracker.spotify.com
