@@ -32,11 +32,7 @@ adservice.google.com
 adstudio-assets.scdn.co
 adstudio.spotify.com
 afs.moatads.com
-ads.pubmatic.com
-adserver.adtechus.com
 adeventtracker.spotify.com
-ads-sp-lon.cdn.spotify.com
-ads-west-colo.adsymptotic.com
 audio-ak.spotify.com
 audio-akp.spotify.com
 audio-akp.spotifycdn.com
