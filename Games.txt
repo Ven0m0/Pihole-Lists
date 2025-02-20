@@ -42,14 +42,6 @@ dpm.demdex.net
 polyfill.io
 cdn.cquotient.com
 
-# Steelseries 
-void.steelseries.com
-# Might Break functionality
-# gggames.steelseriescdn.com
-# ggeng.steelseriescdn.com
-# gg.steelseriescdn.com
-# gghp.steelseriescdn.com
-
 # Razer
 deals-assets-cdn.razerzone.com 
 
