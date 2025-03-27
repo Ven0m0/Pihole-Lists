@@ -77,5 +77,4 @@ api.eu-west-1.aiv-delivery.net
 sentry.c24.de
 config.mobile.yahoo.com
 epdg.epc.mnc002.mcc262.pub.3gppnetwork.org
-ocsp.digicert.com
 t.picsart.com
