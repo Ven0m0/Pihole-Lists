@@ -780,7 +780,6 @@ events.appsflyer.com
 events.browsiprod.com
 events.mobile.optimizely.com
 events.cid.samba.tv
-events.gfe.nvidia.com
 events.split.io
 eventtracking.omarsys.com
 farfetch.onelink.me
@@ -1581,8 +1580,6 @@ telemetry.docusign.net
 telemetry.dropbox.com
 telemetry.v.dropbox.com
 telemetry.sdk.inmobi.com
-telemetry.mozilla.org
-telemetry.gfe.nvidia.com
 terraclicks.com
 tax-refund-hmrc.com # HMRC phishing scam
 tags.bluekai.com
