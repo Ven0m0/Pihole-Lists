@@ -49,10 +49,17 @@ deals-assets-cdn.razerzone.com
 ^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
 events.gfe.nvidia.com 
 events-dc1.gfe.nvidia.com
-nvidia.tt.omtrdc.net
 static.nvidiagrid.net
 lightstep.kaizen.nvidia.com
+telemetry.gfe.nvidia.com
+# GFE overlay without login
 ls.dtrace.nvidia.com
+accounts.nvgs.nvidia.com
+accounts.nvgs.nvidia.cn
+nvidia.tt.omtrdc.net
+api.commune.ly
+login.nvgs.nvidia.com
+login.nvgs.nvidia.cn
 
 # Intel
 gameplayapi.intel.com
