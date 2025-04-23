@@ -444,3 +444,6 @@ brave-core-ext.s3.brave.com
 # Vodafone
 netperform-lz.vodafone.com
 beta.vodafone.de
+
+# Steelseries
+void.steelseries.com
