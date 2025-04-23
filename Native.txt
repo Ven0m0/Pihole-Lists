@@ -85,9 +85,6 @@ ads-static.brave.com
 brave-core-ext.s3.brave.com
 (\.|^)rewards\.brave\.com$
 
-# Amazon
-ipv6.unagi-na.amazon.com
-
 # Vodafone
 netperform-lz.vodafone.com
 beta.vodafone.de
