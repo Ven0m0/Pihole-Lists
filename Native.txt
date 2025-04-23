@@ -1,9 +1,62 @@
 # Microsoft
-
+xboxab.com                                     #Games -  Game Bar Overlay
+fevoke-windowsservices-tas.msedge.net          #App    Candy Crush Saga (Updates)
+cortana.ai                                     #App   Cortana
+browserdefaults.microsoft.com                  #App     Edge
 bubblewitch3mobile.king.com # Win 10 Start Tiles
 candycrush.king.com
 candycrushsoda.king.com                                
 ccs.play.king.com
+r20swj13mr.microsoft.com                       #Internet Explorer - After Updating
+ie11welcome.microsoft.com                      #Internet Explorer
+windowssearch.com                              #Bing
+maps.windows.com                               #Bing Maps
+bingwallpaper.microsoft.com                    #Bing - Download wallpaper
+search.msn.com                                 #MSN - Search
+search.msn.de                                  #MSN - Search
+windows.msn.com                                #MSN - Taskbar - News and Interests
+ceipmsn.com                                    #SeaPort (Search Enhancement Broker process)
+g.ceipmsn.com                                  #SeaPort (Search Enhancement Broker process)
+survey.support.services.microsoft.com          #Survey - Popup Window
+api.msn.com                                    #Tiles - Win 10 / 11
+appexbingfinance.trafficmanager.net            #Tiles - Win 10 / 11
+appexbingweather.trafficmanager.net            #Tiles - Win 10 / 11
+appexeusprodweather.blob.core.windows.net      #Tiles - Win 10 / 11
+appexfinanceappupdate.blob.core.windows.net    #Tiles - Win 10 / 11
+appexnewsappupdate.blob.core.windows.net       #Tiles - Win 10 / 11
+appexsports.trafficmanager.net                 #Tiles - Win 10 / 11
+appexwusprodweather.blob.core.windows.net      #Tiles - Win 10 / 11
+blob.weather.microsoft.com                     #Tiles - Win 10 / 11
+cloudtile.photos.microsoft.com                 #Tiles - Win 10 / 11
+finance.services.appex.bing.com                #Tiles - Win 10 / 11
+finance-services.msn.com                       #Tiles - Win 10 / 11
+foodanddrink.services.appex.bing.com           #Tiles - Win 10 / 11
+foodanddrink.tile.appex.bing.com               #Tiles - Win 10 / 11
+insiderhub.microsoft.com                       #Tiles - Win 10 / 11
+insiderservice.microsoft.com                   #Tiles - Win 10 / 11
+livetileedge.dsx.mp.microsoft.com              #Tiles - Win 10 / 11
+livetile.hulu.com                              #Tiles - Win 10 / 11
+livetiles.health.appex.bing.com                #Tiles - Win 10 / 11
+mgslivetiles.cloudapp.net                      #Tiles - Win 10 / 11
+phone.sports.tile.appex.bing.com               #Tiles - Win 10 / 11
+service.weather.microsoft.com                  #Tiles - Win 10 / 11
+tile-service.weather.microsoft.com             #Tiles - Win 10 / 11
+travel.tile.appex.bing.com                     #Tiles - Win 10 / 11
+weather.microsoft.com                          #Tiles - Win 10 / 11
+weather.services.appex.bing.com                #Tiles - Win 10 / 11
+weather.tile.appex.bing.com                    #Tiles - Win 10 / 11
+westus.tts.speech.microsoft.com                #Text To Speech API
+toolbar.msn.com                                #Toolbar - MSN
+ie9cvlist.ie.microsoft.com                     #Toolbar - Uninstall
+iecvlist.microsoft.com                         #Toolbar - Uninstall
+notificationinbox.xboxlive.com                 #Xbox
+o.xbox.com                                     # ? Tracking (Blank)
+amp-test.com                                   # ? On msn.com
+udc.amp-test.com                               # ? On msn.com
+client.prod.repmap.microsoft.com               # Captcha ?
+gameclipscontent-d2006.media.xboxlive.com      #Xbox
+gameclipscontent-t2006.xboxlive.com            #Xbox
+lfghub-anonymous.xboxlive.com                  #Xbox
 
 profile.gc.apple.com
 sa.apple.com
