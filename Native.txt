@@ -1,4 +1,10 @@
 # Microsoft
+
+bubblewitch3mobile.king.com # Win 10 Start Tiles
+candycrush.king.com
+candycrushsoda.king.com                                
+ccs.play.king.com
+
 profile.gc.apple.com
 sa.apple.com
 smp-device-content.apple.com
