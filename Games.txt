@@ -21,6 +21,11 @@ r3.o.lencr.org
 ec2-52-58-211-18.eu-central-1.compute.amazonaws.com
 # IP Checks
 ipv6check-http.steamserver.net # Obsolete, but still contacted
+steambroadcast.akamaized.net                            #Software    Steam - Broadcast Gameplay
+ipv6check-http.steamcontent.com                         #Software    Steam
+ipv6check-udp.steamcontent.com                          #Software    Steam
+ipv6check-udp.steamserver.net 
+
 
 # Rockstar Games
 www.googletagmanager.com
