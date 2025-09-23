@@ -7,10 +7,9 @@
 
 ### Useful tools:
 
-https://github.com/AdguardTeam/DeadDomainsLinter
-
-
+- https://github.com/AdguardTeam/DeadDomainsLinter
+- https://github.com/StevenBlack/hosts
 
 ### Useful lists:
 
-https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt
+- https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt
