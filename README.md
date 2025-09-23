@@ -8,8 +8,10 @@
 ### Useful tools:
 
 - https://github.com/AdguardTeam/DeadDomainsLinter
+    - `npm i -g @adguard/dead-domains-linter`
 - https://github.com/StevenBlack/hosts
-- `cargo install adblock-list-compiler`
+- https://github.com/ragibkl/adblock-list-compiler
+  - `cargo install adblock-list-compiler`
 
 ### Useful lists:
 
