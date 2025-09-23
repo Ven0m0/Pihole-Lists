@@ -15,6 +15,7 @@ dead-domains-linter -a -i "**/*.txt"
 - https://github.com/StevenBlack/hosts
 - https://github.com/ragibkl/adblock-list-compiler
   - `cargo install adblock-list-compiler`
+- https://github.com/m0zgen/kompressor
 
 ### Useful lists:
 
