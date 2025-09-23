@@ -9,6 +9,7 @@
 
 - https://github.com/AdguardTeam/DeadDomainsLinter
 - https://github.com/StevenBlack/hosts
+- `cargo install adblock-list-compiler`
 
 ### Useful lists:
 
