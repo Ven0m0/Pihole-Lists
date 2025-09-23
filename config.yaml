@@ -1,0 +1,22 @@
+# https://github.com/ragibkl/adblock-list-compiler
+blacklist:
+  - format: domains
+    path: ./Ads.txt
+  - format: domains
+    path: ./Experimental.txt
+  - format: domains
+    path: ./Games.txt
+  - format: domains
+    path: ./Native.txt
+  - format: domains
+    path: ./Smart-TV.txt
+  - format: domains
+    path: ./Social-Media.txt
+  - format: domains
+    path: ./Spotify.txt
+  - format: domains
+    path: ./Test.txt
+
+#whitelist:
+  #- format: domains
+    #path: ./whitelist.txt
