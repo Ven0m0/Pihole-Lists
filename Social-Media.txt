@@ -48,21 +48,45 @@ a-graph.facebook.com
 \b(?:ad|ads)-?\w*-?\.snapchat\.\w+\b
 (\.|^)snapads\.com$
 \b\w*-?(?:analytic|analytics)-?\w*-?\.snapchat\.\w+\b
-sc-analytics.appspot.com
-tr.snapchat.com
+ads-interfaces.sc-cdn.net
+adsapi.snapchat.com
+advertising.snapchat.com
+analytics.snapchat.com
+app-analytics-v2.snapchat.com
+app-analytics.snapchat.com
+ase.adserver.snapads.com
+asia-southeast1-gcp.api.snapchat.com
+aws-cf.api.snapchat.com
+bolt-gcdn.sc-cdn.net
+euw.adserver.snapads.com
+events.snappublisher.snapchat.com
+gtq6.sct.sc-prod.net
 metrics.snappublisher.snapchat.com
 pro-insights.snapchat.com
 pro-stories.snapchat.com
 promo.snappublisher.snapchat.com
-advertising.snapchat.com
-events.snappublisher.snapchat.com
+sc-analytics.appspot.com
+snapads.com
+snapchat-proxy.appspot.com
+tr.snapchat.com
+us-east1-aws.api.snapchat.com
+usc.adserver.snapads.com
 
 # Instagram
 \b(?:log|logs)-?\w*-?\.instagram\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.instagram\.\w+\b
 \b(?:ad|ads)-?\w*-?\.instagram\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.instagram\.\w+\b
+graph.instagram.com
 graph-fallback.instagram.com
+star.c10r.facebook.com
+mqtt.c10r.facebook.com
+edge-mqtt.facebook.com
+telegraph-ash.instagram.com
+white.ish.instagram.com
+instagram.c10r.facebook.com
+z-p4.graph.instagram.com
+z-p42.graph.instagram.com
 
 # Reddit
 \b\w*-?tracking(?:-?\w*)?\.reddit\.\w+\b
@@ -136,3 +160,8 @@ graph.whatsapp.com
 crashlogs.whatsapp.net
 dit.whatsapp.net
 privatestats.whatsapp.net
+g.whatsapp.net
+graph.facebook.com
+scontent-ber1-1.xx.fbcdn.net
+external-ber1-1.xx.fbcdn.net
+static.whatsapp.net
