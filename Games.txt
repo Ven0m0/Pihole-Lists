@@ -20,12 +20,11 @@ r3.o.lencr.org
 # Game Overlay UI
 ec2-52-58-211-18.eu-central-1.compute.amazonaws.com
 # IP Checks
-ipv6check-http.steamserver.net # Obsolete, but still contacted
-steambroadcast.akamaized.net                            #Software    Steam - Broadcast Gameplay
-ipv6check-http.steamcontent.com                         #Software    Steam
-ipv6check-udp.steamcontent.com                          #Software    Steam
+ipv6check-http.steamserver.net 
+steambroadcast.akamaized.net
+ipv6check-http.steamcontent.com                        
+ipv6check-udp.steamcontent.com 
 ipv6check-udp.steamserver.net 
-
 
 # Rockstar Games
 www.googletagmanager.com
@@ -52,7 +51,7 @@ deals-assets-cdn.razerzone.com
 
 # NVIDIA telemetry
 ^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
-events.gfe.nvidia.com 
+events.gfe.nvidia.com
 events-dc1.gfe.nvidia.com
 static.nvidiagrid.net
 lightstep.kaizen.nvidia.com
@@ -65,6 +64,16 @@ nvidia.tt.omtrdc.net
 api.commune.ly
 login.nvgs.nvidia.com
 login.nvgs.nvidia.cn
+gfwsl.geforce.com
+gfe.nvidia.com
+services.gfe.nvidia.com
+events.gfe.nvidia.com
+images.nvidiagrid.net
+rds-assets.nvidia.com
+assets.nvidiagrid.net
+telemetry.nvidia.com
+ssl.google-analytics.com
+telemetry-dce.gfe.nvidia.com
 
 # Intel
 gameplayapi.intel.com
