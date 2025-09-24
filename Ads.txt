@@ -76,11 +76,31 @@ supl.google.com
 userlocation.googleapis.com
 geller-pa.googleapis.com
 clienttracing-pa.googleapis.com
-
+clients.l.google.com
+conversion-pixel.invitemedia.com
+analytics-api-samples.googlecode.com
+m1.2mdn.net
+rmcdn.2mdn.net
+rmcdn.f.2mdn.net
+n339.asp-cc.com
+ads.cc-dt.com
+clickserve.cc-dt.com
+creative.cc-dt.com
+clickserve.dartsearch.net
+clickserve.eu.dartsearch.net
+clickserve.uk.dartsearch.net
+log2.quintelligence.com
+www.destinationurl.com
+doubleclick.shockwave.com
+www3.webhostingtalk.com
+ad.mirror.co.uk
+host3.adhese.be
+mcmads.mediacapital.pt
+affiliate.2mdn.net
+clickserve.us2.dartsearch.net
 # Google extended
 growth-pa.googleapis.com
 footprints-pa.googleapis.com
-
 # Crashlytics
 (\.|^)crashlytics\.com$
 settings-crashlytics-1410998606.us-east-1.elb.amazonaws.com
@@ -91,20 +111,16 @@ crashlytics.twimg.com
 e.crashlytics.com
 reports.crashlytics.com
 settings.crashlytics.com
-
 # Unity Ads
 config.unityads.unity3d.com
 unityads.unity3d.com
-
 # Sentry: App Monitoring and Crash Reporting
 sentry.io
-
 # TrafficJunky Advertising
 trafficjunky.com
 trafficjunky.net
 media.trafficjunky.net
 ads.trafficjunky.net
-
 # Amazon
 \b(?:log|logs)-?\w*-?\.amazon\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.amazon\.\w+\b
@@ -138,11 +154,9 @@ trace.mshopbugsnag.irm.amazon.dev
 5aa25954e40ffb18984989b59487dfe054549e213a2e64a12187f8deb5a4cb5.us-east-1.prod.service.minerva.devices.a2z.com
 ipv6.unagi-na.amazon.com
 (\.|^)mads\.amazon\.com$
-
 # Amazon/Alexa Tracking
 certify.alexametrics.com
 certify-js.alexametrics.com
-
 # Hosted by Amazon CloudFront
 d26zuh3orto56v.cloudfront.net
 d2bgg7rjywcwsy.cloudfront.net
@@ -157,16 +171,13 @@ d3rt1990lpmkn.cloudfront.net
 d3rt199lpmkn.cloudfront.net
 dc5ig2fc8lg83.cloudfront.net
 dj1d6o6ftflzi.cloudfront.net
-
 # Media match
 media-match.com
-
 # Mixpanel analytics
 api.mixpanel.com
 decide.mixpanel.com
 mixpanel.com
 switchboard.mixpanel.com
-
 # Appnexus
 a.adk2x.com
 adnxs.com
@@ -283,28 +294,24 @@ yj-a.p.adnxs.com
 ym.adnxs.com
 ym-default.adnxs.com
 z.adnxs.com
-
 # Tapjoy: Mobile advertising
 tapjoy.com
 rpc.tapjoy.com
 connect.tapjoy.com
 tapjoyads.com
 ws.tapjoyads.com
-
 # Adjust Mobile Tracking (based in Berlin, Germany)
 adjust.com
 atom.adjust.com
 events.adjust.com
 ulink.adjust.com
 view.adjust.com
-
 # Braze, Inc. (formerly AppBoy Inc. 2011-2017, based in New York City)
 appboy.com
 dev.appboy.com
 iad.appboy.com
 venitia.iad.appboy.com
 braze.com
-
 # AppLovin: Mobile marketing platform (based in Palo Alto, California, US)
 vid.applovin.com
 pdn.applovin.com
@@ -318,7 +325,6 @@ rt.applovin.com
 rt.applvn.com
 applovin.com
 applvn.com
-
 # Unchecky ads (remove installer ads)
 cdn.appround.biz
 cdn.download.sweetpacks.com
