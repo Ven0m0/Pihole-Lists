@@ -1,9 +1,11 @@
+---
 name: Update Adlists
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 3 * * *"
-
+permissions:
+  contents: write
 jobs:
   update_links:
     runs-on: ubuntu-latest
@@ -12,7 +14,6 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
-
       - name: Restore Lychee cache
         id: restore-cache
         uses: actions/cache/restore@v4
