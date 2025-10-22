@@ -1,89 +1,94 @@
----
 name: Update Adlists
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "0 3 * * *"
+
 permissions:
   contents: write
+  pull-requests: write
+
 jobs:
   update_links:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
+
     steps:
       - uses: actions/checkout@v4
-      - name: Restore Lychee cache
-        id: restore-cache
+
+      - name: Restore lychee cache
         uses: actions/cache/restore@v4
         with:
           path: .lycheecache
-          key: cache-lychee-
+          key: cache-lychee-${{ github.ref_name }}
           restore-keys: cache-lychee-
 
-      - name: Run Lychee
+      - name: Run lychee
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: "--base . --cache --max-cache-age 1d --format json --output ./lychee/report.json ."
+          args: --base . --cache --max-cache-age 1d --format json --output ./lychee/report.json ./**/*.txt
           fail: false
-          token: ${{ secrets.CUSTOM_TOKEN }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Backup files to be modified
+      - name: Backup affected files
+        if: always()
         run: |
-          DEAD=$(jq -r '.failures[].uri' ./lychee/report.json)
           mkdir -p backup
+          DEAD=$(jq -r '.failures[].uri' ./lychee/report.json || true)
           for url in $DEAD; do
-            for f in $(grep -rlF "$url" ./**/*.txt); do
+            grep -rlF "$url" . --include '*.txt' | while read -r f; do
               mkdir -p "backup/$(dirname "$f")"
               cp -n "$f" "backup/$f"
             done
           done
 
       - name: Remove dead links
+        if: always()
         run: |
-          DEAD=$(jq -r '.failures[].uri' ./lychee/report.json)
+          DEAD=$(jq -r '.failures[].uri' ./lychee/report.json || true)
           for url in $DEAD; do
-            sed -i "s|$url||g" **/*.txt
+            grep -rlF "$url" . --include '*.txt' | while read -r f; do
+              sed -i "s|$url||g" "$f"
+            done
           done
 
-      - name: Deduplicate lines (keep order)
+      - name: Deduplicate lines (preserve order)
         run: |
-          for f in **/*.txt; do
+          for f in $(find . -type f -name '*.txt'); do
             awk '!seen[$0]++' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
           done
 
-      - name: Check for changes
+      - name: Detect changes
         id: changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add .
-          if git diff-index --quiet HEAD; then
-            echo "changed=false" >> $GITHUB_OUTPUT
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Create PR branch and commit
+      - name: Commit and push branch
         if: steps.changes.outputs.changed == 'true'
-        run: |
-          BRANCH=update-adlists-$(date +%Y%m%d%H%M)
-          git checkout -b $BRANCH
-          git commit -m "Automated dead link removal and deduplication"
-          git push origin $BRANCH
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH=update-adlists-$(date +%Y%m%d%H%M)
+          git checkout -b "$BRANCH"
+          git commit -m "Automated dead link removal and deduplication"
+          git push origin "$BRANCH"
 
-      - name: Create Pull Request
+      - name: Create pull request
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.head_ref }}
           base: main
+          branch: ${{ github.ref_name }}
           title: "Update adlists - remove dead links"
-          body: "This PR removes dead links detected by Lychee and deduplicates adlists. Original files are backed up in \`backup/\`."
+          body: |
+            Automated removal of dead links and deduplication of adlists.
+            Original files are backed up in `backup/`.
