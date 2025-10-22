@@ -1,24 +1,24 @@
 name: Broken Links
+
 on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
     - cron: '00 18 * * *'
+
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
     permissions:
-      # Required for lychee-action to use the default GITHUB_TOKEN for API calls (optional but good practice)
-      # Required for peter-evans/create-issue-from-file
       issues: write
+
     steps:
       - uses: actions/checkout@v4
-      # Fix: Combined key and restore-keys and use a stable key (github.ref_name/github.sha) for better cache hit rate.
+
       - name: Restore lychee cache
         uses: actions/cache/restore@v4
         with:
           path: .lycheecache
-          # Key based on the branch name to scope the cache (Pihole-Lists suggests a single main branch)
           key: cache-lychee-${{ github.ref_name }}-${{ github.sha }}
           restore-keys: cache-lychee-${{ github.ref_name }}-
 
@@ -26,38 +26,15 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          # Use short CLI args for base dir (`-r`) and increase concurrency (`-c`) for speed.
-          # The repo appears to mainly contain `.txt` and `.md` files; using `**/*` is safer.
           args: --base . --cache -c 20 --max-cache-age 1d --format markdown --output ./lychee/out.md '**/*'
           fail: false
-          # Remove: Using `token: ${{ secrets.CUSTOM_TOKEN }}` is unnecessary; `lychee-action` uses `GITHUB_TOKEN` from the `env` block.
-      # Fix: The `lychee-action` itself uses the `GITHUB_TOKEN` from `env` to check GitHub links.
-      # The `GITHUB_TOKEN` should be set at the step level for `lychee` if you need custom rate limiting,
-      # but it's typically set at the job level or for the `lychee-action`'s `token` input.
-      # Placing it in `env` at the step level is valid but redundant given the action's inputs.
-      # It is removed since you don't need `CUSTOM_TOKEN` either.
-      # env:
-      #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Save lychee cache
         if: always()
         uses: actions/cache/save@v4
         with:
           path: .lycheecache
-          # Fix: The save key must match the *primary* restore key from the `restore` step for the cache to be used next time.
-          # Use `github.run_id` as a unique suffix for the specific run to ensure the cache is saved.
           key: cache-lychee-${{ github.ref_name }}-${{ github.sha }}
-      - name: Create Issue From File
-        if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@v5
-        with:
-          title: Link Checker Report
-          content-filepath: ./lychee/out.md
-          labels: report, automated issue
-          # Fix: This action requires a token. The default `GITHUB_TOKEN` is automatically used 
-          # because the job has `issues: write` permission. Adding the input explicitly is good practice.
-          token: ${{ secrets.GITHUB_TOKEN }}        with:
-          path: .lycheecache
-          key: cache-lychee-${{ github.run_id }}
 
       - name: Create Issue From File
         if: steps.lychee.outputs.exit_code != 0
@@ -66,3 +43,4 @@ jobs:
           title: Link Checker Report
           content-filepath: ./lychee/out.md
           labels: report, automated issue
+          token: ${{ secrets.GITHUB_TOKEN }}
