@@ -15,35 +15,28 @@ snippetdata.api.swiftkey.com
 shortener.api.swiftkey.com
 telemetry.api.swiftkey.com
 tigger-citadel.touchtype-fluency.com
-
 # Qualcomm strange domains
 tls.telemetry.swe.quicinc.com
 izatcloud.net
 gpsonextra.net
 xtracloud.net
-
 # MediaTek strange domains
 mgepodownload.mediatek.com
 lepodownload.mediatek.com
 mepodownload.mediatek.com
 repodownload.mediatek.com
-
 # Block data protected
 combine.urbanairship.com
-
 # Block geotrust
 gtssl2-ocsp.geotrust.com
-
 # Misc
 cdn.cookielaw.org
 config.edge.skype.com
 crash.steampowered.com
-
 # PopupBlocker
 cmp.dreamlab.pl
 mxapis.com
 popup.bitdefender.pl
-
 # CCleaner
 ccleaner.com
 analytics.ff.avast.com
@@ -61,7 +54,6 @@ driver-updater.ff.avast.com
 secure.ccleaner.com
 geolocation.onetrust.com
 region1.google-analytics.com
-
 # Background pings
 events.eu1.segmentapis.com
 sdk.fra-02.braze.eu
