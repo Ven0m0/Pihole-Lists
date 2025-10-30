@@ -41,7 +41,6 @@ nmtracking.netflix.com
 (\.|^)fb-analytics\.com$
 mqtt-mini.facebook.com
 a-graph.facebook.com
-
 # Snapchat
 \b(?:log|logs)-?\w*-?\.snapchat\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.snapchat\.\w+\b
@@ -71,7 +70,6 @@ snapchat-proxy.appspot.com
 tr.snapchat.com
 us-east1-aws.api.snapchat.com
 usc.adserver.snapads.com
-
 # Instagram
 \b(?:log|logs)-?\w*-?\.instagram\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.instagram\.\w+\b
@@ -87,7 +85,6 @@ white.ish.instagram.com
 instagram.c10r.facebook.com
 z-p4.graph.instagram.com
 z-p42.graph.instagram.com
-
 # Reddit
 \b\w*-?tracking(?:-?\w*)?\.reddit\.\w+\b
 \b\w*-?reporting(?:-?\w*)?\.reddit\.\w+\b
@@ -99,13 +96,11 @@ hits.dwyl.io
 # Shut down some of Reddit's fingerprinting ability (https://www.reddit.com/r/firefox/comments/hnar5k/i_keep_getting_prompted_to_enable_drm_on_reddit/ https://smitop.com/post/reddit-whiteops/)
 udkcrj.com
 s.udkcrj.com
-
 # Youtube
 \b(?:log|logs)-?\w*-?\.youtube\.\w+\b
 \b\w*-?telemetry(?:-?\w*)?\.youtube\.\w+\b
 \b(?:ad|ads)-?\w*-?\.youtube\.\w+\b
 \b(?:analytic|analytics)-?\w*-?\.youtube\.\w+\b
-
 # Tiktok
 \b(?:x?logs?|rtlogs?)-?\w*(?:-\w+)*\.tiktokv?\.\w+\b
 \b\w*-?applog(?:-?\w*)?\.tiktokv?\.\w+\b
@@ -151,10 +146,8 @@ vaali-mcs.byteoversea.com
 api.bytegle.tech
 api16-access-sg.pangle.io
 pangle.io
-
 # Twitter
 syndication.twitter.com
-
 # Whatsapp
 graph.whatsapp.com
 crashlogs.whatsapp.net

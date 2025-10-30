@@ -100,13 +100,10 @@ supportmetrics-uat.apple.com
 trace.apple.com
 tracker.apple.com
 qwapi.apple.com
-
 # Apple Thread DNS requests leaking from LAN
 (\.|^)openthread\.thread\.home\.arpa$
-
 # Ubuntu
 daisy.ubuntu.com
-
 # Mozilla
 (\.|^)telemetry\.mozilla\.org$
 (\.|^)relay\.mozilla\.org$
@@ -130,17 +127,14 @@ img-getpocket.cdn.mozilla.net
 normandy-cloudfront.cdn.mozilla.net
 d3ozddcpb3il9a.cloudfront.net
 donate.mozilla.org
-
 # Brave
 usage-ping.brave.com
 variations.brave.com
 ads-static.brave.com
 brave-core-ext.s3.brave.com
 (\.|^)rewards\.brave\.com$
-
 # Vodafone
 netperform-lz.vodafone.com
 beta.vodafone.de
-
 # Steelseries
 void.steelseries.com
