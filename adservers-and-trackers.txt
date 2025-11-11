@@ -68,7 +68,6 @@ static.2mdn.net
 2mdn.net
 s0-2mdn-net.l.google.com
 doubleclickbygoogle.com
-
 # Google AdMob Ads
 admob.com
 a.admob.com
@@ -103,44 +102,34 @@ admob.tw
 admob.vn
 www.admob.com.akadns.net
 admob-creative.googleusercontent.com
-
 # YouTube Ads
 ads.youtube.com
-
 # Alexa Metrics
 certify-js.alexametrics.com
-
 # Apple's iAd
 iadsdk.apple.com
-
 # Apple Metrics
 metrics.apple.com
 metrics.icloud.com
-
 # Admedo: Self-serve advertising platform (based in London, UK)
 admedo.com
 l.admedo.com
 pj.l.admedo.com
-
 # Adversal: Self-serve native advertising (based in Indiana, US)
 adversal.com
 go.adversal.com
 go2.adversal.com
 go3.adversal.com
-
 # AdWhirl (formerly Adrollo): iOS Mobile Ad Aggregator (part of AdMob, based in California, US)
 adwhirl.com
 met.adwhirl.com
 mob.adwhirl.com
-
 # AdColony: Mobile advertising and monetization (based in Los Angeles, California)
 adcolony.com
 wd.adcolony.com
 adc3-launch.adcolony.com
-
 # Admitad: Affiliate ads network (based in Baden-Wurttemberg, Germany)
 admitad.com
-
 # Adjust Mobile Tracking (based in Berlin, Germany)
 adjust.com
 atom.adjust.com
@@ -148,15 +137,12 @@ events.adjust.com
 ulink.adjust.com
 view.adjust.com
 #app.adjust.com # might break functionality
-
 # Affle: Mobile marketing platform (based in India)
 affle.com
-
 # BODIS: Domain Monetization (based in Tampa, Florida)
 bodis.com
 ns1.bodis.com
 ns2.bodis.com
-
 # Braze, Inc. (formerly AppBoy Inc. 2011-2017, based in New York City)
 appboy.com
 dev.appboy.com
@@ -164,12 +150,10 @@ iad.appboy.com
 venitia.iad.appboy.com
 braze.com
 www.braze.com
-
 # AppNext: App marketing, mobile monetization (based in Israel, part of Affle group)
 global.appnext.com
 cdn.appnext.com
 appnext.com
-
 # AppNexus Ads (part of AT&T's Xandr, based in New York, US)
 a.adk2x.com
 adk2x.com
@@ -185,13 +169,10 @@ vcdn.adnxs.com
 secure.adnxs.com
 secure-sin.adnxs.com
 acdn.adnxs.com
-
 # Appodeal: Mobile apps monetization
 appodeal.com
-
 # Applift: Ads and Analytics (based in San Francisco, California, US)
 applift.com
-
 # AppLovin: Mobile marketing platform (based in Palo Alto, California, US)
 vid.applovin.com
 pdn.applovin.com
@@ -205,54 +186,41 @@ rt.applovin.com
 rt.applvn.com
 applovin.com
 applvn.com
-
 # SafeDK (part of AppLovin)
 safedk.com
 config.safedk.com
-
 # SnapChat analytics
 app-analytics-v2.snapchat.com
-
 # Supersonic: Game Ads (based in South Africa)
 supersonicads.com
 supersonicads-a.akamaihd.net
 init.supersonicads.com
-
 # SwiftKey Telemetry
 telemetry.api.swiftkey.com
-
 # Vungle (merged with Liftoff): Mobile advertising and App monetization (part of Blackstone Group)
 vungle.com
 api.vungle.com
 ads.api.vungle.com
-
 # Amplitude: Analaytics for web and mobile products (based in San Francisco, California, US)
 api.amplitude.com
-
 # AOL Advertising
 ads.aol.co.uk
 ads.web.aol.com
 advertising.aol.com
 adserver.aol.fr
-
 # AdsWizz, Inc.: Audio Ads (part of Sirius XM, based in US)
 adswizz.com
 delivery-cdn-cf.adswizz.com
-
 # AdLeads, Ltd. (based in Hull, UK)
 adleads.com
-
 # AdRoll: Digital marketing (based in San Francisco, California, US)
 adroll.com
 s.adroll.com
-
 # AdScore detection
 adsco.re
 c.adsco.re
-
 # Adyen Payments
 #live.adyen.com # This wil break Alipay payments
-
 # Batmobi Ads: Ad SDK/Digital Marketing [Malware] (based in Guangzhou, China)
 batmobi.net
 batmobil.net
@@ -263,35 +231,28 @@ www.batmobi.net
 api2.batmobi.net
 api5.batmobi.net
 sts.batmobi.net
-
 # BitComet
 inside.bitcomet.com
-
 # Wunderkind: Analytics (formerly Bounce Exchange, Inc)
 bounceexchange.com
 core.bounceexchange.com
 wunderkind.co
-
 # Carbon Ads: Advertising network (part of BuySellAds, based in Seattle, Washington, US)
 carbonads.net
 srv.carbonads.net
-
 # Calldorado: User Engagement SDK (based in London, UK)
 calldorado.com
 euw1.calldorado.com
 stats.calldorado.com
-
 # Celtra: Media Advertising (based in Boston, US)
 cdn.celtra.com
 ads.celtra.com
 cache.celtra.com
 cache-ssl.celtra.com
 track.celtra.com
-
 # Chartboost: Mobile ads and promotions (based in Barcelona and Beijing)
 chartboost.com
 live.chartboost.com
-
 # Comscore, Inc: Analytics and Marketing (based in Reston, Virginia, US)
 comscore.com
 comscore.net
@@ -302,7 +263,6 @@ comscoredirect.net
 comscorenetworks.net
 mycomscore.net
 mycomscore.com
-
 # Crashlytics: Crash reporting tool, owned by Google (previously Twitter)
 crashlytics.163.com
 crashlytics.com
@@ -310,25 +270,20 @@ crashlytics.twimg.com
 e.crashlytics.com
 reports.crashlytics.com
 settings.crashlytics.com
-
 # Sentry: App Monitoring and Crash Reporting
 sentry.io
-
 # Epom Ad Server (based in Kiev, Ukraine)
 epom.com
 apps.epom.com
-
 # TrafficJunky Advertising (MG Freesites Ltd.)
 trafficjunky.com
 trafficjunky.net
 media.trafficjunky.net
 ads.trafficjunky.net
-
 # EroAdvertising
 ero-advertising.com
 adspaces.ero-advertising.com
 www.ero-advertising.com
-
 # ExoClick and ExoServe (part of EXOGROUP, Benjamin Fonzé)
 ads.exoclick.com
 ads.exosrv.com
@@ -338,11 +293,9 @@ static.realsrv.com
 exoclick.com
 exosrv.com
 realsrv.com
-
 # ExoticAds: Advertising Network (based in Irvine, California, US)
 cdn.exoticads.com
 exoticads.com
-
 # Fastclick: Digital marketing (part of Conversant, based in California, US)
 cdn.fastclick.net
 code.fastclick.net
@@ -352,23 +305,18 @@ secure.fastclick.net
 sp.fastclick.net
 sync.fastclick.net
 fastclick.net
-
 # FireAds: Affiliate Network
 fireads.org
-
 # Foxpush: Push Notifications
 foxpush.net
 js.foxpush.com
-
 # DeviantART Ads
 adcast.deviantart.com
 adimg.deviantart.net
 da-ads.com
 dapxl.com
-
 # Disqus Ads
 disqusads.com
-
 # Drawbridge Ads
 adsymptotic.com
 c.adsymptotic.com
@@ -377,62 +325,48 @@ ads-west.colo.adsymptotic.com
 ads-west-colo.adsymptotic.com
 ads-east-aws.adsymptotic.com
 ads-east.colo.adsymptotic.com
-
 # GeoTrust cert revocation server
 #gtssl2-ocsp.geotrust.com
-
 # GoAdServer
 goadserver.com
 www.goadserver.com
 goasrv.com
 go.goasrv.com
-
 # Integral Ad Science
 anycast.pixel.adsafeprotected.com
 dt.adsafeprotected.com
 fw.adsafeprotected.com
-
 # Intercom Ads
 #intercom.io
-
 # Kantar Operations Adware: Data collection (based in London, UK)
 core.insightexpressai.com
 secure.insightexpressai.com
-
 # Leadbolt: Mobile advertising platform (based in Sydney, Australia)
 leadbolt.com
-
 # Leanlab: Tracking (based in Aberdeen, UK)
 track.leanlab.co
-
 # LinkedIn Ads
 ads.linkedin.com
 dc.ads.linkedin.com
 px.ads.linkedin.com
-
 # Localytics: Mobile app analytics and marketing platform
 localytics.com
 analytics.localytics.com
-
 # Parsely Tracking
 cdn.parsely.com
 parsely.com
 parse.ly
-
 # PropellerAds: Mobile and self-service display ads (part of AdTech)
 propellerads.com
 native.propellerads.com
 tracking.propellerads.com
 ad.propellerads.com
 adp.propellerads.com
-
 # PopAds
 popads.media
-
 # Pub Network
 a.pub.network
 pub.network
-
 # PubMatic Ads
 pubmatic.com
 aud.pubmatic.com
@@ -442,35 +376,27 @@ image2.pubmatic.com
 aktrack.pubmatic.com
 showads33000.pubmatic.com
 bid.pubmatic.com
-
 # Mojiva Ads (part of PubMatic now)
 mojiva.com
 ads.mojiva.com
-
 # mOcean (formerly Mojiva)
 mocean.mobi
-
 # Pandora Ads
 ad.pandora.tv
 ads.pandora.tv.net
 stats.pandora.com
-
 # Tumblr
 px.srvcs.tumblr.com
-
 # VoiceFive
 voicefive.com
 ar.voicefive.com
 sb.voicefive.com
-
 # WordPress Pixel
 pixel.wp.com
-
 # Media Whiz Marketing
 thewhizmarketing.com
 tvhero.thewhizmarketing.com
 seen-on-screen.thewhizmarketing.com
-
 # Yandex Analytics and Marketing
 mc.yandex.ru
 an.yandex.ru
@@ -479,11 +405,9 @@ appmetrica.yandex.net
 #pixel.yabidos.com
 #avatars.mds.yandex.net
 ads.yandex.com
-
 # Yadro Tracking
 counter.yadro.ru
 yadro.ru
-
 # Yahoo Ads
 ads.yimg.com
 ads.yahoo.com
@@ -493,15 +417,12 @@ global.adserver.yahoo.com
 na.ads.yahoo.com
 #gemini.yahoo.com
 admanager.yahoo.com
-
 # Yahoo Tracking
 analytics.query.yahoo.com
-
 # Yahoo's AdFlurry
 ads.flurry.com
 data.flurry.com
 media-router-flurry7.prod.media.wg1.b.yahoo.com
-
 # Yahoo's Mydas
 mydas.mobi
 cvt.mydas.mobi
@@ -512,7 +433,6 @@ ads.mp.mydas.mobi
 golds.lp.mydas.mobi
 lp.mp.mydas.mobi
 media.mydas.mobi
-
 # InMobi Ads (based in Bangalore, India)
 config.inmobi.com
 telemetry.sdk.inmobi.com
@@ -529,21 +449,16 @@ japan.inmobi.com
 adtracker.inmobi.com
 js.inmobi-jp.com
 inmobi.com
-
 # RayJump: Advertising and data collection platform (based in China, part of Mobvista)
 rayjump.com
 net.rayjump.com
 d1om9znyumzhxf.cloudfront.net
-
 # ReviveAds: AdBlock Prevention ("ad-reinsertion")
 reviveads.com
-
 # RedGIFs Telemetry
 metrics.redgifs.com
-
 # SoundCloud Telemetry
 telemetry.soundcloud.com
-
 # Spotify Ads, Tracking and Analytics
 ads.spotify.com
 adstudio.spotify.com
@@ -653,7 +568,6 @@ spotxchange.com
 spotx.tv
 www.spotx.tv
 assets.spotify.com
-
 # Spotify etc.
 #audio-ak-spotify-com.akamaized.net
 #audio-akp-spotify-com.akamaized.net
@@ -666,7 +580,6 @@ assets.spotify.com
 #eip-onnet.audio-ak.spotify.com.akahost.net
 #eip-tata.audio-ak.spotify.com.akahost.net
 #eip-ntt.audio-ak.spotify.com.akahost.net
-
 # The following lines are known to interfere with some parts of Spotify
 #open.spotify.com
 #open.scdn.co
@@ -692,25 +605,19 @@ assets.spotify.com
 #o.scdn.co
 #p.scdn.co
 #t.scdn.co
-
 # The following URL pattern should entirely be blocked:
 # regex:^https?://spclient\.wg\.spotify\.com/(.+\/)?(ads|ad-logic)/.*$
 # However, the `spclient.wg.spotify.com` domain should remain whitelisted
-
 # TikTok Ads
 api.bytegle.tech
-
 # Urban Airship (i.e. data protected)
 combine.urbanairship.com
-
 # UserLeap Product & User Research Software
 userleap.com
 api.userleap.com
-
 # Unity Ads
 config.unityads.unity3d.com
 unityads.unity3d.com
-
 # Microsoft Ads
 msads.net
 msecn.net
@@ -738,14 +645,12 @@ microsoftadvertising.com
 ads.microsoft.com
 bingads.microsoft.com
 #apps.skype.com  # might interfere with Skype Home
-
 # Microsoft Tracking
 pipe.aria.microsoft.com
 vortex.data.microsoft.com
 events.data.microsoft.com
 telemetry.microsoft.com
 #graph.microsoft.com
-
 # Facebook Ads
 atdmt.com
 ec.atdmt.com
@@ -754,7 +659,6 @@ ad.atdmt.com
 c.atdmt.com
 aidps.atdmt.com
 db3aqu.atdmt.com
-
 # Facebook Tracking, WhatsApp Telemetry
 graph.instagram.com
 dit.whatsapp.net
@@ -762,7 +666,6 @@ web.facebook.com
 #graph.facebook.com  # breaks some Facebook functionality
 graph.oculus.com
 graph.facebook-hardware.com
-
 # Amazon Ads
 amazon-adsystem.com
 s.amazon-adsystem.com
@@ -770,11 +673,8 @@ c.amazon-adsystem.com
 aax.amazon-adsystem.com
 aax-us-west.amazon-adsystem.com
 mads.amazon.com
-
 # Amazon/Alexa Tracking
 certify.alexametrics.com
-certify-js.alexametrics.com
-
 # Hosted by Amazon CloudFront
 d26zuh3orto56v.cloudfront.net
 d2bgg7rjywcwsy.cloudfront.net
@@ -790,73 +690,57 @@ d3rt1990lpmkn.cloudfront.net
 d3rt199lpmkn.cloudfront.net
 dc5ig2fc8lg83.cloudfront.net
 dj1d6o6ftflzi.cloudfront.net
-
 # Longtail Ad Solutions (also used in JW Player)
 #content.bitsontherun.com  # might break functionality
 #content.jwplatform.com  # might break functionality
 v.jwpcdn.com
-
 # Media Innovation Group (no longer operational)
 eu-gmtdmp.gd1.mookie1.com
 t.mookie1.com
-
 # Media Match
 media-match.com
-
 # My Visual IQ
 myvisualiq.net
 t.myvisualiq.net
 vt.myvisualiq.net
-
 # Omaze
 omaze.com
 www.omaze.com
-
 # OMG Inc.
 ads.cdn.live
-
 # QuantCast Advertising
 quantcast.mgr.consensu.org
 quantcast.com
-
 # QuantServe Tracking
 pixel.quantserve.com
 secure.quantserve.com
-
 # Taboola Ads
 cdn.taboola.com
-
 # Tapad
 swappit.tapad.com
 adsrv1.tapad.com
 campaign-tapad.s3.amazonaws.com
-
 # Tapjoy: Mobile advertising
 tapjoy.com
 rpc.tapjoy.com
 connect.tapjoy.com
 tapjoyads.com
 ws.tapjoyads.com
-
 # TapResearch: App monetization
 tapresearch.com
-
 # Tune (formerly MobileAppTracking)
 tune.com
 www.tune.com
-
 # MdotM Ads
 mdotm.com
 ads.mdotm.com
 cdn.mdotm.com
-
 # Mixpanel Analytics
 api.mixpanel.com
 decide.mixpanel.com
 mixpanel.com
 switchboard.mixpanel.com
 www.mixpanel.com
-
 # Moat (by Oracle): Ads and Analytics (measurement and marketing analytics)
 moatads.com
 js.moatads.com
@@ -868,30 +752,24 @@ yt.moatads.com
 yts.moatads.com
 wildcard.moatads.com.edgekey.net
 moatpixel.com
-
 # Mobclix (based in Palo Alto, CA, US): Mobile ad exchange network
 s.mobclix.com
 ads.mobclix.com
 data.mobclix.com
-
 # MoPub (part of AppLovin): In-app monetization, Ad serving for mobile apps
 mopub.com
 ads.mopub.com
-
 # Twitter
 syndication.twitter.com
-
 # Scorecard Research (i.e. ComScore): Web analytics and tracking company
 scorecardresearch.com
 b.scorecardresearch.com
 sb.scorecardresearch.com
 udm.scorecardresearch.com
-
 # Smaato: Mobile Advertising (based in San Francisco, California, US)
 soma.smaato.net
 c29new.smaato.net
 smaato.net
-
 # Sizmek (partof adtech): Amazon Ads (based in Austin, Texas, US)
 bs.serving-sys.com
 ds.serving-sys.com
@@ -899,12 +777,10 @@ msntest.serving-sys.com
 secure-bs.serving-sys.com
 secure-ds.serving-sys.com
 #conn.skype.commsntest.serving-sys.com
-
 # Velti: Mobile Marketing (based in Dublin, Ireland)
 ru.velti.com
 mwc.velti.com
 atti.velti.com
-
 # Vserv: Mobile Advertising (based in Mumbai, India)
 vserv.mobi
 a.vserv.mobi
@@ -912,15 +788,12 @@ c.vserv.mobi
 sf.vserv.mobi
 ads.vserv.mobi
 admin.vserv.mobi
-
 # Hotjar: Website Heatmaps & Behavior Analytics Tools
 hotjar.com
-
 # JetSwap, Inc. (based in London, and Russian Federation)
 jetswap.com
 go.jetswap.com
 main.jetswap.com
-
 # JuicyAds, Inc. (based in Saskatchewan, Canada): Banner Ads, Native Advertising, and PopUnders
 www.juicyads.com
 js.juicyads.com
@@ -928,13 +801,11 @@ adserver.juicyads.com
 juicyads.com
 jads.co
 poweredby.jads.co
-
 # Jumptap LLC (based in Federal Street Boston)
 jumptap.com
 a.jumptap.com
 i.jumptap.com
 bo.jumptap.com
-
 # Medialytics: Video analytics
 medialytics.com
 a.medialytics.com
@@ -946,7 +817,6 @@ cp.medialytics.com
 tag.medialytics.com
 cdn.creative.medialytics.com
 px.cdn.creative.medialytics.com
-
 # .app/ads: Ad management platform for mobile application developers (located in US)
 appads.com
 cdn.appads.com
@@ -954,13 +824,10 @@ jupiter.appads.com
 neptune.appads.com
 saturn.appads.com
 req.appads.com
-
 # AdBlockChoices
 adblockchoices.org
-
 # AppBrain: Mobile advertising, monetization and analytics (part of AppTornado GmbH, based in Zürich, Switzerland)
 appbrain.com
-
 # Ad Infuse: Mobile targeted advertising and marketing (based in US)
 adinfuse.com
 go.adinfuse.com
@@ -974,7 +841,6 @@ orangeuk-mc.adinfuse.com
 orange-fr.adinfuse.com
 intouch.adinfuse.com
 funnel0.adinfuse.com
-
 # AdMarvel: Mobile advertising platform (based in San Mateo, California, US)
 admarvel.com
 ads.admarvel.com
@@ -982,32 +848,25 @@ admarvel.s3.amazonaws.com
 #static.admarvel.top
 a.admarvel.top
 admarvel.top
-
 # Adform: Global digital media advertising (based in Copenhagen, Denmark)
 adform.com
 adform.net
 track.adform.net
 a2.adform.net
-
 # Adfonic Ltd.: Mobile advertising (formerly byyd, based in London, UK)
 adfonic.net
 as.adfonic.net
-
 # AdTiming: Mobile marketing and ad-based revenue (based in Singapore)
 adtiming.com
 sdk.adtiming.com
-
 # Smart Adserver (based in Paris, France)
 smartadserver.com
-
 # Flashtalking: Ad server (part of Mediaocean, based in London, UK)
 flashtalking.com
 secure.flashtalking.com
-
 # Fyber: Mobile apps monetization platform (part of Digital Turbine, Inc)
 digitalturbine.com
 fyber.com
-
 # Oath ad:tech, owned by Verizon Media (formerly AOL AdTech, based in Frankfurt, Germany)
 adtechus.com
 adserver.adtechus.com
@@ -1025,7 +884,6 @@ adserver-us.adtech.advertising.com
 adserver-eu.adtech.advertising.com
 hb-us.adtech.advertising.com
 hb-as.adtech.advertising.com
-
 # AdapTV (now ONE by AOL's adap.tv)
 cdn.adaptv.advertising.com
 sync.adaptv.advertising.com
@@ -1045,56 +903,43 @@ ads-direct-wc.adaptv.advertising.com
 ads-ec.adaptv.advertising.com
 ads-test.adaptv.advertising.com
 ads-wc.adaptv.advertising.com
-
 # Xandr, Inc: AT&T's Advertising and Analytics
 xandr.com
-
 # Verizon Media, ONE by AOL (Oath, Inc.)
 advertising.com
-
 # Forter: Fraud Prevention
 078d9f6a6dc1.cdn4.forter.com
-
 # Greystripe: Mobile advertising platform/network (based in US)
 greystripe.com
 adsx.greystripe.com
 ads2.greystripe.com
 c.greystripe.com
-
 # Tradedoubler AB: Digital marketing, Global affiliate marketing (based in Stockholm, Sweden)
 clk.tradedoubler.com
 tradedoubler.com
-
 # Traffic Factory: Advertising Network (based in Prague, Czech Republic)
 trafficfactory.com
 trafficfactory.biz
-
 # Mobvista Co., Ltd: Mobile advertising and analytics (based in Guangzhou, China)
 mobvista.com
-
 # NativeX (formerly W3i, part of Mobvista): Mobile advertising and marketing (based in US)
 nativex.com
 w3i.com
 click.w3i.com
 api.w3i.com
-
 # Nimbus Ads: Mobile advertising (based in New York City)
 adsbynimbus.com
-
 # Vdopia, Inc: Mobile Video Ads (based in San Jose, California, US)
 serve.vdopia.com
 cdn.vdopia.com
-
 # Zynga Inc. Games Ads (based in US)
 zynga.com
 ads.zynga.com
 r.ads.zynga.com
 zynga2-a.akamaihd.net
-
 # Alibaba/Taobao Statistics and Analytics (based in Hangzhou, Zhejiang, China)
 mmstat.com
 px.effirst.com
-
 # List of more ads
 bestcontentnetwork.top
 i.bestcontentnetwork.top
@@ -1106,7 +951,6 @@ sync.rhythmxchange.com
 m.goadservices.com
 ut.performax.cz
 cdn.bncloudfl.com
-
 # Malware domains related to browser extensions
 # such as NanoDefender and The Great Suspender
 # being sold out
@@ -1114,7 +958,6 @@ static.trckpath.com
 static.trckingbyte.com
 cdn.owebanalytics.com
 def.dev-nano.com
-
 # Other ads/tracking/malware
 wpu.sh
 cst.wpu.sh

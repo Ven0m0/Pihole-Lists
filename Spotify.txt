@@ -15,7 +15,6 @@ analytics.spotify.com
 
 # Needs "spclient.wg.spotify.com" whitelisted
 ^https?://spclient\.wg\.spotify\.com/(.+\/)?(ads|ad-logic)/.*$
-
 # Ad server
 ads-akp.spotify.com
 ads-fa.spotify.ads.pubmatic.com
@@ -65,7 +64,6 @@ prod.spotify.map.fastly.net
 prod.spotify.map.fastlylb.net
 spotify.facebook.com
 video-ak.cdn.spotify.com
-
 # Akamai technologies
 a1294.w20.akamai.net
 a1843.g.akamai.net

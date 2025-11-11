@@ -63,7 +63,6 @@ collect-eu-fy2021.myhomescreen.tv
 collect-eu-fy2022.myhomescreen.tv
 collect-eu-fy2023.myhomescreen.tv
 x2.vindicosuite.com
-
 # Samsung
 (^|\.)giraffic\.com$
 (^|\.)internetat\.tv$
@@ -156,12 +155,10 @@ ypu.samsungelectronics.com
 zpu.samsungelectronics.com
 www.samsungrm.net
 www.samsungelectronics.com
-
 # Philips
 ad.nettvservices.com
 legacyportal.nettvservices.com
 nettv.corio.com
-
 # Sony Smart TV
 api-mf.meta.ndmdhs.com
 black.ndmdhs.com
@@ -183,12 +180,10 @@ ssm1.internet.sony.tv
 ssm2.internet.sony.tv
 ssm3.internet.sony.tv
 tvsideviewandroidv2-cfgdst-ore-pro.bda.ndmdhs.com
-
 # Toshiba Smart TVs
 file2fxm.azureedge.net
 7345023508.fxmconnect.com
 7345023508.fxm9485766783.com
-
 # Roku
 ads.roku.com
 logs.roku.com
@@ -199,7 +194,6 @@ liberty.logs.roku.com
 midland.logs.roku.com
 ravm.tv
 scribe.logs.roku.com
-
 # Misc
 (\.|^)secure-geolocation.premiumtv.co\.\w+\b
 ^api\..*\.hismarttv\.com$

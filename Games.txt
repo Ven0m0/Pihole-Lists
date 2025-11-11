@@ -25,7 +25,6 @@ steambroadcast.akamaized.net
 ipv6check-http.steamcontent.com                        
 ipv6check-udp.steamcontent.com 
 ipv6check-udp.steamserver.net 
-
 # Rockstar Games
 www.googletagmanager.com
 o432808.ingest.sentry.io
@@ -36,7 +35,6 @@ ps-rgl-prod.ros.rockstargames.com
 tm-rgl-prod.ros.rockstargames.com
 rsgames.s.llnwi.net
 e8290.dscd.akamaiedge.net
-
 # Ubisoft
 smetrics.ubi.com
 try.abtasty.com
@@ -45,10 +43,8 @@ ariane.abtasty.com
 dpm.demdex.net
 polyfill.io
 cdn.cquotient.com
-
 # Razer
 deals-assets-cdn.razerzone.com 
-
 # NVIDIA telemetry
 ^(?:.*\.)?telemetry[-.]?(?:.*\.)?nvidia\.com$
 events.gfe.nvidia.com
@@ -67,37 +63,30 @@ login.nvgs.nvidia.cn
 gfwsl.geforce.com
 gfe.nvidia.com
 services.gfe.nvidia.com
-events.gfe.nvidia.com
 images.nvidiagrid.net
 rds-assets.nvidia.com
 assets.nvidiagrid.net
 telemetry.nvidia.com
 ssl.google-analytics.com
 telemetry-dce.gfe.nvidia.com
-
 # Intel
 gameplayapi.intel.com
 gameplay.intel.com
-
 # Sony
 bravia.dl.playstation.net
 cs.prd.msys.playstation.net
 ndmdhs.com # Sony tracking domain used in mobile apps, smart TV's, PlayStations, etc.
 mds.csx.sony.com
 mobile-pushcl.np.communication.playstation.net
-
 # PS3
 mercury.dl.playstation.net
 nsx.np.dl.playstation.net
 adproxy.ndmdhs.com
-
 # PS5
 telemetry-console.api.playstation.com
 telemetry-cii.api.playstation.com
-
 nsx-e.np.dl.playstation.net
 nw-umwatson.events.data.microsoft.com
 at.atwola.com
-
 # Xbox 360
 rad.msn.com
