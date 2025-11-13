@@ -1,5 +1,4 @@
 name: Update Adlists
-
 on:
   workflow_dispatch:
   #schedule:
@@ -8,55 +7,16 @@ on:
 permissions:
   contents: write
   pull-requests: write
-
 jobs:
   update_links:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v5
-
-      - name: Restore lychee cache
-        uses: actions/cache/restore@v4
-        with:
-          path: .lycheecache
-          key: cache-lychee-${{ github.ref_name }}
-          restore-keys: cache-lychee-
-
-      - name: Run lychee
-        id: lychee
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: --base . --cache --max-cache-age 1d
-          fail: false
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Backup affected files
-        if: always()
-        run: |
-          mkdir -p backup
-          DEAD=$(jq -r '.failures[].uri' ./lychee/report.json || true)
-          for url in $DEAD; do
-            grep -rlF "$url" . --include '*.txt' | while read -r f; do
-              mkdir -p "backup/$(dirname "$f")"
-              cp -n "$f" "backup/$f"
-            done
-          done
-
-      - name: Remove dead links
-        if: always()
-        run: |
-          DEAD=$(jq -r '.failures[].uri' ./lychee/report.json || true)
-          for url in $DEAD; do
-            grep -rlF "$url" . --include '*.txt' | while read -r f; do
-              sed -i "s|$url||g" "$f"
-            done
-          done
 
       - name: Deduplicate lines (preserve order)
         run: |
           for f in $(find . -type f -name '*.txt'); do
-            awk '!seen[$0]++' "$f" > "$f.tmp" && mv "$f.tmp" "$f"
+            LC_ALL=C awk '!seen[$0]++' "$f" > "$f.tmp" 2>/dev/null && mv "$f.tmp" "$f"
           done
 
       - name: Detect changes
@@ -80,15 +40,3 @@ jobs:
           git checkout -b "$BRANCH"
           git commit -m "Automated dead link removal and deduplication"
           git push origin "$BRANCH"
-
-      - name: Create pull request
-        if: steps.changes.outputs.changed == 'true'
-        uses: peter-evans/create-pull-request@v7
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: main
-          branch: ${{ github.ref_name }}
-          title: "Update adlists - remove dead links"
-          body: |
-            Automated removal of dead links and deduplication of adlists.
-            Original files are backed up in `backup/`.
