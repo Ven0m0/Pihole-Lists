@@ -5,9 +5,6 @@ export LC_ALL=C
 # Make sure the local git repo is up to date
 git pull
 
-# Get OISD list, since the HostlistCompiler can't fetch it for whatever reason » https://github.com/AdguardTeam/HostlistCompiler/issues/58
-curl https://big.oisd.nl/ -o ../oisd.txt
-
 # Create compiled blocklist
 time hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
 
@@ -22,6 +19,8 @@ minlist(){
   # Remove empty lines
   sed -i '/^$/d' "$tmp" 2>/dev/null && success=1
   awk '!seen[$0]++' "$tmp" 2>/dev/null && success=1
+  awk '{gsub(/^ +| +$/,"")}1' "$tmp" 2>/dev/null && success=1
+  awk '!/^#/' "$tmp" 2>/dev/null && success=1
   sort -u "$tmp" 2>/dev/null |> "$tmp"
   if [[ $success -eq 1 ]]; then
     mv "$tmp" "$f"
