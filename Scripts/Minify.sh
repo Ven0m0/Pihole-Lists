@@ -15,13 +15,16 @@ minlist(){
   local f="$1" success=0; local tmp="{f}.tmp"
   cp -- "$f" "$tmp"
   # Remove all whitelisted entries
-  sed -i '/^@@/d' "$tmp" 2>/dev/null && success=1
+  sed -i '/^@@/d' "$tmp" && success=1
   # Remove empty lines
-  sed -i '/^$/d' "$tmp" 2>/dev/null && success=1
-  awk '!seen[$0]++' "$tmp" 2>/dev/null && success=1
-  awk '{gsub(/^ +| +$/,"")}1' "$tmp" 2>/dev/null && success=1
-  awk '!/^#/' "$tmp" 2>/dev/null && success=1
-  sort -u "$tmp" 2>/dev/null |> "$tmp"
+  awk '{gsub(/^ +| +$/,"")}1' "$tmp"  && success=1
+  # Comments
+  awk '!/^#/' "$tmp"  && success=1
+  # Whitespace
+  sed -Ei 's/^[[:space:]]+//;s/[[:space:]]+$//' "$tmp" && success=1
+  # Duplicates
+  awk '!seen[$0]++' "$tmp" && success=1
+  sort -u "$tmp"  |> "$tmp"
   if [[ $success -eq 1 ]]; then
     mv "$tmp" "$f"
   else
