@@ -1,6 +1,3 @@
-https://github.com/Isaaker/Spotify-AdsList/tree/main
-https://raw.githubusercontent.com/Isaaker/Spotify-AdsList/main/Lists/pi-hole.txt
-
 Duperemove:
 awk -i inplace '!a[$0]++' $list
 https://github.com/blocklistproject/Lists
