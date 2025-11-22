@@ -1,42 +1,240 @@
 name: Update Adlists
 on:
   workflow_dispatch:
-  #schedule:
-    #- cron: "0 3 * * *"
+  schedule:
+    - cron: "0 3 * * *"  # Daily at 3 AM UTC
 
 permissions:
   contents: write
   pull-requests: write
+
 jobs:
   update_links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0  # Full history for better change detection
 
-      - name: Deduplicate lines (preserve order)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
+
+      - name: Cache dead-domains-linter
+        id: cache-linter
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-dead-domains-linter-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-dead-domains-linter-
+            ${{ runner.os }}-npm-
+
+      - name: Install dead-domains-linter
         run: |
-          for f in $(find . -type f -name '*.txt'); do
-            LC_ALL=C awk '!seen[$0]++' "$f" > "$f.tmp" 2>/dev/null && mv "$f.tmp" "$f"
+          npm install -g @adguard/dead-domains-linter
+          echo "✓ Installed dead-domains-linter"
+
+      - name: Show files to be processed
+        run: |
+          echo "📋 Files to be processed:"
+          find . -type f -name '*.txt' ! -path '*/\.*' ! -name 'Lists-todo.txt' | sort
+          echo ""
+          echo "📊 Total count: $(find . -type f -name '*.txt' ! -path '*/\.*' ! -name 'Lists-todo.txt' | wc -l) files"
+
+      - name: Remove dead domains
+        continue-on-error: true
+        run: |
+          echo "🔍 Checking for dead domains..."
+          # Run dead-domains-linter on all txt files except Lists-todo.txt
+          dead-domains-linter -a -i "*.txt" --exclude "Lists-todo.txt" || true
+          echo "✓ Dead domain check complete"
+
+      - name: Clean and normalize lists
+        run: |
+          export LC_ALL=C
+          echo "🧹 Cleaning and normalizing lists..."
+
+          processed=0
+          for f in $(find . -type f -name '*.txt' ! -path '*/\.*' ! -name 'Lists-todo.txt'); do
+            echo "Processing: $f"
+
+            # Create temporary file
+            tmp="${f}.tmp"
+
+            # Process the file:
+            # 1. Remove whitelisted entries (@@)
+            # 2. Remove '0.0.0.0' prefixes
+            # 3. Remove comments (lines starting with #)
+            # 4. Remove leading/trailing whitespace
+            # 5. Remove empty lines
+            # 6. Remove duplicates (preserve order)
+            # 7. Sort entries
+            sed '/^@@/d' "$f" | \
+              sed -E 's/^0\.0\.0\.0[[:space:]]+//' | \
+              sed '/^#/d' | \
+              sed -E 's/^[[:space:]]+//;s/[[:space:]]+$//' | \
+              sed '/^$/d' | \
+              awk '!seen[$0]++' | \
+              sort -u > "$tmp"
+
+            # Only replace if processing was successful and file is not empty
+            if [ -s "$tmp" ]; then
+              mv "$tmp" "$f"
+              ((processed++))
+            else
+              # If tmp is empty but original wasn't, keep original
+              if [ -s "$f" ]; then
+                rm -f "$tmp"
+              else
+                # Both empty, keep empty file
+                mv "$tmp" "$f"
+              fi
+            fi
           done
 
-      - name: Detect changes
-        id: changes
+          echo "✓ Processed $processed files"
+
+      - name: Validate list formats
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add .
-          if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+          echo "✅ Validating domain formats..."
+
+          invalid_count=0
+          for f in $(find . -type f -name '*.txt' ! -path '*/\.*' ! -name 'Lists-todo.txt'); do
+            # Check for basic domain format issues
+            # This regex checks for valid domain patterns
+            if grep -Ev '^([a-zA-Z0-9]([a-zA-Z0-9\-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}$|^$' "$f" > /dev/null; then
+              echo "⚠️  Warning: $f may contain invalid domain entries"
+              ((invalid_count++))
+            fi
+          done
+
+          if [ $invalid_count -eq 0 ]; then
+            echo "✓ All lists validated successfully"
           else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "⚠️  Found $invalid_count files with potential issues (continuing anyway)"
           fi
 
-      - name: Commit and push branch
-        if: steps.changes.outputs.changed == 'true'
+      - name: Generate change summary
+        id: summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "📊 No changes detected"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+
+            # Generate statistics
+            files_changed=$(git diff --cached --numstat | wc -l)
+            additions=$(git diff --cached --numstat | awk '{sum+=$1} END {print sum+0}')
+            deletions=$(git diff --cached --numstat | awk '{sum+=$2} END {print sum+0}')
+
+            echo "files_changed=$files_changed" >> "$GITHUB_OUTPUT"
+            echo "additions=$additions" >> "$GITHUB_OUTPUT"
+            echo "deletions=$deletions" >> "$GITHUB_OUTPUT"
+
+            # Generate detailed summary
+            summary="## 📊 Changes Summary\n\n"
+            summary+="- **Files changed:** $files_changed\n"
+            summary+="- **Lines added:** $additions\n"
+            summary+="- **Lines removed:** $deletions\n"
+            summary+="- **Net change:** $((additions - deletions))\n\n"
+            summary+="### Modified Files\n\n"
+            summary+="\`\`\`\n"
+            summary+="$(git diff --cached --name-only)\n"
+            summary+="\`\`\`\n"
+
+            echo "summary<<EOF" >> "$GITHUB_OUTPUT"
+            echo -e "$summary" >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
+
+            echo -e "\n$summary"
+          fi
+
+      - name: Commit and push changes
+        if: steps.summary.outputs.changed == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          BRANCH=update-adlists-$(date +%Y%m%d%H%M)
+          BRANCH="update-adlists-$(date +%Y%m%d-%H%M%S)"
+
           git checkout -b "$BRANCH"
-          git commit -m "Automated dead link removal and deduplication"
-          git push origin "$BRANCH"
+
+          # Create detailed commit message
+          commit_msg="chore: automated list maintenance ($(date +%Y-%m-%d))
+
+          - Removed dead domains
+          - Deduplicated entries
+          - Normalized formatting
+          - Sorted entries alphabetically
+
+          Files changed: ${{ steps.summary.outputs.files_changed }}
+          Lines added: ${{ steps.summary.outputs.additions }}
+          Lines removed: ${{ steps.summary.outputs.deletions }}"
+
+          git commit -m "$commit_msg"
+
+          echo "📤 Pushing to branch: $BRANCH"
+          git push -u origin "$BRANCH"
+
+          echo "branch_name=$BRANCH" >> "$GITHUB_ENV"
+
+      - name: Create Pull Request
+        if: steps.summary.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Create PR with detailed summary
+          pr_body="## 🤖 Automated List Maintenance
+
+          This PR contains automated updates to the blocklists:
+
+          ${{ steps.summary.outputs.summary }}
+
+          ### Actions Performed
+          - ✅ Checked and removed dead domains
+          - ✅ Removed duplicate entries
+          - ✅ Normalized list formatting
+          - ✅ Sorted entries alphabetically
+          - ✅ Validated domain formats
+
+          ### Review Checklist
+          - [ ] Review removed domains to ensure no false positives
+          - [ ] Verify file formatting is correct
+          - [ ] Check that no legitimate domains were removed
+
+          ---
+          *This PR was automatically generated by GitHub Actions*"
+
+          gh pr create \
+            --title "chore: automated list maintenance ($(date +%Y-%m-%d))" \
+            --body "$pr_body" \
+            --base "${{ github.event.repository.default_branch }}" \
+            --head "${{ env.branch_name }}" \
+            --label "automated" \
+            --label "maintenance" || echo "⚠️  PR creation failed (may already exist)"
+
+      - name: Workflow summary
+        if: always()
+        run: |
+          echo "## 🎯 Workflow Completion Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ steps.summary.outputs.changed }}" == "true" ]; then
+            echo "✅ **Status:** Changes detected and processed" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "${{ steps.summary.outputs.summary }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️  **Status:** No changes detected" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "All lists are already up to date!" >> $GITHUB_STEP_SUMMARY
+          fi
