@@ -12,21 +12,21 @@ time hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
 #sed -i '/^.\{1024\}./d' blocklist
 
 minlist(){
-  local f="$1" success=0; local tmp="{f}.tmp"
+  local f="$1" success=0; local tmp="${f}.tmp"
   cp -- "$f" "$tmp"
   # Remove all whitelisted entries
   sed -i '/^@@/d' "$tmp" && success=1
   # Remove '0.0.0.0' domains
   sed -Ei 's/^0\.0\.0\.0[[:space:]]+//' "$tmp"  && success=1
   # Comments
-  awk '!/^#/' "$tmp"  && success=1
+  awk '!/^#/' "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
   # Remove empty lines
-  awk '{gsub(/^ +| +$/,"")}1' "$tmp"  && success=1
+  awk 'NF > 0 {gsub(/^ +| +$/,"")}1' "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
   # Whitespace
   sed -Ei 's/^[[:space:]]+//;s/[[:space:]]+$//' "$tmp" && success=1
   # Duplicates
-  awk '!seen[$0]++' "$tmp" && success=1
-  sort -u "$tmp"  |> "$tmp"
+  awk '!seen[$0]++' "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
+  sort -u "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
   if [[ $success -eq 1 ]]; then
     mv -f "$tmp" "$f"
   else
