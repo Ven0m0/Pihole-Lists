@@ -1,0 +1,64 @@
+name: Build Lists
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"  # Daily at 2 AM UTC
+  push:
+    branches: [main]
+    paths:
+      - 'hostlist-compiler-config.json'
+      - 'Scripts/**'
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout with submodules
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: recursive
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update submodules
+        run: |
+          git submodule update --init --recursive --remote
+          git submodule foreach --recursive 'git fetch origin && git reset --hard origin/$(git rev-parse --abbrev-ref HEAD)'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+      - name: Install hostlist-compiler
+        run: npm i -g @adguard/hostlist-compiler
+      - name: Build blocklist
+        run: |
+          if [[ -f hostlist-compiler-config.json ]]; then
+            hostlist-compiler -v -c hostlist-compiler-config. json -o blocklist
+          else
+            echo "⚠️ No config found, skipping compilation"; exit 1
+          fi
+      - name: Run minify script
+        run: |
+          export LC_ALL=C LANG=C
+          chmod +x Scripts/Minify.sh
+          cd Scripts && ./Minify.sh
+      - name: Check for changes
+        id: changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            printf -v timestamp '%(%Y-%m-%d %H:%M)T' -1
+            echo "timestamp=$timestamp" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commit changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github. com"
+          git commit -m "build: update blocklist ${{ steps.changes.outputs.timestamp }}"
+          git push
