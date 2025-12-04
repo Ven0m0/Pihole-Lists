@@ -1,15 +1,24 @@
 #!/usr/bin/env bash
-export LC_ALL=C
+set -eou pipefail; shopt -s nullglob globstar; IFS=$'\n\t'
+export LC_ALL=C LANG=C
+builtin cd -P -- "$(dirname -- "${BASH_SOURCE[0]:-}")" && printf '%s\n' "$PWD" || exit 1
 # https://github.com/ppfeufer/adguard-filter-list/blob/master/compile-hostlist
+#============ Helpers ====================
+has(){ command -v "$1" &>/dev/null; }
+date(){ local x="${1:-%d/%m/%y-%R}"; printf "%($x)T\n" '-1'; }
+fcat(){ printf '%s\n' "$(<${1})"; }
 
+#============ Main ====================
 # Make sure the local git repo is up to date
-git pull
+git fetch origin
+if [[ $(git rev-parse HEAD) != $(git rev-parse @{u}) ]]; then
+  git pull --rebase
+fi
 
 # Create compiled blocklist
-time hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
-
-# Remove rules that are too long as these are most likely non DNS related rules, see https://github.com/AdguardTeam/AdGuardHome/issues/6003
-#sed -i '/^.\{1024\}./d' blocklist
+if has hostlist-compiler; then
+  time hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
+fi
 
 minlist(){
   local f="$1" success=0; local tmp="${f}.tmp"
@@ -24,6 +33,8 @@ minlist(){
   awk 'NF > 0 {gsub(/^ +| +$/,"")}1' "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
   # Whitespace
   sed -Ei 's/^[[:space:]]+//;s/[[:space:]]+$//' "$tmp" && success=1
+  # Remove rules that are too long as these are most likely non DNS related rules, see https://github.com/AdguardTeam/AdGuardHome/issues/6003
+  #sed -i '/^.\{1024\}./d' blocklist
   # Duplicates
   awk '!seen[$0]++' "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
   sort -u "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
@@ -34,10 +45,8 @@ minlist(){
   fi
 }
 
-# Date and time
-currentDate=`date '+%Y-%m-%d'`
-currentTime=`date '+%H:%M:%S'`
 # Push it to GitHub
-git add *
-git commit -m "Blocklist update ${currentDate} ${currentTime}"
-git push
+printf -v currentDate '%(%Y-%m-%d)T' -1
+printf -v currentTime '%(%H:%M:%S)T' -1)
+git add -A
+git commit -m "Blocklist update ${currentDate} ${currentTime}" && git push
