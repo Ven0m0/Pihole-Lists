@@ -3,7 +3,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 3 * * *"  # Daily at 3 AM UTC
-
 permissions:
   contents: write
   pull-requests: write
@@ -13,12 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout with submodules
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
           submodules: recursive
           token: ${{ secrets. GITHUB_TOKEN }}
-
       - name: Update submodules
         run: |
           git submodule update --init --recursive --remote
@@ -31,25 +29,21 @@ jobs:
             git config user. email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "chore: update submodules" || true
           fi
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
         with:
-          node-version: '20'
-
+          bun-version: latest
       - name: Install tools
         run: |
-          npm i -g @adguard/hostlist-compiler @adguard/dead-domains-linter
+          bun i -g @adguard/hostlist-compiler @adguard/dead-domains-linter
           echo "✓ Installed hostlist-compiler & dead-domains-linter"
-
       - name: Remove dead domains
         continue-on-error: true
         run: |
-          dead-domains-linter -a -i "*. txt" --exclude "Lists-todo.txt" || true
-
+          dead-domains-linter -a -i "*. txt" --exclude "Lists-todo.txt" || :
       - name: Deduplicate files
         run: |
-          export LC_ALL=C
+          export LC_ALL=C LANG=C
           find .  -type f -name '*.txt' !  -path '*/\.*' !  -name 'Lists-todo.txt' -print0 | while IFS= read -r -d '' f; do
             tmp=$(mktemp)
             sed -E '/^@@|^#|^[[:space:]]*$/d; s/^0\. 0\.0\.0[[:space:]]+//; s/^[[:space:]]+//; s/[[:space:]]+$//' "$f" | \
@@ -58,14 +52,12 @@ jobs:
             [[ -s "$tmp" ]] && mv "$tmp" "$f" || rm -f "$tmp"
           done
           echo "✓ Deduplicated all lists"
-
       - name: Build blocklist
         run: |
-          npm i -g @adguard/hostlist-compiler
+          bun i -g @adguard/hostlist-compiler
           if [[ -f hostlist-compiler-config.json ]]; then
             hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
           fi
-
       - name: Validate domains
         run: |
           invalid=0
@@ -76,7 +68,6 @@ jobs:
             fi
           done
           [[ $invalid -eq 0 ]] && echo "✓ All domains valid"
-
       - name: Generate changelog
         id: changelog
         run: |
@@ -92,7 +83,6 @@ jobs:
             echo "adds=$adds" >> "$GITHUB_OUTPUT"
             echo "dels=$dels" >> "$GITHUB_OUTPUT"
           fi
-
       - name: Commit & push
         if: steps.changelog.outputs.changed == 'true'
         run: |
@@ -128,7 +118,6 @@ jobs:
           ### Files
           - \`blocklist\` — Compiled master list" \
             blocklist || echo "Release exists or failed"
-
       - name: Summary
         if: always()
         run: |
