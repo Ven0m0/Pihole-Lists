@@ -1,52 +1,63 @@
 #!/usr/bin/env bash
-set -eou pipefail; shopt -s nullglob globstar; IFS=$'\n\t'
-export LC_ALL=C LANG=C
+set -euo pipefail; shopt -s nullglob globstar
+IFS=$'\n\t'
+export LC_ALL=C LANG=C HOME="/home/${SUDO_USER:-$USER}"
 builtin cd -P -- "$(dirname -- "${BASH_SOURCE[0]:-}")" && printf '%s\n' "$PWD" || exit 1
-# https://github.com/ppfeufer/adguard-filter-list/blob/master/compile-hostlist
-#============ Helpers ====================
+#== Helpers ==
 has(){ command -v "$1" &>/dev/null; }
-date(){ local x="${1:-%d/%m/%y-%R}"; printf "%($x)T\n" '-1'; }
-fcat(){ printf '%s\n' "$(<${1})"; }
+err(){ printf '\e[31m✗\e[0m %s\n' "$*" >&2; exit "${2:-1}"; }
+ok(){ printf '\e[32m✓\e[0m %s\n' "$*"; }
 
-#============ Main ====================
-# Make sure the local git repo is up to date
+#== Sync repo ==
 git fetch origin
-if [[ $(git rev-parse HEAD) != $(git rev-parse @{u}) ]]; then
-  git pull --rebase
-fi
-
-# Create compiled blocklist
+[[ $(git rev-parse HEAD) != $(git rev-parse @{u}) ]] && git pull --rebase
+#== Compile blocklist ==
 if has hostlist-compiler; then
-  time hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
+  time hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist || err "Compilation failed"
+else
+  err "hostlist-compiler not found. Install: npm i -g @adguard/hostlist-compiler"
 fi
 
+#== Minify function ==
 minlist(){
-  local f="$1" success=0; local tmp="${f}.tmp"
-  cp -- "$f" "$tmp"
-  # Remove all whitelisted entries
-  sed -i '/^@@/d' "$tmp" && success=1
-  # Remove '0.0.0.0' domains
-  sed -Ei 's/^0\.0\.0\.0[[:space:]]+//' "$tmp"  && success=1
-  # Comments
-  awk '!/^#/' "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
-  # Remove empty lines
-  awk 'NF > 0 {gsub(/^ +| +$/,"")}1' "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
-  # Whitespace
-  sed -Ei 's/^[[:space:]]+//;s/[[:space:]]+$//' "$tmp" && success=1
-  # Remove rules that are too long as these are most likely non DNS related rules, see https://github.com/AdguardTeam/AdGuardHome/issues/6003
-  #sed -i '/^.\{1024\}./d' blocklist
-  # Duplicates
-  awk '!seen[$0]++' "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
-  sort -u "$tmp" > "${tmp}.2" && mv "${tmp}.2" "$tmp" && success=1
-  if [[ $success -eq 1 ]]; then
-    mv -f "$tmp" "$f"
-  else
-    rm -f "$tmp"
-  fi
+  local f="$1" tmp; tmp=$(mktemp)
+  # Atomic pipeline: remove whitelist/0. 0.0. 0/comments/blanks/dupes in one pass
+  sed -E '/^@@|^#|^[[:space:]]*$/d; s/^0\. 0\.0\.0[[:space:]]+//; s/^[[:space:]]+//; s/[[:space:]]+$//' "$f" | \
+    awk 'NF && ! seen[$0]++' | \
+    sort -u > "$tmp"
+  [[ -s "$tmp" ]] && mv -f "$tmp" "$f" || { rm -f "$tmp"; err "Minify failed: $f"; }
+  ok "Minified: $f ($(wc -l < "$f") entries)"
 }
 
-# Push it to GitHub
+#== Dedupe files ==
+dedupe_files(){
+  local dir="${1:-.}"
+  [[ ! -d "$dir" ]] && return
+  printf 'Deduping files in %s...\n' "$dir"
+  local -A seen hash file line
+  while IFS= read -r line; do
+    hash="${line%%  *}"
+    file="${line#*  }"
+    if [[ -n "${seen[$hash]:-}" ]]; then
+      printf 'rm duplicate: %s (keeps %s)\n' "$file" "${seen[$hash]}"
+      rm -f "$file"
+    else
+      seen[$hash]="$file"
+    fi
+  done < <(find "$dir" -type f -exec md5sum {} + | sort -k1,1)
+}
+
+#== Process lists ==
+dedupe_files . 
+minlist blocklist
+
+#== Commit & push ==
 printf -v currentDate '%(%Y-%m-%d)T' -1
-printf -v currentTime '%(%H:%M:%S)T' -1)
+printf -v currentTime '%(%H:%M:%S)T' -1
 git add -A
-git commit -m "Blocklist update ${currentDate} ${currentTime}" && git push
+if git diff --cached --quiet; then
+  ok "No changes to commit"
+else
+  git commit -m "Blocklist update ${currentDate} ${currentTime}" && git push || err "Push failed"
+  ok "Pushed to origin"
+fi
