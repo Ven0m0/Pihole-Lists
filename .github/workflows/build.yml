@@ -41,15 +41,14 @@ jobs:
           if [[ -f hostlist-compiler-config.json ]]; then
             hostlist-compiler -v -c hostlist-compiler-config.json -o blocklist
           else
-            echo "⚠️ No config found, skipping compilation"
-            exit 1
+            echo "⚠️ No config found, skipping compilation"; exit 1
           fi
 
       - name: Run minify script
         run: |
           export LC_ALL=C LANG=C
-          chmod +x Scripts/Minify. sh
-          cd Scripts && ./Minify.sh
+          chmod +x Scripts/minify.sh
+          cd Scripts && ./minify.sh
 
       - name: Check for changes
         id: changes
