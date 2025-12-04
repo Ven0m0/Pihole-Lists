@@ -1,29 +1,19 @@
-# Attempt to start removing glpals from regex and merging it with a plain blocklist
-glpals.com
+api.countapi.xyz
 bcmls.glpals.com
 bcmls1.glpals.com
 bcmls2.glpals.com
+countapi.xyz
+disqus.com
+dwyl.io
+evoke-windowsservices-tas.msedge.net
 gllto.glpals.com
 gllto1.glpals.com
 gllto2.glpals.com
-
-# disqus is disqusting (activity tracking, bad data policies)
-disqus.com
-# Weird samsung stuff (blocked in some lists I don't use)
-samsung-stub.yana.asideas.de
-# Teams (?)
-evoke-windowsservices-tas.msedge.net
-# I have no idea why mozilla wants to index networks, nor do I know why it tops my logs with 2000 entries (!) in under a day I guess
-# This is also in spite of it being _disabled_ on my phone, and with all the requests coming from my computer. Adios, and fuck off
-locprod1-elb-eu-west-1.prod.mozaws.net
-location.services.mozilla.org
-# Kill off GitHub (3rd party) hit trackers
-# https://github.com/dwyl/hits
+glpals.com
 hits.dwyl.io
-dwyl.io
-# https://github.com/jwenjian/visitor-badge + linked sites
-api.countapi.xyz
-countapi.xyz
+laobi.icu
+location.services.mozilla.org
+locprod1-elb-eu-west-1.prod.mozaws.net
+samsung-stub.yana.asideas.de
 visitor-badge.glitch.me
 visitor-badge.laobi.icu
-laobi.icu

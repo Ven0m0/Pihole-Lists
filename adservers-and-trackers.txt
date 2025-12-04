@@ -1,89 +1,71 @@
-# Google AdWords, AdSense and Analytics
-ads.google.com
-partner.googleadservices.com
-pagead.googlesyndication.com
-pagead1.googlesyndication.com
-pagead2.googlesyndication.com
-pagead3.googlesyndication.com
-ade.googlesyndication.com
-video-ad-stats.googlesyndication.com
-tpc.googlesyndication.com
-googlesyndication.com
-googleadservices.com
-googletagservices.com
-google-analytics.com
-ssl.google-analytics.com
-imageads.googleadservices.com
-adservices.google.com
-adservice.google.com
-adservice.google.com.br
-adservice.google.co.uk
-adservice.google.it
-analytics.google.com
-apps5.oingo.com
-service.urchin.com
-googleadapis.l.google.com
-pagead-googlehosted.l.google.com
-#googlehosted.l.googleusercontent.com
-#redirector.gvt1.com  # might break functionality
-www.googleadservices.com
-www.googletagservices.com
-googletagmanager.com
-www.googletagmanager.com
-app-measurement.com
-
-# Google DoubleClick Ads
-doubleclick.net
-ad.doubleclick.net
-ad-g.doubleclick.net
+0.fls.doubleclick.net
+0.r.msn.com
+078d9f6a6dc1.cdn4.forter.com
+2mdn.net
+54646.co
+a.adk2x.com
+a.admarvel.top
+a.admob.com
+a.ads2.msads.net
+a.adtech.de
+a.applovin.com
+a.applvn.com
+a.bestcontentnetwork.top
+a.jumptap.com
+a.medialytics.com
+a.pub.network
+a.realsrv.com
+a.vserv.mobi
+a2.adform.net
+aax-us-west.amazon-adsystem.com
+aax.amazon-adsystem.com
+ac3.msn.com
+acdn.adnxs.com
 ad-ace.doubleclick.net
 ad-emea.doubleclick.net
-pagead.l.doubleclick.net
-pagead46.l.doubleclick.net
-adclick.g.doubleclick.net
-pubads.g.doubleclick.net
-big.g.doubleclick.net
-securepubads.g.doubleclick.net
-googleads.g.doubleclick.net
-googleads4.g.doubleclick.net
-cm.g.doubleclick.net
-bid.g.doubleclick.net
-stats.g.doubleclick.net
-partnerad.l.doubleclick.net
-0.fls.doubleclick.net
+ad-g.doubleclick.net
+ad-proxy.spotify.com
+ad.atdmt.com
+ad.dc2.adtech.de
+ad.doubleclick.net
 ad.mo.doubleclick.net
-static.doubleclick.net
-ebay.doubleclick.net
-doubleclick.com
-doubleclick.de
-doubleclick.ne.jp
-doublecklick.net
+ad.msn.com
+ad.pandora.tv
+ad.propellerads.com
+ad1.adinfuse.com
+ad2.adinfuse.com
+adblockchoices.org
+adc3-launch.adcolony.com
+adcast.deviantart.com
 adclick.g.doublecklick.net
-gcdn.2mdn.net
-s0.2mdn.net
-s1.2mdn.net
-m.2mdn.net
-twx.2mdn.net
-static.2mdn.net
-2mdn.net
-s0-2mdn-net.l.google.com
-doubleclickbygoogle.com
-# Google AdMob Ads
-admob.com
-a.admob.com
-c.admob.com
-p.admob.com
-admob.xiaomi.com
-api.admob.xiaomi.com
-pixel.admobclick.com
-tracking.admobsphere.com
-media.admob.com
-analytics.admob.com
-admob.com.akadns.net
+adclick.g.doubleclick.net
+adcolony.com
+ade.googlesyndication.com
+adeventtracker.spotify.com
+adfonic.net
+adform.com
+adform.net
+adimg.deviantart.net
+adinfuse.com
+adjust.com
+adk2x.com
+adlab.spotify.com
+adleads.com
+adlog.spotify.com
+admanager.yahoo.com
+admarvel.com
+admarvel.s3.amazonaws.com
+admarvel.top
+admedo.com
+admin.vserv.mobi
+admitad.com
+admob-creative.googleusercontent.com
 admob.biz
 admob.co.kr
 admob.co.nz
 admob.co.uk
+admob.com
+admob.com.akadns.net
 admob.de
 admob.dk
 admob.es
@@ -100,420 +82,143 @@ admob.sg
 admob.tk
 admob.tw
 admob.vn
-www.admob.com.akadns.net
-admob-creative.googleusercontent.com
-# YouTube Ads
-ads.youtube.com
-# Alexa Metrics
-certify-js.alexametrics.com
-# Apple's iAd
-iadsdk.apple.com
-# Apple Metrics
-metrics.apple.com
-metrics.icloud.com
-# Admedo: Self-serve advertising platform (based in London, UK)
-admedo.com
-l.admedo.com
-pj.l.admedo.com
-# Adversal: Self-serve native advertising (based in Indiana, US)
-adversal.com
-go.adversal.com
-go2.adversal.com
-go3.adversal.com
-# AdWhirl (formerly Adrollo): iOS Mobile Ad Aggregator (part of AdMob, based in California, US)
-adwhirl.com
-met.adwhirl.com
-mob.adwhirl.com
-# AdColony: Mobile advertising and monetization (based in Los Angeles, California)
-adcolony.com
-wd.adcolony.com
-adc3-launch.adcolony.com
-# Admitad: Affiliate ads network (based in Baden-Wurttemberg, Germany)
-admitad.com
-# Adjust Mobile Tracking (based in Berlin, Germany)
-adjust.com
-atom.adjust.com
-events.adjust.com
-ulink.adjust.com
-view.adjust.com
-#app.adjust.com # might break functionality
-# Affle: Mobile marketing platform (based in India)
-affle.com
-# BODIS: Domain Monetization (based in Tampa, Florida)
-bodis.com
-ns1.bodis.com
-ns2.bodis.com
-# Braze, Inc. (formerly AppBoy Inc. 2011-2017, based in New York City)
-appboy.com
-dev.appboy.com
-iad.appboy.com
-venitia.iad.appboy.com
-braze.com
-www.braze.com
-# AppNext: App marketing, mobile monetization (based in Israel, part of Affle group)
-global.appnext.com
-cdn.appnext.com
-appnext.com
-# AppNexus Ads (part of AT&T's Xandr, based in New York, US)
-a.adk2x.com
-adk2x.com
-adnxs.com
-adplexmedia.adk2x.com
-ams1-ib.adnxs.com
-lax1-ib.adnxs.com
-ib.adnxs.com
-m.adnxs.com
+admob.xiaomi.com
 adnexus.net
-cdn.adnxs.com
-vcdn.adnxs.com
-secure.adnxs.com
-secure-sin.adnxs.com
-acdn.adnxs.com
-# Appodeal: Mobile apps monetization
-appodeal.com
-# Applift: Ads and Analytics (based in San Francisco, California, US)
-applift.com
-# AppLovin: Mobile marketing platform (based in Palo Alto, California, US)
-vid.applovin.com
-pdn.applovin.com
-assets.applovin.com
-img.applovin.com
-a.applovin.com
-a.applvn.com
-d.applovin.com
-d.applvn.com
-rt.applovin.com
-rt.applvn.com
-applovin.com
-applvn.com
-# SafeDK (part of AppLovin)
-safedk.com
-config.safedk.com
-# SnapChat analytics
-app-analytics-v2.snapchat.com
-# Supersonic: Game Ads (based in South Africa)
-supersonicads.com
-supersonicads-a.akamaihd.net
-init.supersonicads.com
-# SwiftKey Telemetry
-telemetry.api.swiftkey.com
-# Vungle (merged with Liftoff): Mobile advertising and App monetization (part of Blackstone Group)
-vungle.com
-api.vungle.com
-ads.api.vungle.com
-# Amplitude: Analaytics for web and mobile products (based in San Francisco, California, US)
-api.amplitude.com
-# AOL Advertising
-ads.aol.co.uk
-ads.web.aol.com
-advertising.aol.com
-adserver.aol.fr
-# AdsWizz, Inc.: Audio Ads (part of Sirius XM, based in US)
-adswizz.com
-delivery-cdn-cf.adswizz.com
-# AdLeads, Ltd. (based in Hull, UK)
-adleads.com
-# AdRoll: Digital marketing (based in San Francisco, California, US)
-adroll.com
-s.adroll.com
-# AdScore detection
-adsco.re
-c.adsco.re
-# Adyen Payments
-#live.adyen.com # This wil break Alipay payments
-# Batmobi Ads: Ad SDK/Digital Marketing [Malware] (based in Guangzhou, China)
-batmobi.net
-batmobil.net
-www.batmobil.net
-api2.batmobil.net
-api5.batmobil.net
-www.batmobi.net
-api2.batmobi.net
-api5.batmobi.net
-sts.batmobi.net
-# BitComet
-inside.bitcomet.com
-# Wunderkind: Analytics (formerly Bounce Exchange, Inc)
-bounceexchange.com
-core.bounceexchange.com
-wunderkind.co
-# Carbon Ads: Advertising network (part of BuySellAds, based in Seattle, Washington, US)
-carbonads.net
-srv.carbonads.net
-# Calldorado: User Engagement SDK (based in London, UK)
-calldorado.com
-euw1.calldorado.com
-stats.calldorado.com
-# Celtra: Media Advertising (based in Boston, US)
-cdn.celtra.com
-ads.celtra.com
-cache.celtra.com
-cache-ssl.celtra.com
-track.celtra.com
-# Chartboost: Mobile ads and promotions (based in Barcelona and Beijing)
-chartboost.com
-live.chartboost.com
-# Comscore, Inc: Analytics and Marketing (based in Reston, Virginia, US)
-comscore.com
-comscore.net
-comscore.org
-comscoredatagems.com
-comscoredatamine.com
-comscoredirect.net
-comscorenetworks.net
-mycomscore.net
-mycomscore.com
-# Crashlytics: Crash reporting tool, owned by Google (previously Twitter)
-crashlytics.163.com
-crashlytics.com
-crashlytics.twimg.com
-e.crashlytics.com
-reports.crashlytics.com
-settings.crashlytics.com
-# Sentry: App Monitoring and Crash Reporting
-sentry.io
-# Epom Ad Server (based in Kiev, Ukraine)
-epom.com
-apps.epom.com
-# TrafficJunky Advertising (MG Freesites Ltd.)
-trafficjunky.com
-trafficjunky.net
-media.trafficjunky.net
-ads.trafficjunky.net
-# EroAdvertising
-ero-advertising.com
-adspaces.ero-advertising.com
-www.ero-advertising.com
-# ExoClick and ExoServe (part of EXOGROUP, Benjamin Fonzé)
-ads.exoclick.com
-ads.exosrv.com
-syndication.exosrv.com
-a.realsrv.com
-static.realsrv.com
-exoclick.com
-exosrv.com
-realsrv.com
-# ExoticAds: Advertising Network (based in Irvine, California, US)
-cdn.exoticads.com
-exoticads.com
-# Fastclick: Digital marketing (part of Conversant, based in California, US)
-cdn.fastclick.net
-code.fastclick.net
-images.fastclick.net
-media.fastclick.net
-secure.fastclick.net
-sp.fastclick.net
-sync.fastclick.net
-fastclick.net
-# FireAds: Affiliate Network
-fireads.org
-# Foxpush: Push Notifications
-foxpush.net
-js.foxpush.com
-# DeviantART Ads
-adcast.deviantart.com
-adimg.deviantart.net
-da-ads.com
-dapxl.com
-# Disqus Ads
-disqusads.com
-# Drawbridge Ads
-adsymptotic.com
-c.adsymptotic.com
-mf.adsymptotic.com
-ads-west.colo.adsymptotic.com
-ads-west-colo.adsymptotic.com
-ads-east-aws.adsymptotic.com
-ads-east.colo.adsymptotic.com
-# GeoTrust cert revocation server
-#gtssl2-ocsp.geotrust.com
-# GoAdServer
-goadserver.com
-www.goadserver.com
-goasrv.com
-go.goasrv.com
-# Integral Ad Science
-anycast.pixel.adsafeprotected.com
-dt.adsafeprotected.com
-fw.adsafeprotected.com
-# Intercom Ads
-#intercom.io
-# Kantar Operations Adware: Data collection (based in London, UK)
-core.insightexpressai.com
-secure.insightexpressai.com
-# Leadbolt: Mobile advertising platform (based in Sydney, Australia)
-leadbolt.com
-# Leanlab: Tracking (based in Aberdeen, UK)
-track.leanlab.co
-# LinkedIn Ads
-ads.linkedin.com
-dc.ads.linkedin.com
-px.ads.linkedin.com
-# Localytics: Mobile app analytics and marketing platform
-localytics.com
-analytics.localytics.com
-# Parsely Tracking
-cdn.parsely.com
-parsely.com
-parse.ly
-# PropellerAds: Mobile and self-service display ads (part of AdTech)
-propellerads.com
-native.propellerads.com
-tracking.propellerads.com
-ad.propellerads.com
+adnxs.com
 adp.propellerads.com
-# PopAds
-popads.media
-# Pub Network
-a.pub.network
-pub.network
-# PubMatic Ads
-pubmatic.com
-aud.pubmatic.com
-ads.pubmatic.com
-gads.pubmatic.com
-image2.pubmatic.com
-aktrack.pubmatic.com
-showads33000.pubmatic.com
-bid.pubmatic.com
-# Mojiva Ads (part of PubMatic now)
-mojiva.com
-ads.mojiva.com
-# mOcean (formerly Mojiva)
-mocean.mobi
-# Pandora Ads
-ad.pandora.tv
-ads.pandora.tv.net
-stats.pandora.com
-# Tumblr
-px.srvcs.tumblr.com
-# VoiceFive
-voicefive.com
-ar.voicefive.com
-sb.voicefive.com
-# WordPress Pixel
-pixel.wp.com
-# Media Whiz Marketing
-thewhizmarketing.com
-tvhero.thewhizmarketing.com
-seen-on-screen.thewhizmarketing.com
-# Yandex Analytics and Marketing
-mc.yandex.ru
-an.yandex.ru
-rosenberg.appmetrica.yandex.net
-appmetrica.yandex.net
-#pixel.yabidos.com
-#avatars.mds.yandex.net
-ads.yandex.com
-# Yadro Tracking
-counter.yadro.ru
-yadro.ru
-# Yahoo Ads
-ads.yimg.com
-ads.yahoo.com
-ads.yap.yahoo.com
-adserver.yahoo.com
-global.adserver.yahoo.com
-na.ads.yahoo.com
-#gemini.yahoo.com
-admanager.yahoo.com
-# Yahoo Tracking
-analytics.query.yahoo.com
-# Yahoo's AdFlurry
-ads.flurry.com
-data.flurry.com
-media-router-flurry7.prod.media.wg1.b.yahoo.com
-# Yahoo's Mydas
-mydas.mobi
-cvt.mydas.mobi
-lp.mydas.mobi
-suo.lp.mydas.mobi
-aio.lp.mydas.mobi
-ads.mp.mydas.mobi
-golds.lp.mydas.mobi
-lp.mp.mydas.mobi
-media.mydas.mobi
-# InMobi Ads (based in Bangalore, India)
-config.inmobi.com
-telemetry.sdk.inmobi.com
-r.edge.inmobicdn.net
-cf.cdn.inmobi.com
-i.w.inmobi.com
-r.w.inmobi.com
-c.w.inmobi.com
-w.inmobi.com
-ma.inmobi.com
-ifc.inmobi.com
-china.inmobi.com
-japan.inmobi.com
-adtracker.inmobi.com
-js.inmobi-jp.com
-inmobi.com
-# RayJump: Advertising and data collection platform (based in China, part of Mobvista)
-rayjump.com
-net.rayjump.com
-d1om9znyumzhxf.cloudfront.net
-# ReviveAds: AdBlock Prevention ("ad-reinsertion")
-reviveads.com
-# RedGIFs Telemetry
-metrics.redgifs.com
-# SoundCloud Telemetry
-telemetry.soundcloud.com
-# Spotify Ads, Tracking and Analytics
-ads.spotify.com
-adstudio.spotify.com
-adstudio-help.spotify.com
-adlog.spotify.com
-adlab.spotify.com
-ad-proxy.spotify.com
-ffcampaign.spotify.com
-ads-fa.cdn.spotify.com
-ads-sp-ash.cdn.spotify.com
-ads-sp-sto.cdn.spotify.com
-ads-fa.spotify.com
+adplexmedia.adk2x.com
+adroll.com
 ads-akp.spotify.com
+ads-ap.adaptv.advertising.com
 ads-br.spotify.com
 ads-ca.spotify.com
+ads-direct-wc.adaptv.advertising.com
+ads-east-aws.adsymptotic.com
+ads-east.colo.adsymptotic.com
+ads-ec.adaptv.advertising.com
+ads-eu.adaptv.advertising.com
+ads-fa.cdn.spotify.com
+ads-fa.spotify.com
 ads-jp.spotify.com
 ads-pt.spotify.com
+ads-sp-ash.cdn.spotify.com
+ads-sp-lon.cdn.spotify.com
+ads-sp-sto.cdn.spotify.com
+ads-test.adaptv.advertising.com
 ads-us.spotify.com
-adeventtracker.spotify.com
+ads-wc.adaptv.advertising.com
+ads-west-colo.adsymptotic.com
+ads-west.colo.adsymptotic.com
+ads.adaptv.advertising.com
+ads.admarvel.com
+ads.aol.co.uk
+ads.api.vungle.com
+ads.bizhut.com
+ads.cdn.live
+ads.celtra.com
+ads.eu.msn.com
+ads.exoclick.com
+ads.exosrv.com
+ads.flurry.com
+ads.google.com
+ads.linkedin.com
+ads.mdotm.com
+ads.microsoft.com
+ads.mobclix.com
+ads.mojiva.com
+ads.mopub.com
+ads.mp.mydas.mobi
+ads.pandora.tv.net
+ads.pubmatic.com
+ads.spotify.com
+ads.trafficjunky.net
+ads.vserv.mobi
+ads.web.aol.com
+ads.yahoo.com
+ads.yandex.com
+ads.yap.yahoo.com
+ads.yimg.com
+ads.youtube.com
+ads.zynga.com
+ads1.msn.com
+ads2.greystripe.com
+ads2.msads.net
+adsbynimbus.com
+adsco.re
+adserver-as.adtech.advertising.com
+adserver-eu.adtech.advertising.com
+adserver-us.adtech.advertising.com
+adserver.adtech.de
+adserver.adtechus.com
+adserver.aol.fr
+adserver.juicyads.com
+adserver.yahoo.com
+adserverams.adtech.de
+adservice.google.co.uk
+adservice.google.com
+adservice.google.com.br
+adservice.google.it
+adservices.google.com
+adspaces.ero-advertising.com
+adsrv1.tapad.com
+adstudio-help.spotify.com
+adstudio.spotify.com
+adswizz.com
+adsx.greystripe.com
+adsymptotic.com
+adsyndication.msn.com
+adtechus.com
+adtiming.com
+adtracker.inmobi.com
+adversal.com
+advertising.aol.com
+advertising.com
+adwhirl.com
+affle.com
+aidps.atdmt.com
+aio.lp.mydas.mobi
+aka-cdn-ns.adtech.de
+aka-cdn.adtech.de
+aka-cnd-ns.adtechus.com
+aktrack.pubmatic.com
+amazon-adsystem.com
+ams1-ib.adnxs.com
+an.yandex.ru
+analytics.admob.com
+analytics.google.com
+analytics.localytics.com
+analytics.query.yahoo.com
 analytics.spotify.com
-# ap.gslb.spotify.com  # This is a CNAME for ap.spotify.com
-www.audio2.spotify.com
-audio2.spotify.com
-audio-ak.cdn.spotify.com
-audio-ec.spotify.com
-audio-ak.spotify.com
-audio-akp.spotify.com
-audio-akp-quic-control-spotify-com.akamaized.net
-audio-cf.spotify.com
-#audio-fa.spotify.com
-audio-fab.spotify.com
-audio-fac.spotify.com
-audio-fac-spotify.com
-audio-gc.scdn.co
-audio-gc.spotify.com
-heads-ec.spotify.com
-heads-ak.spotify.com
-heads-akp.spotify.com
-heads-cf.spotify.com
-heads-fa.scdn.co
-heads-fa.spotify.com
-heads-fab.spotify.com
-heads-fac.spotify.com
-heads-ecp.spotify.com
-heads-ecb.spotify.com
-heads-ak.spotify.com.edgesuite.net
-heads-akp.spotify.com.edgesuite.net
-heads-ak-spotify-com.akamaized.net
-heads-akp-spotify-com.akamaized.net
-heads4-ak.spotify.com.edgesuite.net
-heads4-akp.spotify.com.edgesuite.net
-heads4-ak-spotify-com.akamaized.net
-heads4-akp-spotify-com.akamaized.net
-audio-akp-bbr-spotify-com.akamaized.net
-video-akp-cdn-spotify-com.akamaized.net
+anycast.pixel.adsafeprotected.com
+api.admob.xiaomi.com
+api.amplitude.com
+api.bytegle.tech
+api.mixpanel.com
+api.userleap.com
+api.vungle.com
+api.w3i.com
+api.zcoup.com
+api.zwizzarmyknife.com
+api2.batmobi.net
+api2.batmobil.net
+api5.batmobi.net
+api5.batmobil.net
+app-analytics-v2.snapchat.com
+app-measurement.com
+appads.com
+appboy.com
+appbrain.com
+appliedsemantics.com
+applift.com
+applovin.com
+applvn.com
+appmetrica.yandex.net
+appnext.com
+appodeal.com
+apps.epom.com
+apps5.oingo.com
+ar.voicefive.com
+as.adfonic.net
 ash-dealer.spotify.com
 ash-jumphost-a1.ash.spotify.com
 ash-jumphost-a1.ash1.spotify.com
@@ -522,160 +227,110 @@ ash1-apresolve-a2.ash.spotify.com
 ash1-apresolve-a2.ash1.spotify.com
 ash1-apresolve-a3.ash.spotify.com
 ash1-apresolve-a3.ash1.spotify.com
-leopolda.lon2.spotify.com
-malena.lon2.spotify.com
-zaira.lon2.spotify.com
-valerie.lon2.spotify.com
-viridis.lon2.spotify.com
-zayit.lon2.spotify.com
-linsey.lon2.spotify.com
-#sto3.spotify.com
-crashdump.spotify.com
-crashdump.ciqe-gslb.spotify.com
-log.spotify.com
-log2.spotify.com
-bug.spotify.com
-pixel-static.spotify.com
-pixel.spotify.com
-links.spotify.com
-desktop.spotify.com
-upgrade.spotify.com
-surveys.spotify.com
-promo.spotify.com
-promo-001.lon.spotify.com
-ads-sp-lon.cdn.spotify.com
-pay-testing.spotify.com
-video-ak.cdn.spotify.com
-er.spo.spotify.com
-video-fa.scdn.co
-video-fa.cdn.spotify.com
-video-fa-b.cdn.spotify.com
-upsell.scdn.co
-upgrade.scdn.com
-upgrade.scdn.co
-u.scdn.co
-spotify-desktop.com
-www.spotify-desktop.com
-mp3ad.scdn.co
-partner-service.spotify.com
-partner-service-testing.spotify.com
-payment-callback.spotify.com
-pci.spotify.com
-event.spotxchange.com
-search.spotxchange.com
-sync.search.spotxchange.com
-spotxchange.com
-spotx.tv
-www.spotx.tv
+assets.applovin.com
 assets.spotify.com
-# Spotify etc.
-#audio-ak-spotify-com.akamaized.net
-#audio-akp-spotify-com.akamaized.net
-#audio-ak.spotify.com.eip.akadns.net
-#audio4-akp.spotify.com.edgesuite.net
-#audio4-ak.spotify.com.edgesuite.net
-#audio-akp.spotify.com.edgesuite.net
-#audio-ak.spotify.com.edgesuite.net
-#audio-ake.spotify.com.edgesuite.net
-#eip-onnet.audio-ak.spotify.com.akahost.net
-#eip-tata.audio-ak.spotify.com.akahost.net
-#eip-ntt.audio-ak.spotify.com.akahost.net
-# The following lines are known to interfere with some parts of Spotify
-#open.spotify.com
-#open.scdn.co
-#spclient.wg.spotify.com    # Required for the Desktop apps to work, should not entirely be blocked
-#audio-fa.scdn.co
-#audio-sp-lon.spotify.com
-#audio-sp-sto.spotify.com
-#audio-sp.spotify.com
-#audio-sp-sin2.spotify.com
-#weblb-wg.gslb.spotify.com  # Required for the Android/iOS and Store apps to function
-#weblb-wg.dual-gslb.spotify.com
-#dealer.spotify.com
-#dealer-ssl.spotify.com
-#apresolve.spotify.com
-#api-spotify.com
-#api-partner.spotify.com
-#api-tv.spotify.com
-#exp.wg.spotify.com
-#labs.spotify.com
-#play.spotify.com
-#seektables.scdn.co
-#i.scdn.co  # Spotify Images
-#o.scdn.co
-#p.scdn.co
-#t.scdn.co
-# The following URL pattern should entirely be blocked:
-# regex:^https?://spclient\.wg\.spotify\.com/(.+\/)?(ads|ad-logic)/.*$
-# However, the `spclient.wg.spotify.com` domain should remain whitelisted
-# TikTok Ads
-api.bytegle.tech
-# Urban Airship (i.e. data protected)
-combine.urbanairship.com
-# UserLeap Product & User Research Software
-userleap.com
-api.userleap.com
-# Unity Ads
-config.unityads.unity3d.com
-unityads.unity3d.com
-# Microsoft Ads
-msads.net
-msecn.net
-cds26.ams9.msecn.net
-#msecnd.net       # The following lines are known to
-#*.vo.msecnd.net  # interfere with some useful products (e.g. VS Code)
-a.ads2.msads.net
-b.ads2.msads.net
-h1.msn.com
-ac3.msn.com
-ads1.msn.com
-ads2.msads.net
-ad.msn.com
-rad.msn.com
-flex.msn.com
-#g.live.com       # The following lines are known to
-#g.msn.com        # interfere with some useful products (e.g. OneDrive Downloads)
-c.msn.com
-0.r.msn.com
-ads.eu.msn.com
-adsyndication.msn.com
-live.rads.msn.com
-mobileads.msn.com
-microsoftadvertising.com
-ads.microsoft.com
-bingads.microsoft.com
-#apps.skype.com  # might interfere with Skype Home
-# Microsoft Tracking
-pipe.aria.microsoft.com
-vortex.data.microsoft.com
-events.data.microsoft.com
-telemetry.microsoft.com
-#graph.microsoft.com
-# Facebook Ads
 atdmt.com
-ec.atdmt.com
-cdn.atdmt.com
-ad.atdmt.com
-c.atdmt.com
-aidps.atdmt.com
-db3aqu.atdmt.com
-# Facebook Tracking, WhatsApp Telemetry
-graph.instagram.com
-dit.whatsapp.net
-web.facebook.com
-#graph.facebook.com  # breaks some Facebook functionality
-graph.oculus.com
-graph.facebook-hardware.com
-# Amazon Ads
-amazon-adsystem.com
-s.amazon-adsystem.com
+atom.adjust.com
+atti.velti.com
+aud.pubmatic.com
+audio-ak.cdn.spotify.com
+audio-ak.spotify.com
+audio-akp-bbr-spotify-com.akamaized.net
+audio-akp-quic-control-spotify-com.akamaized.net
+audio-akp.spotify.com
+audio-cf.spotify.com
+audio-ec.spotify.com
+audio-fab.spotify.com
+audio-fac-spotify.com
+audio-fac.spotify.com
+audio-gc.scdn.co
+audio-gc.spotify.com
+audio2.spotify.com
+b.ads2.msads.net
+b.scorecardresearch.com
+batmobi.net
+batmobil.net
+bestcontentnetwork.top
+bid.g.doubleclick.net
+bid.pubmatic.com
+big.g.doubleclick.net
+bigmobileads.com
+bingads.microsoft.com
+bo.jumptap.com
+bodis.com
+bounceexchange.com
+braze.com
+bs.serving-sys.com
+bug.spotify.com
+c.admob.com
+c.adsco.re
+c.adsymptotic.com
 c.amazon-adsystem.com
-aax.amazon-adsystem.com
-aax-us-west.amazon-adsystem.com
-mads.amazon.com
-# Amazon/Alexa Tracking
+c.atdmt.com
+c.greystripe.com
+c.medialytics.com
+c.msn.com
+c.vserv.mobi
+c.w.inmobi.com
+c29new.smaato.net
+cache-ssl.celtra.com
+cache.celtra.com
+calldorado.com
+campaign-tapad.s3.amazonaws.com
+carbonads.net
+cdn.adaptv.advertising.com
+cdn.adnxs.com
+cdn.appads.com
+cdn.appnext.com
+cdn.atdmt.com
+cdn.bncloudfl.com
+cdn.celtra.com
+cdn.creative.medialytics.com
+cdn.exoticads.com
+cdn.fastclick.net
+cdn.mdotm.com
+cdn.owebanalytics.com
+cdn.parsely.com
+cdn.taboola.com
+cdn.vdopia.com
+cds26.ams9.msecn.net
+certify-js.alexametrics.com
 certify.alexametrics.com
-# Hosted by Amazon CloudFront
+cf.cdn.inmobi.com
+chartboost.com
+china.inmobi.com
+click.w3i.com
+clk.tradedoubler.com
+clksite.com
+cm.g.doubleclick.net
+code.fastclick.net
+combine.urbanairship.com
+comscore.com
+comscore.net
+comscore.org
+comscoredatagems.com
+comscoredatamine.com
+comscoredirect.net
+comscorenetworks.net
+config.inmobi.com
+config.safedk.com
+config.unityads.unity3d.com
+connect.tapjoy.com
+conversions.adaptv.advertising.com
+core.bounceexchange.com
+core.insightexpressai.com
+counter.yadro.ru
+cp.medialytics.com
+crashdump.ciqe-gslb.spotify.com
+crashdump.spotify.com
+crashlytics.163.com
+crashlytics.com
+crashlytics.twimg.com
+cst.wpu.sh
+cvt.mydas.mobi
+d.applovin.com
+d.applvn.com
+d1om9znyumzhxf.cloudfront.net
 d26zuh3orto56v.cloudfront.net
 d2bgg7rjywcwsy.cloudfront.net
 d2gi7ultltnc2u.cloudfront.net
@@ -688,291 +343,415 @@ d3oltyb66oj2v8.cloudfront.net
 d3oxtn1x3b8d7i.cloudfront.net
 d3rt1990lpmkn.cloudfront.net
 d3rt199lpmkn.cloudfront.net
-dc5ig2fc8lg83.cloudfront.net
-dj1d6o6ftflzi.cloudfront.net
-# Longtail Ad Solutions (also used in JW Player)
-#content.bitsontherun.com  # might break functionality
-#content.jwplatform.com  # might break functionality
-v.jwpcdn.com
-# Media Innovation Group (no longer operational)
-eu-gmtdmp.gd1.mookie1.com
-t.mookie1.com
-# Media Match
-media-match.com
-# My Visual IQ
-myvisualiq.net
-t.myvisualiq.net
-vt.myvisualiq.net
-# Omaze
-omaze.com
-www.omaze.com
-# OMG Inc.
-ads.cdn.live
-# QuantCast Advertising
-quantcast.mgr.consensu.org
-quantcast.com
-# QuantServe Tracking
-pixel.quantserve.com
-secure.quantserve.com
-# Taboola Ads
-cdn.taboola.com
-# Tapad
-swappit.tapad.com
-adsrv1.tapad.com
-campaign-tapad.s3.amazonaws.com
-# Tapjoy: Mobile advertising
-tapjoy.com
-rpc.tapjoy.com
-connect.tapjoy.com
-tapjoyads.com
-ws.tapjoyads.com
-# TapResearch: App monetization
-tapresearch.com
-# Tune (formerly MobileAppTracking)
-tune.com
-www.tune.com
-# MdotM Ads
-mdotm.com
-ads.mdotm.com
-cdn.mdotm.com
-# Mixpanel Analytics
-api.mixpanel.com
-decide.mixpanel.com
-mixpanel.com
-switchboard.mixpanel.com
-www.mixpanel.com
-# Moat (by Oracle): Ads and Analytics (measurement and marketing analytics)
-moatads.com
-js.moatads.com
-moat.pxl.ace.advertising.com
-moatads.com.edgekey.net
-s.moatpixel.com
-z.moatads.com
-yt.moatads.com
-yts.moatads.com
-wildcard.moatads.com.edgekey.net
-moatpixel.com
-# Mobclix (based in Palo Alto, CA, US): Mobile ad exchange network
-s.mobclix.com
-ads.mobclix.com
+da-ads.com
+dapxl.com
+data.flurry.com
 data.mobclix.com
-# MoPub (part of AppLovin): In-app monetization, Ad serving for mobile apps
-mopub.com
-ads.mopub.com
-# Twitter
-syndication.twitter.com
-# Scorecard Research (i.e. ComScore): Web analytics and tracking company
-scorecardresearch.com
-b.scorecardresearch.com
-sb.scorecardresearch.com
-udm.scorecardresearch.com
-# Smaato: Mobile Advertising (based in San Francisco, California, US)
-soma.smaato.net
-c29new.smaato.net
-smaato.net
-# Sizmek (partof adtech): Amazon Ads (based in Austin, Texas, US)
-bs.serving-sys.com
+db3aqu.atdmt.com
+dc.ads.linkedin.com
+dc5ig2fc8lg83.cloudfront.net
+decide.mixpanel.com
+def.dev-nano.com
+delivery-cdn-cf.adswizz.com
+desktop.spotify.com
+dev.appboy.com
+digitalturbine.com
+disqusads.com
+dit.whatsapp.net
+dj1d6o6ftflzi.cloudfront.net
+doublecklick.net
+doubleclick.com
+doubleclick.de
+doubleclick.ne.jp
+doubleclick.net
+doubleclickbygoogle.com
 ds.serving-sys.com
+dt.adsafeprotected.com
+e.crashlytics.com
+ebay.doubleclick.net
+ec.atdmt.com
+epom.com
+er.spo.spotify.com
+ero-advertising.com
+etahub.com
+eu-gmtdmp.gd1.mookie1.com
+euw1.calldorado.com
+event.spotxchange.com
+events.adjust.com
+events.data.microsoft.com
+exoclick.com
+exosrv.com
+exoticads.com
+fastclick.net
+ffcampaign.spotify.com
+fireads.org
+flashtalking.com
+flex.msn.com
+foxpush.net
+funnel0.adinfuse.com
+fw.adsafeprotected.com
+fyber.com
+gads.pubmatic.com
+gcdn.2mdn.net
+global.adserver.yahoo.com
+global.appnext.com
+go.adinfuse.com
+go.adversal.com
+go.goasrv.com
+go.jetswap.com
+go2.adversal.com
+go3.adversal.com
+goadserver.com
+goasrv.com
+golds.lp.mydas.mobi
+google-analytics.com
+googleadapis.l.google.com
+googleads.g.doubleclick.net
+googleads4.g.doubleclick.net
+googleadservices.com
+googlesyndication.com
+googletagmanager.com
+googletagservices.com
+graph.facebook-hardware.com
+graph.instagram.com
+graph.oculus.com
+greystripe.com
+h1.msn.com
+hb-as.adtech.advertising.com
+hb-us.adtech.advertising.com
+heads-ak-spotify-com.akamaized.net
+heads-ak.spotify.com
+heads-ak.spotify.com.edgesuite.net
+heads-akp-spotify-com.akamaized.net
+heads-akp.spotify.com
+heads-akp.spotify.com.edgesuite.net
+heads-cf.spotify.com
+heads-ec.spotify.com
+heads-ecb.spotify.com
+heads-ecp.spotify.com
+heads-fa.scdn.co
+heads-fa.spotify.com
+heads-fab.spotify.com
+heads-fac.spotify.com
+heads4-ak-spotify-com.akamaized.net
+heads4-ak.spotify.com.edgesuite.net
+heads4-akp-spotify-com.akamaized.net
+heads4-akp.spotify.com.edgesuite.net
+hotjar.com
+i.bestcontentnetwork.top
+i.jumptap.com
+i.w.inmobi.com
+iad-usadmm.dotomi.com
+iad.appboy.com
+iadsdk.apple.com
+ib.adnxs.com
+idsync-ext.rlcdn.com
+ifc.inmobi.com
+image2.pubmatic.com
+imageads.googleadservices.com
+images.fastclick.net
+img.applovin.com
+init.supersonicads.com
+inmobi.com
+inside.bitcomet.com
+intouch.adinfuse.com
+jads.co
+japan.inmobi.com
+jetswap.com
+js.foxpush.com
+js.inmobi-jp.com
+js.juicyads.com
+js.moatads.com
+juicyads.com
+jumptap.com
+jupiter.appads.com
+l.admedo.com
+lax1-ib.adnxs.com
+leadbolt.com
+leopolda.lon2.spotify.com
+links.spotify.com
+linsey.lon2.spotify.com
+live.chartboost.com
+live.rads.msn.com
+localytics.com
+log-wc-b.adaptv.advertising.com
+log.adaptv.advertising.com
+log.spotify.com
+log2.spotify.com
+logger.zcoup.com
+lp.mp.mydas.mobi
+lp.mydas.mobi
+m.2mdn.net
+m.adnxs.com
+m.goadservices.com
+ma.inmobi.com
+mads.amazon.com
+main.jetswap.com
+malena.lon2.spotify.com
+mc.yandex.ru
+mdotm.com
+media-match.com
+media-router-flurry7.prod.media.wg1.b.yahoo.com
+media.admob.com
+media.fastclick.net
+media.mydas.mobi
+media.trafficjunky.net
+medialytics.com
+met.adwhirl.com
+metrics.apple.com
+metrics.icloud.com
+metrics.redgifs.com
+mf.adsymptotic.com
+microsoftadvertising.com
+mixpanel.com
+mmstat.com
+moat.pxl.ace.advertising.com
+moatads.com
+moatads.com.edgekey.net
+moatpixel.com
+mob.adwhirl.com
+mobileads.msn.com
+mobvista.com
+mocean.mobi
+mojiva.com
+mopub.com
+mp3ad.scdn.co
+msads.net
+msecn.net
 msntest.serving-sys.com
+mwc.velti.com
+mycomscore.com
+mycomscore.net
+mydas.mobi
+myvisualiq.net
+na.ads.yahoo.com
+native.propellerads.com
+nativex.com
+neptune.appads.com
+net.rayjump.com
+ns1.bodis.com
+ns2.bodis.com
+omaze.com
+optout3.adaptv.advertising.com
+orange-fr.adinfuse.com
+orangeuk-mc.adinfuse.com
+p.admob.com
+p.medialytics.com
+pagead-googlehosted.l.google.com
+pagead.googlesyndication.com
+pagead.l.doubleclick.net
+pagead1.googlesyndication.com
+pagead2.googlesyndication.com
+pagead3.googlesyndication.com
+pagead46.l.doubleclick.net
+parse.ly
+parsely.com
+partner-service-testing.spotify.com
+partner-service.spotify.com
+partner.googleadservices.com
+partnerad.l.doubleclick.net
+pay-testing.spotify.com
+payment-callback.spotify.com
+pci.spotify.com
+pdn.applovin.com
+pipe.aria.microsoft.com
+pixel-static.spotify.com
+pixel.admobclick.com
+pixel.quantserve.com
+pixel.spotify.com
+pixel.wp.com
+pj.l.admedo.com
+popads.media
+post.update.wtag.adaptv.advertising.com
+poweredby.jads.co
+promo-001.lon.spotify.com
+promo.spotify.com
+propellerads.com
+pub.network
+pubads.g.doubleclick.net
+pubmatic.com
+px.ads.linkedin.com
+px.cdn.creative.medialytics.com
+px.effirst.com
+px.srvcs.tumblr.com
+quantcast.com
+quantcast.mgr.consensu.org
+r.ads.zynga.com
+r.edge.inmobicdn.net
+r.w.inmobi.com
+rad.msn.com
+rayjump.com
+realsrv.com
+reports.crashlytics.com
+req.appads.com
+reviveads.com
+rosenberg.appmetrica.yandex.net
+rpc.tapjoy.com
+rt.applovin.com
+rt.applvn.com
+ru.velti.com
+s.adroll.com
+s.amazon-adsystem.com
+s.moatpixel.com
+s.mobclix.com
+s.update.wtag.adaptv.advertising.com
+s0-2mdn-net.l.google.com
+s0.2mdn.net
+s1.2mdn.net
+safedk.com
+saturn.appads.com
+sb.scorecardresearch.com
+sb.voicefive.com
+scorecardresearch.com
+sdk.adtiming.com
+search.spotxchange.com
+secserv.adtech.de
 secure-bs.serving-sys.com
 secure-ds.serving-sys.com
-#conn.skype.commsntest.serving-sys.com
-# Velti: Mobile Marketing (based in Dublin, Ireland)
-ru.velti.com
-mwc.velti.com
-atti.velti.com
-# Vserv: Mobile Advertising (based in Mumbai, India)
-vserv.mobi
-a.vserv.mobi
-c.vserv.mobi
-sf.vserv.mobi
-ads.vserv.mobi
-admin.vserv.mobi
-# Hotjar: Website Heatmaps & Behavior Analytics Tools
-hotjar.com
-# JetSwap, Inc. (based in London, and Russian Federation)
-jetswap.com
-go.jetswap.com
-main.jetswap.com
-# JuicyAds, Inc. (based in Saskatchewan, Canada): Banner Ads, Native Advertising, and PopUnders
-www.juicyads.com
-js.juicyads.com
-adserver.juicyads.com
-juicyads.com
-jads.co
-poweredby.jads.co
-# Jumptap LLC (based in Federal Street Boston)
-jumptap.com
-a.jumptap.com
-i.jumptap.com
-bo.jumptap.com
-# Medialytics: Video analytics
-medialytics.com
-a.medialytics.com
-c.medialytics.com
-p.medialytics.com
-t.medialytics.com
-u.medialytics.com
-cp.medialytics.com
-tag.medialytics.com
-cdn.creative.medialytics.com
-px.cdn.creative.medialytics.com
-# .app/ads: Ad management platform for mobile application developers (located in US)
-appads.com
-cdn.appads.com
-jupiter.appads.com
-neptune.appads.com
-saturn.appads.com
-req.appads.com
-# AdBlockChoices
-adblockchoices.org
-# AppBrain: Mobile advertising, monetization and analytics (part of AppTornado GmbH, based in Zürich, Switzerland)
-appbrain.com
-# Ad Infuse: Mobile targeted advertising and marketing (based in US)
-adinfuse.com
-go.adinfuse.com
-ad1.adinfuse.com
-ad2.adinfuse.com
-sky.adinfuse.com
-sky-connect.adinfuse.com
-uk-go.adinfuse.com
-uk-ad2.adinfuse.com
-orangeuk-mc.adinfuse.com
-orange-fr.adinfuse.com
-intouch.adinfuse.com
-funnel0.adinfuse.com
-# AdMarvel: Mobile advertising platform (based in San Mateo, California, US)
-admarvel.com
-ads.admarvel.com
-admarvel.s3.amazonaws.com
-#static.admarvel.top
-a.admarvel.top
-admarvel.top
-# Adform: Global digital media advertising (based in Copenhagen, Denmark)
-adform.com
-adform.net
-track.adform.net
-a2.adform.net
-# Adfonic Ltd.: Mobile advertising (formerly byyd, based in London, UK)
-adfonic.net
-as.adfonic.net
-# AdTiming: Mobile marketing and ad-based revenue (based in Singapore)
-adtiming.com
-sdk.adtiming.com
-# Smart Adserver (based in Paris, France)
-smartadserver.com
-# Flashtalking: Ad server (part of Mediaocean, based in London, UK)
-flashtalking.com
+secure-sin.adnxs.com
+secure.adnxs.com
+secure.fastclick.net
 secure.flashtalking.com
-# Fyber: Mobile apps monetization platform (part of Digital Turbine, Inc)
-digitalturbine.com
-fyber.com
-# Oath ad:tech, owned by Verizon Media (formerly AOL AdTech, based in Frankfurt, Germany)
-adtechus.com
-adserver.adtechus.com
-aka-cnd-ns.adtechus.com
-aka-cdn.adtech.de
-aka-cdn-ns.adtech.de
-adserverams.adtech.de
-adserver.adtech.de
-ad.dc2.adtech.de
-secserv.adtech.de
-ums.adtech.de
-a.adtech.de
-adserver-as.adtech.advertising.com
-adserver-us.adtech.advertising.com
-adserver-eu.adtech.advertising.com
-hb-us.adtech.advertising.com
-hb-as.adtech.advertising.com
-# AdapTV (now ONE by AOL's adap.tv)
-cdn.adaptv.advertising.com
-sync.adaptv.advertising.com
-conversions.adaptv.advertising.com
-log.adaptv.advertising.com
-log-wc-b.adaptv.advertising.com
-optout3.adaptv.advertising.com
-segments.adaptv.advertising.com
-video.adaptv.advertising.com
-video-stage.adaptv.advertising.com
-post.update.wtag.adaptv.advertising.com
-s.update.wtag.adaptv.advertising.com
-ads.adaptv.advertising.com
-ads-ap.adaptv.advertising.com
-ads-eu.adaptv.advertising.com
-ads-direct-wc.adaptv.advertising.com
-ads-ec.adaptv.advertising.com
-ads-test.adaptv.advertising.com
-ads-wc.adaptv.advertising.com
-# Xandr, Inc: AT&T's Advertising and Analytics
-xandr.com
-# Verizon Media, ONE by AOL (Oath, Inc.)
-advertising.com
-# Forter: Fraud Prevention
-078d9f6a6dc1.cdn4.forter.com
-# Greystripe: Mobile advertising platform/network (based in US)
-greystripe.com
-adsx.greystripe.com
-ads2.greystripe.com
-c.greystripe.com
-# Tradedoubler AB: Digital marketing, Global affiliate marketing (based in Stockholm, Sweden)
-clk.tradedoubler.com
-tradedoubler.com
-# Traffic Factory: Advertising Network (based in Prague, Czech Republic)
-trafficfactory.com
-trafficfactory.biz
-# Mobvista Co., Ltd: Mobile advertising and analytics (based in Guangzhou, China)
-mobvista.com
-# NativeX (formerly W3i, part of Mobvista): Mobile advertising and marketing (based in US)
-nativex.com
-w3i.com
-click.w3i.com
-api.w3i.com
-# Nimbus Ads: Mobile advertising (based in New York City)
-adsbynimbus.com
-# Vdopia, Inc: Mobile Video Ads (based in San Jose, California, US)
-serve.vdopia.com
-cdn.vdopia.com
-# Zynga Inc. Games Ads (based in US)
-zynga.com
-ads.zynga.com
-r.ads.zynga.com
-zynga2-a.akamaihd.net
-# Alibaba/Taobao Statistics and Analytics (based in Hangzhou, Zhejiang, China)
-mmstat.com
-px.effirst.com
-# List of more ads
-bestcontentnetwork.top
-i.bestcontentnetwork.top
-a.bestcontentnetwork.top
-smpop.icfcdn.com
-etahub.com
-clksite.com
-sync.rhythmxchange.com
-m.goadservices.com
-ut.performax.cz
-cdn.bncloudfl.com
-# Malware domains related to browser extensions
-# such as NanoDefender and The Great Suspender
-# being sold out
-static.trckpath.com
-static.trckingbyte.com
-cdn.owebanalytics.com
-def.dev-nano.com
-# Other ads/tracking/malware
-wpu.sh
-cst.wpu.sh
-appliedsemantics.com
-tracking.tidalhifi.com
-bigmobileads.com
-54646.co
-ads.bizhut.com
-api.zwizzarmyknife.com
-tags.bkrtx.com
-idsync-ext.rlcdn.com
-iad-usadmm.dotomi.com
-logger.zcoup.com
-api.zcoup.com
-zcoup.com
-survey-smiles.com
+secure.insightexpressai.com
 secure.nch.com.au
+secure.quantserve.com
+securepubads.g.doubleclick.net
+seen-on-screen.thewhizmarketing.com
+segments.adaptv.advertising.com
+sentry.io
+serve.vdopia.com
+service.urchin.com
+settings.crashlytics.com
+sf.vserv.mobi
+showads33000.pubmatic.com
+sky-connect.adinfuse.com
+sky.adinfuse.com
+smaato.net
+smartadserver.com
+smpop.icfcdn.com
+soma.smaato.net
+sp.fastclick.net
+spotify-desktop.com
+spotx.tv
+spotxchange.com
+srv.carbonads.net
+ssl.google-analytics.com
+static.2mdn.net
+static.doubleclick.net
+static.realsrv.com
+static.trckingbyte.com
+static.trckpath.com
+stats.calldorado.com
+stats.g.doubleclick.net
+stats.pandora.com
+sts.batmobi.net
+suo.lp.mydas.mobi
+supersonicads-a.akamaihd.net
+supersonicads.com
+survey-smiles.com
+surveys.spotify.com
+swappit.tapad.com
+switchboard.mixpanel.com
+sync.adaptv.advertising.com
+sync.fastclick.net
+sync.rhythmxchange.com
+sync.search.spotxchange.com
+syndication.exosrv.com
+syndication.twitter.com
+t.medialytics.com
+t.mookie1.com
+t.myvisualiq.net
+tag.medialytics.com
+tags.bkrtx.com
+tapjoy.com
+tapjoyads.com
+tapresearch.com
+telemetry.api.swiftkey.com
+telemetry.microsoft.com
+telemetry.sdk.inmobi.com
+telemetry.soundcloud.com
+thewhizmarketing.com
+tpc.googlesyndication.com
+track.adform.net
+track.celtra.com
+track.leanlab.co
+tracking.admobsphere.com
+tracking.propellerads.com
+tracking.tidalhifi.com
+tradedoubler.com
+trafficfactory.biz
+trafficfactory.com
+trafficjunky.com
+trafficjunky.net
 tsyndicate.com
+tune.com
+tvhero.thewhizmarketing.com
+twx.2mdn.net
+u.medialytics.com
+u.scdn.co
+udm.scorecardresearch.com
+uk-ad2.adinfuse.com
+uk-go.adinfuse.com
+ulink.adjust.com
+ums.adtech.de
+unityads.unity3d.com
+upgrade.scdn.co
+upgrade.scdn.com
+upgrade.spotify.com
+upsell.scdn.co
+userleap.com
+ut.performax.cz
+v.jwpcdn.com
+valerie.lon2.spotify.com
+vcdn.adnxs.com
+venitia.iad.appboy.com
+vid.applovin.com
+video-ad-stats.googlesyndication.com
+video-ak.cdn.spotify.com
+video-akp-cdn-spotify-com.akamaized.net
+video-fa-b.cdn.spotify.com
+video-fa.cdn.spotify.com
+video-fa.scdn.co
+video-stage.adaptv.advertising.com
+video.adaptv.advertising.com
+view.adjust.com
+viridis.lon2.spotify.com
+voicefive.com
+vortex.data.microsoft.com
+vserv.mobi
+vt.myvisualiq.net
+vungle.com
+w.inmobi.com
+w3i.com
+wd.adcolony.com
+web.facebook.com
+wildcard.moatads.com.edgekey.net
+wpu.sh
+ws.tapjoyads.com
+wunderkind.co
+www.admob.com.akadns.net
+www.audio2.spotify.com
+www.batmobi.net
+www.batmobil.net
+www.braze.com
+www.ero-advertising.com
+www.goadserver.com
+www.googleadservices.com
+www.googletagmanager.com
+www.googletagservices.com
+www.juicyads.com
+www.mixpanel.com
+www.omaze.com
+www.spotify-desktop.com
+www.spotx.tv
+www.tune.com
+xandr.com
+yadro.ru
+yt.moatads.com
+yts.moatads.com
+z.moatads.com
+zaira.lon2.spotify.com
+zayit.lon2.spotify.com
+zcoup.com
+zynga.com
+zynga2-a.akamaihd.net
