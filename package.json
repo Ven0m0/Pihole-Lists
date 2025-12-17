@@ -1,0 +1,16 @@
+{
+  "name": "pihole-lists",
+  "version": "1.0.0",
+  "description": "Pi-hole blocklists collection",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.{md,yaml,yml,json}\"",
+    "format:check": "prettier --check \"**/*.{md,yaml,yml,json}\"",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "prettier": "^3.4.2"
+  }
+}
