@@ -2,7 +2,7 @@ name: Maintain & Release Lists
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *"  # Daily at 3 AM UTC
+    - cron: "0 3 * * *" # Daily at 3 AM UTC
 permissions:
   contents: write
   pull-requests: write
@@ -103,7 +103,7 @@ jobs:
         run: |
           printf -v tag 'v%(%Y. %m.%d-%H%M)T' -1
           printf -v date '%(%Y-%m-%d)T' -1
-          
+
           gh release create "$tag" \
             --title "Lists Update ${date}" \
             --notes "## 📊 Automated Maintenance

@@ -9,10 +9,12 @@
 - [HostlistCompiler](https://github.com/AdguardTeam/HostlistCompiler)
 - https://github.com/AdguardTeam/AGLint
 - https://github.com/AdguardTeam/DeadDomainsLinter
+
 ```bash
 npm i -g @adguard/dead-domains-linter
 dead-domains-linter -a -i "**/*.txt"
 ```
+
 - https://github.com/ragibkl/adblock-list-compiler
   - `cargo install adblock-list-compiler`
 - https://github.com/StevenBlack/hosts

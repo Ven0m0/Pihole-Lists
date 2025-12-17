@@ -18,5 +18,5 @@ blacklist:
     path: ./Test.txt
 
 #whitelist:
-  #- format: domains
-    #path: ./whitelist.txt
+#- format: domains
+#path: ./whitelist.txt
