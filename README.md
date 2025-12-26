@@ -2,6 +2,9 @@
 
 ![Commit activity](https://img.shields.io/github/last-commit/Ven0m0/Pihole-Lists?logo=github)
 
+
+## MOVED TO https://github.com/Ven0m0/Ven0m0-Adblock
+
 ### Tools
 
 - [Userscript compile](https://github.com/FiorenMas/Userscripts)
